@@ -1,0 +1,1332 @@
+﻿Log file open, 08/20/17 18:14:17
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: RPG
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1725398813) SRandInit(-1725398813).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.049339
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.20-09.14.18:516][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.20-09.14.18:516][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.20-09.14.18:589][  0]LogInit: Computer: DESKTOP-RNSDQO3
+[2017.08.20-09.14.18:589][  0]LogInit: User: tlstk
+[2017.08.20-09.14.18:589][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.20-09.14.18:589][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2017.08.20-09.14.18:590][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.20-09.14.18:590][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-09.14.18:590][  0]LogMemory: Process Physical Memory: 282.50 MB used, 282.50 MB peak
+[2017.08.20-09.14.18:590][  0]LogMemory: Process Virtual Memory: 283.66 MB used, 283.66 MB peak
+[2017.08.20-09.14.18:590][  0]LogMemory: Physical Memory: 3120.93 MB used,  4930.27 MB free, 8051.20 MB total
+[2017.08.20-09.14.18:590][  0]LogMemory: Virtual Memory: 674.76 MB used,  4930.27 MB free, 134217728.00 MB total
+[2017.08.20-09.14.19:048][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.20-09.14.19:048][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.20-09.14.19:107][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.20-09.14.21:841][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.20-09.14.21:852][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.20-09.14.21:852][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.20-09.14.21:853][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.20-09.14.21:853][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.20-09.14.21:853][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.20-09.14.21:860][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.20-09.14.21:860][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.20-09.14.21:860][  0]LogWindows: EnumDisplayDevices:
+[2017.08.20-09.14.21:860][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.20-09.14.21:861][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.20-09.14.21:862][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.20-09.14.21:863][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.20-09.14.21:863][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.20-09.14.21:863][  0]LogD3D11RHI:   Driver Version: 21.20.16.4534 (internal:21.20.16.4534, unified:21.20.16.4534)
+[2017.08.20-09.14.21:863][  0]LogD3D11RHI:      Driver Date: 10-7-2016
+[2017.08.20-09.14.21:863][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.20-09.14.21:871][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.20-09.14.21:907][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.20-09.14.21:917][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (E:/Summer-Vacation-Project/Intermediate/Shaders/WorkingDirectory/10020/).
+[2017.08.20-09.14.21:917][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tlstk/AppData/Local/Temp/UnrealShaderWorkingDir/61AEA7F54E62C4989723AB893E84DB0C/'.
+[2017.08.20-09.14.21:918][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.20-09.14.24:403][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.20-09.14.24:458][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.20-09.14.24:514][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.20-09.14.24:571][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.20-09.14.24:635][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.20-09.14.24:696][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.20-09.14.24:756][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.20-09.14.24:810][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.20-09.14.24:863][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.20-09.14.24:925][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.20-09.14.24:981][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.20-09.14.25:035][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.20-09.14.25:088][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.20-09.14.25:142][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.20-09.14.25:195][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.20-09.14.25:304][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.20-09.14.25:304][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.20-09.14.25:347][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.20-09.14.25:457][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.20-09.14.25:487][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.20-09.14.25:545][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.20-09.14.25:600][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.20-09.14.25:654][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.20-09.14.25:712][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.20-09.14.25:712][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.20-09.14.26:385][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.20-09.14.26:385][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2017.08.20-09.14.26:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Summer-Vacation-Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.20-09.14.26:385][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.20-09.14.26:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Summer-Vacation-Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.20-09.14.26:385][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.20-09.14.26:414][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.20-09.14.26:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tlstk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.20-09.14.26:456][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.20-09.14.26:462][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.20-09.14.26:473][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.20-09.14.26:474][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.20-09.14.27:806][  0]LogAssetRegistry: FAssetRegistry took 0.0316 seconds to start up
+[2017.08.20-09.14.27:844][  0]LogCollisionProfile: Warning: Profile (Enemy) - Custom Channel Name = 'PlayerAttack' hasn't been found
+[2017.08.20-09.14.28:014][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.20-09.14.28:629][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.20-09.14.29:087][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.20-09.14.29:141][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.20-09.14.29:142][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.20-09.14.29:142][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.20-09.14.29:142][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.20-09.14.29:142][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.20-09.14.30:062][  0]LogNetVersion: RPG , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1849868818)
+[2017.08.20-09.14.30:658][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.251652 seconds
+[2017.08.20-09.14.30:667][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.20-09.14.30:667][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.08.20-09.14.30:667][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.20-09.14.30:742][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.20-09.14.37:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.20-09.14.37:501][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.20-09.14.38:709][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.20-09.14.39:238][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.20-09.14.39:238][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.20-09.14.39:308][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.20-09.14.39:370][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.20-09.14.40:324][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.20-09.14.40:679][  0]LogOcInput: OculusInput pre-init called
+[2017.08.20-09.14.41:076][  0]LogEngine: Initializing Engine...
+[2017.08.20-09.14.41:082][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.20-09.14.41:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.20-09.14.41:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.20-09.14.41:825][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.20-09.14.41:879][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.20-09.14.43:057][  0]LogInit: FAudioDevice initialized.
+[2017.08.20-09.14.43:159][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.20-09.14.43:174][  0]LogInit: Texture streaming: Enabled
+[2017.08.20-09.14.43:344][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.20-09.14.43:752][  0]LogInit: Transaction tracking system initialized
+[2017.08.20-09.14.44:358][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.20-09.14.45:676][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2017.08.20-09.14.46:351][  0]LogLinker: Warning: '/Game/FirstPersonBP/FirstPersonOverview' 파일을 찾을 수 없습니다.
+[2017.08.20-09.14.46:351][  0]LogLinker: Warning: '/Game/FirstPersonBP/FirstPersonOverview' 파일을 찾을 수 없습니다.
+[2017.08.20-09.14.46:351][  0]LogUObjectGlobals: Warning: 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.20-09.14.46:873][  0]LogConsoleResponse: Display: 
+[2017.08.20-09.14.47:124][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.20-09.14.47:125][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.20-09.14.47:126][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.20-09.14.47:514][  0]LogFileCache: Scanning file cache for directory 'E:/Summer-Vacation-Project/Content/' took 0.03s
+[2017.08.20-09.14.48:452][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2017.08.20-09.14.48:455][  0]Cmd: MAP LOAD FILE="E:/Summer-Vacation-Project/Content/GrassLands/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.20-09.14.48:458][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.20-09.14.48:524][  0]MapCheck: New page: 맵 체크
+[2017.08.20-09.14.48:524][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.20-09.14.59:069][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2017.08.20-09.14.59:069][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.20-09.14.59:087][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2017.08.20-09.14.59:087][  0]LogStaticMesh: SM_Plains_Fern04 스태틱 메시 빌드중...
+[2017.08.20-09.14.59:127][  0]LogStaticMesh: Built static mesh [0.04s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern04.SM_Plains_Fern04
+[2017.08.20-09.14.59:128][  0]LogStaticMesh: SM_Plains_Fern03 스태틱 메시 빌드중...
+[2017.08.20-09.14.59:133][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern03.SM_Plains_Fern03
+[2017.08.20-09.14.59:134][  0]LogStaticMesh: SM_Plains_Fern02 스태틱 메시 빌드중...
+[2017.08.20-09.14.59:184][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern02.SM_Plains_Fern02
+[2017.08.20-09.14.59:196][  0]LogMaterial: Missing cached shader map for material M_PLains_Fern01, compiling. 
+[2017.08.20-09.14.59:312][  0]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2017.08.20-09.14.59:459][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_12 (AutoDXT, 1024X1024)
+[2017.08.20-09.14.59:459][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Enemy_Master_Grunt_Animation/ExoGame_MasterGrunt_Cast_Summon.ExoGame_MasterGrunt_Cast_Summon
+[2017.08.20-09.14.59:511][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Enemy_Master_Grunt_Animation/ExoGame_MasterGrunt_Attack_Melee_C.ExoGame_MasterGrunt_Attack_Melee_C
+[2017.08.20-09.14.59:569][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Enemy_Master_Grunt_Animation/ExoGame_MasterGrunt_Death.ExoGame_MasterGrunt_Death
+[2017.08.20-09.14.59:614][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Enemy_Master_Grunt_Animation/ExoGame_MasterGrunt_Walk_Fwd.ExoGame_MasterGrunt_Walk_Fwd
+[2017.08.20-09.14.59:634][  0]LogMaterial: Missing cached shader map for material M_Blunt_Hellhammer_Cine, compiling. 
+[2017.08.20-09.14.59:713][  0]LogMaterial: Missing cached shader map for material CharM_Frost_Giant, compiling. 
+[2017.08.20-09.14.59:786][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Frost_Giant/Enemy_Frost_Giant_All_Animation/ExoGame_FrostGiant_Aggro.ExoGame_FrostGiant_Aggro
+[2017.08.20-09.14.59:855][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Frost_Giant/Enemy_Frost_Giant_All_Animation/ExoGame_FrostGiant_React_Stunned_Enter.ExoGame_FrostGiant_React_Stunned_Enter
+[2017.08.20-09.14.59:879][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Frost_Giant/Enemy_Frost_Giant_All_Animation/ExoGame_FrostGiant_Attck_Melee_A.ExoGame_FrostGiant_Attck_Melee_A
+[2017.08.20-09.14.59:919][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorIdle.WarriorIdle
+[2017.08.20-09.14.59:924][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorDead.WarriorDead
+[2017.08.20-09.14.59:926][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Frost_Giant/Enemy_Frost_Giant_All_Animation/ExoGame_FrostGiant_Attck_Melee_Combo.ExoGame_FrostGiant_Attck_Melee_Combo
+[2017.08.20-09.15.00:016][  0]LogMaterial: Missing cached shader map for material M_Opaque_MeshEmit_Emis_Master, compiling. 
+[2017.08.20-09.15.00:080][  0]LogStaticMesh: FirstPersonProjectileMesh 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:110][  0]LogStaticMesh: Built static mesh [0.03s] /Game/FirstPerson/Meshes/FirstPersonProjectileMesh.FirstPersonProjectileMesh
+[2017.08.20-09.15.00:115][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorThirdPersonJump_End.WarriorThirdPersonJump_End
+[2017.08.20-09.15.00:118][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorRun.WarriorRun
+[2017.08.20-09.15.00:119][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorThirdPersonJump_Loop.WarriorThirdPersonJump_Loop
+[2017.08.20-09.15.00:172][  0]LogMaterial: Missing cached shader map for material CharM_Master_Grunt, compiling. 
+[2017.08.20-09.15.00:246][  0]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.08.20-09.15.00:300][  0]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp, compiling. 
+[2017.08.20-09.15.00:390][  0]LogMaterial: Missing cached shader map for material M_Snow_Blowing_Lit, compiling. 
+[2017.08.20-09.15.00:662][  0]LogStaticMesh: ElvenRuins_Terrain 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:675][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Terrain/ElvenRuins_Terrain.ElvenRuins_Terrain
+[2017.08.20-09.15.00:680][  0]LogStaticMesh: SM_Cherry_Tree 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:691][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_Cherry_Tree.SM_Cherry_Tree
+[2017.08.20-09.15.00:694][  0]LogStaticMesh: SM_Env_Breakables_Box1 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:696][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Box1.SM_Env_Breakables_Box1
+[2017.08.20-09.15.00:697][  0]LogStaticMesh: SM_Env_Breakables_Box1_destroyed 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:732][  0]LogStaticMesh: Built static mesh [0.04s] /Game/GrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Box1_destroyed.SM_Env_Breakables_Box1_destroyed
+[2017.08.20-09.15.00:734][  0]LogStaticMesh: SM_Env_Breakables_Boxes 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:749][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_Boxes.SM_Env_Breakables_Boxes
+[2017.08.20-09.15.00:751][  0]LogStaticMesh: SM_Env_Breakables_BoxesBITS 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:880][  0]LogStaticMesh: Built static mesh [0.13s] /Game/GrassLands/Environments/Breakables/StaticMesh/Box/SM_Env_Breakables_BoxesBITS.SM_Env_Breakables_BoxesBITS
+[2017.08.20-09.15.00:881][  0]LogStaticMesh: SM_Env_Breakables_GroupLg 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:952][  0]LogStaticMesh: Built static mesh [0.07s] /Game/GrassLands/Environments/Breakables/StaticMesh/Objects/SM_Env_Breakables_GroupLg.SM_Env_Breakables_GroupLg
+[2017.08.20-09.15.00:956][  0]LogStaticMesh: SM_Env_Plains_Floors_Rubble05 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:957][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Env_Plains_Floors_Rubble05.SM_Env_Plains_Floors_Rubble05
+[2017.08.20-09.15.00:959][  0]LogStaticMesh: SM_Env_Plains_Mountain_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.00:978][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Background/StaticMesh/SM_Env_Plains_Mountain_01.SM_Env_Plains_Mountain_01
+[2017.08.20-09.15.00:996][  0]LogStaticMesh: SM_Exo_Cart_Damaged 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:365][  0]LogStaticMesh: Built static mesh [0.37s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Cart_Damaged.SM_Exo_Cart_Damaged
+[2017.08.20-09.15.01:367][  0]LogStaticMesh: SM_Exo_Crate_Open_Damaged 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:558][  0]LogStaticMesh: Built static mesh [0.19s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Damaged.SM_Exo_Crate_Open_Damaged
+[2017.08.20-09.15.01:559][  0]LogStaticMesh: SM_Exo_Crate_Open_Destroyed 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:668][  0]LogStaticMesh: Built static mesh [0.11s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Destroyed.SM_Exo_Crate_Open_Destroyed
+[2017.08.20-09.15.01:671][  0]LogStaticMesh: SM_Exo_Crate_Open_Intact 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:698][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Exo_Crate_Open_Intact.SM_Exo_Crate_Open_Intact
+[2017.08.20-09.15.01:699][  0]LogStaticMesh: SM_Exo_Decos_Door02 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:736][  0]LogStaticMesh: Built static mesh [0.04s] /Game/GrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door02.SM_Exo_Decos_Door02
+[2017.08.20-09.15.01:739][  0]LogStaticMesh: SM_Exo_Decos_Door04 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:744][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door04.SM_Exo_Decos_Door04
+[2017.08.20-09.15.01:745][  0]LogStaticMesh: SM_Exo_Decos_Door_Frame02 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:750][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Decos_Door_Frame02.SM_Exo_Decos_Door_Frame02
+[2017.08.20-09.15.01:751][  0]LogStaticMesh: SM_Exo_Pew 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:808][  0]LogStaticMesh: Built static mesh [0.06s] /Game/GrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_Pew.SM_Exo_Pew
+[2017.08.20-09.15.01:808][  0]LogStaticMesh: SM_Exo_ShantyBeams_Single_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:814][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Misc/Exo_Deco02/StaticMesh/SM_Exo_ShantyBeams_Single_01.SM_Exo_ShantyBeams_Single_01
+[2017.08.20-09.15.01:815][  0]LogStaticMesh: SM_Plains_Floors_Rubble 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:821][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble.SM_Plains_Floors_Rubble
+[2017.08.20-09.15.01:823][  0]LogStaticMesh: SM_Plains_Column_Small_Broken_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:853][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Small_Broken_01.SM_Plains_Column_Small_Broken_01
+[2017.08.20-09.15.01:855][  0]LogStaticMesh: SM_GroundCover_Leafy01 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:856][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_GroundCover_Leafy01.SM_GroundCover_Leafy01
+[2017.08.20-09.15.01:857][  0]LogStaticMesh: SM_GroundCover_Leafy03 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:862][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_GroundCover_Leafy03.SM_GroundCover_Leafy03
+[2017.08.20-09.15.01:863][  0]LogStaticMesh: SM_LeavePiles_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:863][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_LeavePiles_01.SM_LeavePiles_01
+[2017.08.20-09.15.01:864][  0]LogStaticMesh: SM_LeavePiles_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:864][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_LeavePiles_02.SM_LeavePiles_02
+[2017.08.20-09.15.01:865][  0]LogStaticMesh: SM_Pine_Low_Cluster 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:868][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_Pine_Low_Cluster.SM_Pine_Low_Cluster
+[2017.08.20-09.15.01:869][  0]LogStaticMesh: SM_Plains_Angel_Statue_01_nobase 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:914][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase.SM_Plains_Angel_Statue_01_nobase
+[2017.08.20-09.15.01:916][  0]LogStaticMesh: SM_Plains_Angel_Statue_01_nobase_torch 스태틱 메시 빌드중...
+[2017.08.20-09.15.01:948][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase_torch.SM_Plains_Angel_Statue_01_nobase_torch
+[2017.08.20-09.15.01:959][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2017.08.20-09.15.01:959][  0]LogStaticMesh: SM_Plains_Buttress_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:004][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Buttress_01.SM_Plains_Buttress_01
+[2017.08.20-09.15.02:004][  0]LogStaticMesh: SM_Plains_Buttress_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:030][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Buttress_02.SM_Plains_Buttress_02
+[2017.08.20-09.15.02:031][  0]LogStaticMesh: SM_Plains_Castle_Bridge_Wall_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:110][  0]LogStaticMesh: Built static mesh [0.08s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Bridge_Wall_01.SM_Plains_Castle_Bridge_Wall_01
+[2017.08.20-09.15.02:111][  0]LogStaticMesh: SM_Plains_Castle_Circle_Railing_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:158][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2017.08.20-09.15.02:158][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Circle_Railing_01.SM_Plains_Castle_Circle_Railing_01
+[2017.08.20-09.15.02:161][  0]LogStaticMesh: SM_Plains_Castle_Fountain_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:206][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2017.08.20-09.15.02:206][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Fountain_01.SM_Plains_Castle_Fountain_01
+[2017.08.20-09.15.02:208][  0]LogStaticMesh: SM_Plains_Castle_Railing_Curved_45 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:215][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Railing_Curved_45.SM_Plains_Castle_Railing_Curved_45
+[2017.08.20-09.15.02:216][  0]LogStaticMesh: SM_Plains_Castle_Railing_Curved 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:274][  0]LogStaticMesh: Built static mesh [0.06s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Railing_Curved.SM_Plains_Castle_Railing_Curved
+[2017.08.20-09.15.02:275][  0]LogStaticMesh: SM_Plains_Castle_Stairs_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:340][  0]LogStaticMesh: Built static mesh [0.07s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Castle_Stairs_01.SM_Plains_Castle_Stairs_01
+[2017.08.20-09.15.02:342][  0]LogStaticMesh: SM_Plains_CastleArch_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:382][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_16 (AutoDXT, 128X128)
+[2017.08.20-09.15.02:382][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_17 (AutoDXT, 128X128)
+[2017.08.20-09.15.02:382][  0]LogStaticMesh: Built static mesh [0.04s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_01.SM_Plains_CastleArch_01
+[2017.08.20-09.15.02:383][  0]LogStaticMesh: SM_Plains_CastleArch_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:469][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_18 (AutoDXT, 128X128)
+[2017.08.20-09.15.02:469][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_19 (AutoDXT, 128X128)
+[2017.08.20-09.15.02:469][  0]LogStaticMesh: Built static mesh [0.09s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_02.SM_Plains_CastleArch_02
+[2017.08.20-09.15.02:471][  0]LogStaticMesh: SM_Plains_CastleArch_03 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:503][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_03.SM_Plains_CastleArch_03
+[2017.08.20-09.15.02:504][  0]LogStaticMesh: SM_Plains_CastleArch_Ruin_03 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:517][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Ruin_03.SM_Plains_CastleArch_Ruin_03
+[2017.08.20-09.15.02:519][  0]LogStaticMesh: SM_Plains_CastleArch_Iron_Gate_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:569][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Iron_Gate_01.SM_Plains_CastleArch_Iron_Gate_01
+[2017.08.20-09.15.02:571][  0]LogStaticMesh: SM_Plains_CastleArch_Iron_Gate_01_Broken 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:705][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.02:705][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_20 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.02:705][  0]LogStaticMesh: Built static mesh [0.13s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Iron_Gate_01_Broken.SM_Plains_CastleArch_Iron_Gate_01_Broken
+[2017.08.20-09.15.02:707][  0]LogStaticMesh: SM_Plains_CastleArch_Iron_Gate_02_Broken 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:812][  0]LogStaticMesh: Built static mesh [0.10s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Iron_Gate_02_Broken.SM_Plains_CastleArch_Iron_Gate_02_Broken
+[2017.08.20-09.15.02:813][  0]LogStaticMesh: SM_Plains_CastleArch_Ruin_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:820][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleArch_Ruin_01.SM_Plains_CastleArch_Ruin_01
+[2017.08.20-09.15.02:822][  0]LogStaticMesh: SM_Plains_CastleDoorArch_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:827][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleDoorArch_01.SM_Plains_CastleDoorArch_01
+[2017.08.20-09.15.02:829][  0]LogStaticMesh: SM_Plains_CastleTower_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:939][  0]LogStaticMesh: Built static mesh [0.11s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleTower_01.SM_Plains_CastleTower_01
+[2017.08.20-09.15.02:939][  0]LogStaticMesh: SM_Plains_CastleTower_Ruin_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.02:961][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleTower_Ruin_01.SM_Plains_CastleTower_Ruin_01
+[2017.08.20-09.15.02:964][  0]LogStaticMesh: SM_Plains_CastleTower_Ruin_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:036][  0]LogStaticMesh: Built static mesh [0.07s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleTower_Ruin_02.SM_Plains_CastleTower_Ruin_02
+[2017.08.20-09.15.03:039][  0]LogStaticMesh: SM_Plains_CastleWall_Curved_Ruin_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:098][  0]LogStaticMesh: Built static mesh [0.06s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Curved_Ruin_01.SM_Plains_CastleWall_Curved_Ruin_01
+[2017.08.20-09.15.03:099][  0]LogStaticMesh: SM_Plains_CastleWall_Ruin_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:111][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_01.SM_Plains_CastleWall_Ruin_01
+[2017.08.20-09.15.03:111][  0]LogStaticMesh: SM_Plains_CastleWall_Ruin_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:188][  0]LogStaticMesh: Built static mesh [0.08s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_02.SM_Plains_CastleWall_Ruin_02
+[2017.08.20-09.15.03:190][  0]LogStaticMesh: SM_Plains_CastleWall_Ruin_03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:252][  0]LogStaticMesh: Built static mesh [0.06s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_03.SM_Plains_CastleWall_Ruin_03
+[2017.08.20-09.15.03:254][  0]LogStaticMesh: SM_Plains_CastleWall_Ruin_04 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:269][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Ruin_04.SM_Plains_CastleWall_Ruin_04
+[2017.08.20-09.15.03:270][  0]LogStaticMesh: SM_Plains_CastleWall_Support_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:272][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_CastleWall_Support_01.SM_Plains_CastleWall_Support_01
+[2017.08.20-09.15.03:273][  0]LogStaticMesh: SM_Plains_Column_Large_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:307][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_01.SM_Plains_Column_Large_01
+[2017.08.20-09.15.03:308][  0]LogStaticMesh: SM_Plains_Column_Large_Broken_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:373][  0]LogStaticMesh: Built static mesh [0.06s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_01.SM_Plains_Column_Large_Broken_01
+[2017.08.20-09.15.03:375][  0]LogStaticMesh: SM_Plains_Column_Large_Broken_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:387][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_02.SM_Plains_Column_Large_Broken_02
+[2017.08.20-09.15.03:388][  0]LogStaticMesh: SM_Plains_Column_Large_Broken_03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:411][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Large_Broken_03.SM_Plains_Column_Large_Broken_03
+[2017.08.20-09.15.03:412][  0]LogStaticMesh: SM_Plains_Column_Mid_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:419][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Mid_01.SM_Plains_Column_Mid_01
+[2017.08.20-09.15.03:420][  0]LogStaticMesh: SM_Plains_Column_Small_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:440][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Small_01.SM_Plains_Column_Small_01
+[2017.08.20-09.15.03:442][  0]LogStaticMesh: SM_Plains_Column_Small_Broken_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:472][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Column_Small_Broken_02.SM_Plains_Column_Small_Broken_02
+[2017.08.20-09.15.03:473][  0]LogStaticMesh: SM_Plains_Fern01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:483][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Fern01.SM_Plains_Fern01
+[2017.08.20-09.15.03:485][  0]LogStaticMesh: SM_Plains_Floors_Block01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:508][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block01.SM_Plains_Floors_Block01
+[2017.08.20-09.15.03:509][  0]LogStaticMesh: SM_Plains_Floors_Block02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:560][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block02.SM_Plains_Floors_Block02
+[2017.08.20-09.15.03:562][  0]LogStaticMesh: SM_Plains_Floors_Block02_Broken 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:569][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block02_Broken.SM_Plains_Floors_Block02_Broken
+[2017.08.20-09.15.03:570][  0]LogStaticMesh: SM_Plains_Floors_Block03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:571][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block03.SM_Plains_Floors_Block03
+[2017.08.20-09.15.03:573][  0]LogStaticMesh: SM_Plains_Floors_Block04 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:576][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Block04.SM_Plains_Floors_Block04
+[2017.08.20-09.15.03:577][  0]LogStaticMesh: SM_Plains_Floors_Brick01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:579][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Brick01.SM_Plains_Floors_Brick01
+[2017.08.20-09.15.03:579][  0]LogStaticMesh: SM_Plains_Floors_Flat01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:584][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat01.SM_Plains_Floors_Flat01
+[2017.08.20-09.15.03:586][  0]LogStaticMesh: SM_Plains_Floors_Flat02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:587][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Flat02.SM_Plains_Floors_Flat02
+[2017.08.20-09.15.03:588][  0]LogStaticMesh: SM_Plains_Floors_Rubble02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:600][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble02.SM_Plains_Floors_Rubble02
+[2017.08.20-09.15.03:602][  0]LogStaticMesh: SM_Plains_Floors_Rubble03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:605][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble03.SM_Plains_Floors_Rubble03
+[2017.08.20-09.15.03:607][  0]LogStaticMesh: SM_Plains_Floors_Rubble04 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:610][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble04.SM_Plains_Floors_Rubble04
+[2017.08.20-09.15.03:612][  0]LogStaticMesh: SM_Plains_Floors_Rubble05 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:613][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_Rubble05.SM_Plains_Floors_Rubble05
+[2017.08.20-09.15.03:615][  0]LogStaticMesh: SM_Plains_Floors_TrimBlock01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:615][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimBlock01.SM_Plains_Floors_TrimBlock01
+[2017.08.20-09.15.03:616][  0]LogStaticMesh: SM_Plains_Floors_TrimDesign03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:617][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimDesign03.SM_Plains_Floors_TrimDesign03
+[2017.08.20-09.15.03:618][  0]LogStaticMesh: SM_Plains_Floors_TrimDesignRubble01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:619][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Floors_TrimDesignRubble01.SM_Plains_Floors_TrimDesignRubble01
+[2017.08.20-09.15.03:620][  0]LogStaticMesh: SM_Plains_Flowers01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:652][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Flowers01.SM_Plains_Flowers01
+[2017.08.20-09.15.03:653][  0]LogStaticMesh: SM_Plains_Flowers03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:654][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Flowers03.SM_Plains_Flowers03
+[2017.08.20-09.15.03:655][  0]LogStaticMesh: SM_Plains_Grass01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:660][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Grass01.SM_Plains_Grass01
+[2017.08.20-09.15.03:661][  0]LogStaticMesh: SM_Plains_LargeRock02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:697][  0]LogStaticMesh: Built static mesh [0.04s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock02.SM_Plains_LargeRock02
+[2017.08.20-09.15.03:698][  0]LogStaticMesh: SM_Plains_LargeRock03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:706][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock03.SM_Plains_LargeRock03
+[2017.08.20-09.15.03:709][  0]LogStaticMesh: SM_Plains_LargeRock_SpireLOD 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:731][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD.SM_Plains_LargeRock_SpireLOD
+[2017.08.20-09.15.03:734][  0]LogStaticMesh: SM_Plains_LargeRock01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:744][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock01.SM_Plains_LargeRock01
+[2017.08.20-09.15.03:747][  0]LogStaticMesh: SM_Plains_LargeRock_Pile01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:752][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_Pile01.SM_Plains_LargeRock_Pile01
+[2017.08.20-09.15.03:753][  0]LogStaticMesh: SM_Plains_LargeRock_SpireLOD5 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:755][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD5.SM_Plains_LargeRock_SpireLOD5
+[2017.08.20-09.15.03:757][  0]LogStaticMesh: SM_Plains_LargeRock_SpireLOD4 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:760][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD4.SM_Plains_LargeRock_SpireLOD4
+[2017.08.20-09.15.03:760][  0]LogStaticMesh: SM_Plains_LargeRock_SpireLOD2 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:764][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_LargeRock_SpireLOD2.SM_Plains_LargeRock_SpireLOD2
+[2017.08.20-09.15.03:766][  0]LogStaticMesh: SM_Plains_Man_Statue_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:817][  0]LogStaticMesh: Built static mesh [0.05s] /Game/GrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01.SM_Plains_Man_Statue_01
+[2017.08.20-09.15.03:826][  0]LogStaticMesh: SM_Plains_Man_Statue_01_torch 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:867][  0]LogStaticMesh: Built static mesh [0.04s] /Game/GrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Man_Statue_01_torch.SM_Plains_Man_Statue_01_torch
+[2017.08.20-09.15.03:868][  0]LogStaticMesh: SM_Plains_Ruin_BuildingLOD01 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:874][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD01.SM_Plains_Ruin_BuildingLOD01
+[2017.08.20-09.15.03:875][  0]LogStaticMesh: SM_Plains_Ruin_BuildingLOD02 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:879][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD02.SM_Plains_Ruin_BuildingLOD02
+[2017.08.20-09.15.03:879][  0]LogStaticMesh: SM_Plains_Ruin_BuildingLOD03 스태틱 메시 빌드중...
+[2017.08.20-09.15.03:882][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruin_BuildingLOD03.SM_Plains_Ruin_BuildingLOD03
+[2017.08.20-09.15.03:883][  0]LogStaticMesh: SM_Plains_Ruins_Brazier_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:091][  0]LogStaticMesh: Built static mesh [0.21s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruins_Brazier_01.SM_Plains_Ruins_Brazier_01
+[2017.08.20-09.15.04:093][  0]LogStaticMesh: SM_Plains_Ruins_Cage_Broken_02 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:108][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Ruins_Cage_Broken_02.SM_Plains_Ruins_Cage_Broken_02
+[2017.08.20-09.15.04:110][  0]LogStaticMesh: SM_Plains_Scrap_Bridge01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:124][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_Bridge01.SM_Plains_Scrap_Bridge01
+[2017.08.20-09.15.04:128][  0]LogStaticMesh: SM_Plains_Scrap_Bridge02 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:138][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_Bridge02.SM_Plains_Scrap_Bridge02
+[2017.08.20-09.15.04:142][  0]LogStaticMesh: SM_Plains_Scrap_BridgeRail03 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:147][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_BridgeRail03.SM_Plains_Scrap_BridgeRail03
+[2017.08.20-09.15.04:148][  0]LogStaticMesh: SM_Plains_Scrap_BridgeRail04 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:151][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Floors/StaticMesh/SM_Plains_Scrap_BridgeRail04.SM_Plains_Scrap_BridgeRail04
+[2017.08.20-09.15.04:152][  0]LogStaticMesh: SM_Plains_ShortColumn_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:185][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_ShortColumn_01.SM_Plains_ShortColumn_01
+[2017.08.20-09.15.04:186][  0]LogStaticMesh: SM_Plains_ShortWall_Straight_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:207][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_ShortWall_Straight_01.SM_Plains_ShortWall_Straight_01
+[2017.08.20-09.15.04:208][  0]LogStaticMesh: SM_Plains_SmallRock01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:215][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_Plains_SmallRock01.SM_Plains_SmallRock01
+[2017.08.20-09.15.04:224][  0]LogStaticMesh: SM_Plains_Tree01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:312][  0]LogStaticMesh: Built static mesh [0.09s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree01.SM_Plains_Tree01
+[2017.08.20-09.15.04:316][  0]LogStaticMesh: SM_Plains_Tree_Branch01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:350][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Branch01.SM_Plains_Tree_Branch01
+[2017.08.20-09.15.04:352][  0]LogStaticMesh: SM_Plains_Tree_Branch02 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:363][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Branch02.SM_Plains_Tree_Branch02
+[2017.08.20-09.15.04:365][  0]LogStaticMesh: SM_Plains_Tree_Stump01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:371][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Tree_Stump01.SM_Plains_Tree_Stump01
+[2017.08.20-09.15.04:372][  0]LogStaticMesh: SM_Plains_Vine02 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:388][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Plains/Env_Plains_Flora/StaticMesh/SM_Plains_Vine02.SM_Plains_Vine02
+[2017.08.20-09.15.04:404][  0]LogStaticMesh: SM_Plains_Wall_Railing_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:407][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Wall_Railing_01.SM_Plains_Wall_Railing_01
+[2017.08.20-09.15.04:408][  0]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:494][  0]LogStaticMesh: Built static mesh [0.09s] /Game/GrassLands/Environments/Plains/Env_Plains_Ruins/StaticMesh/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.20-09.15.04:496][  0]LogStaticMesh: SM_Rootcluster_A 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:521][  0]LogStaticMesh: Built static mesh [0.02s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_Rootcluster_A.SM_Rootcluster_A
+[2017.08.20-09.15.04:522][  0]LogStaticMesh: SM_SmallTree02 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:536][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GrassLands/Environments/Earth/StaticMesh/SM_SmallTree02.SM_SmallTree02
+[2017.08.20-09.15.04:537][  0]LogStaticMesh: SM_WaterPlain 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:684][  0]LogStaticMesh: Built static mesh [0.15s] /Game/GrassLands/Environments/Plains/Env_Plains_Organic/StaticMesh/SM_WaterPlain.SM_WaterPlain
+[2017.08.20-09.15.04:705][  0]LogStaticMesh: SM_WoodenBarrel_Damaged 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:806][  0]LogStaticMesh: Built static mesh [0.10s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Damaged.SM_WoodenBarrel_Damaged
+[2017.08.20-09.15.04:807][  0]LogStaticMesh: SM_WoodenBarrel_Destroyed 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:895][  0]LogStaticMesh: Built static mesh [0.09s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Destroyed.SM_WoodenBarrel_Destroyed
+[2017.08.20-09.15.04:896][  0]LogStaticMesh: SM_WoodenBarrel_Intact 스태틱 메시 빌드중...
+[2017.08.20-09.15.04:922][  0]LogStaticMesh: Built static mesh [0.03s] /Game/GrassLands/Environments/Misc/Exo_Deco01/StaticMesh/SM_WoodenBarrel_Intact.SM_WoodenBarrel_Intact
+[2017.08.20-09.15.04:924][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Frost_Giant/Enemy_Frost_Giant_All_Animation/ExoGame_FrostGiant_Charge_Jump.ExoGame_FrostGiant_Charge_Jump
+[2017.08.20-09.15.04:935][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorThirdPersonJump_Start.WarriorThirdPersonJump_Start
+[2017.08.20-09.15.05:079][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Melee.ExoGame_Bears_Attack_Melee
+[2017.08.20-09.15.05:119][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Walk.ExoGame_Bears_Walk
+[2017.08.20-09.15.05:152][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Idle.ExoGame_Bears_Idle
+[2017.08.20-09.15.05:265][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Adversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Death.ExoGame_Bears_Attack_Death
+[2017.08.20-09.15.05:295][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Warriors/Character/CompleteCharacters/WarriorAttack1.WarriorAttack1
+[2017.08.20-09.15.05:386][  0]LogMaterial: Missing cached shader map for material CharM_Greater_Spider, compiling. 
+[2017.08.20-09.15.05:507][  0]LogMaterial: Missing cached shader map for material M_Plains_Pillars03, compiling. 
+[2017.08.20-09.15.05:545][  0]LogMaterial: Missing cached shader map for material M_Plains_Pillars02, compiling. 
+[2017.08.20-09.15.05:600][  0]LogMaterial: Missing cached shader map for material M_Plains_FloorTrims, compiling. 
+[2017.08.20-09.15.05:653][  0]LogMaterial: Missing cached shader map for material M_Plains_Floors_Block, compiling. 
+[2017.08.20-09.15.05:694][  0]LogMaterial: Missing cached shader map for material M_PostSharpen, compiling. 
+[2017.08.20-09.15.05:710][  0]LogMaterial: Missing cached shader map for material M_Terrain_Blend_Mobile, compiling. 
+[2017.08.20-09.15.05:770][  0]LogMaterial: Missing cached shader map for material M_Plains_Ocean, compiling. 
+[2017.08.20-09.15.05:971][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_22 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_23 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_24 (AutoDXT, 256X256)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_28 (AutoDXT, 128X128)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_29 (AutoDXT, 512X512)
+[2017.08.20-09.15.08:091][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_30 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_31 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_32 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_33 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_34 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_35 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_36 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_37 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:014][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_38 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_39 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_40 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_41 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_42 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_43 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_44 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_45 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_46 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_47 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_48 (AutoDXT, 256X256)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_49 (AutoDXT, 128X128)
+[2017.08.20-09.15.10:015][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_50 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_51 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_52 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_53 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_54 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_55 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_56 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_57 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_58 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_59 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_6 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_60 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_61 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_62 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_63 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_64 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_65 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_66 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_67 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_68 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_69 (AutoDXT, 128X128)
+[2017.08.20-09.15.11:322][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_70 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_71 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_72 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_73 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_74 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_75 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_76 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_77 (AutoDXT, 128X128)
+[2017.08.20-09.15.12:988][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_78 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_79 (AutoDXT, 256X256)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_8 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_80 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_81 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_82 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_83 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_84 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:667][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_85 (AutoDXT, 128X128)
+[2017.08.20-09.15.15:668][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_86 (AutoDXT, 64X64)
+[2017.08.20-09.15.15:668][  0]LogTexture: Display: 텍스처 빌드: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2017.08.20-09.15.15:668][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.20-09.15.17:952][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_12 (DXT1, 1024X1024)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_16 (DXT1, 128X128)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_17 (DXT1, 128X128)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_18 (DXT1, 128X128)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_19 (DXT1, 128X128)
+[2017.08.20-09.15.17:953][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.08.20-09.15.19:882][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2017.08.20-09.15.19:882][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_20 (DXT1, 1024X1024)
+[2017.08.20-09.15.19:882][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_22 (DXT1, 1024X1024)
+[2017.08.20-09.15.19:882][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_23 (DXT1, 1024X1024)
+[2017.08.20-09.15.22:229][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_24 (DXT1, 256X256)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_28 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_29 (DXT1, 512X512)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_30 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_31 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_32 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_33 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_34 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_35 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_36 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_37 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_38 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_39 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_40 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_41 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_42 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_43 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_44 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_45 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_46 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_47 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_48 (DXT1, 256X256)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_49 (DXT1, 128X128)
+[2017.08.20-09.15.22:230][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_50 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_51 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_52 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_53 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_54 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_55 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_56 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_57 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_58 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_59 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_6 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_60 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_61 (DXT1, 128X128)
+[2017.08.20-09.15.24:512][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_62 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_63 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_64 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_65 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_66 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_67 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_68 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_69 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_70 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_71 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_72 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_73 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_74 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_75 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_76 (DXT1, 1024X1024)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_77 (DXT1, 128X128)
+[2017.08.20-09.15.24:513][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_78 (DXT1, 1024X1024)
+[2017.08.20-09.15.26:625][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_79 (DXT1, 256X256)
+[2017.08.20-09.15.26:625][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_8 (DXT1, 128X128)
+[2017.08.20-09.15.26:625][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_80 (DXT1, 128X128)
+[2017.08.20-09.15.26:625][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_81 (DXT1, 128X128)
+[2017.08.20-09.15.26:625][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_82 (DXT1, 128X128)
+[2017.08.20-09.15.26:625][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_83 (DXT1, 128X128)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_84 (DXT1, 128X128)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_85 (DXT1, 128X128)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_86 (DXT1, 64X64)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_10 (AutoDXT, 512X256)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2017.08.20-09.15.26:626][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_12 (AutoDXT, 1024X512)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_14 (AutoDXT, 128X64)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_16 (AutoDXT, 128X64)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_17 (AutoDXT, 128X64)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_18 (AutoDXT, 128X64)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_19 (AutoDXT, 128X64)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2017.08.20-09.15.27:928][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_20 (AutoDXT, 1024X512)
+[2017.08.20-09.15.29:395][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2017.08.20-09.15.29:395][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_22 (AutoDXT, 1024X512)
+[2017.08.20-09.15.29:395][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_23 (AutoDXT, 1024X512)
+[2017.08.20-09.15.29:395][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_24 (AutoDXT, 256X128)
+[2017.08.20-09.15.29:396][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2017.08.20-09.15.29:396][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2017.08.20-09.15.29:396][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_27 (AutoDXT, 128X64)
+[2017.08.20-09.15.29:396][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_28 (AutoDXT, 128X64)
+[2017.08.20-09.15.29:396][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_29 (AutoDXT, 512X256)
+[2017.08.20-09.15.29:396][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_30 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_31 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_32 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_33 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_34 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_35 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_36 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_37 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_38 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_39 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_40 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_41 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_42 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_43 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_44 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_45 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_46 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_47 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_48 (AutoDXT, 256X128)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_49 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_50 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_51 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_52 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_53 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_54 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_55 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_56 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_57 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_58 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_59 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_6 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_60 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:908][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_61 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_62 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_63 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_64 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_65 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_66 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_67 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_68 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_69 (AutoDXT, 128X64)
+[2017.08.20-09.15.30:909][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_7 (AutoDXT, 1024X512)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_70 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_71 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_72 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_73 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_74 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_75 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_76 (AutoDXT, 1024X512)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_77 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_78 (AutoDXT, 1024X512)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_79 (AutoDXT, 256X128)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_8 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_80 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_81 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_82 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_83 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_84 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:119][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_85 (AutoDXT, 128X64)
+[2017.08.20-09.15.32:120][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_86 (AutoDXT, 64X32)
+[2017.08.20-09.15.32:120][  0]LogTexture: Display: 텍스처 빌드: SkyOcclusion1_9 (AutoDXT, 1024X512)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_100 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_101 (G8, 512X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_102 (G8, 256X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_103 (G8, 1024X512)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_104 (G8, 128X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_105 (G8, 256X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_106 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_107 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_108 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_109 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_110 (G8, 1024X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_111 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_112 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_113 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_114 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_115 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_116 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_117 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_118 (G8, 64X64)
+[2017.08.20-09.15.32:871][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_119 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_120 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_121 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_122 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_123 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_124 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_125 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_126 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_127 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_128 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_129 (G8, 512X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_130 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_131 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_132 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_133 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_134 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_135 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_136 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_137 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_138 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_139 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_140 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_141 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_142 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_143 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_144 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_145 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_146 (G8, 128X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_147 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_148 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_149 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_150 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_151 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_152 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_153 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_154 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_155 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_156 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_157 (G8, 1024X128)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_158 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_159 (G8, 1024X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_160 (G8, 128X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_161 (G8, 128X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_162 (G8, 128X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_163 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_164 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_165 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_166 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_167 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_168 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_169 (G8, 64X64)
+[2017.08.20-09.15.32:872][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_170 (G8, 64X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_171 (G8, 32X32)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_86 (G8, 1024X512)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_87 (G8, 1024X1024)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_88 (G8, 1024X256)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_89 (G8, 256X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_90 (G8, 64X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_91 (G8, 1024X1024)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_92 (G8, 512X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_93 (G8, 1024X512)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_94 (G8, 1024X1024)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_95 (G8, 64X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_96 (G8, 256X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_97 (G8, 64X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_98 (G8, 64X64)
+[2017.08.20-09.15.32:873][  0]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_99 (G8, 128X64)
+[2017.08.20-09.15.32:873][  0]LogMaterial: Missing cached shader map for material M_Plains_Man_Statue, compiling. 
+[2017.08.20-09.15.32:912][  0]LogMaterial: Missing cached shader map for material M_Plains_Angel_Statue, compiling. 
+[2017.08.20-09.15.32:951][  0]LogMaterial: Missing cached shader map for material M_Plains_StoneWall, compiling. 
+[2017.08.20-09.15.32:993][  0]LogMaterial: Missing cached shader map for material M_Plains_Pillars, compiling. 
+[2017.08.20-09.15.33:033][  0]LogMaterial: Missing cached shader map for material M_Decos_Door_Frame, compiling. 
+[2017.08.20-09.15.33:072][  0]LogMaterial: Missing cached shader map for material M_Decos_Door, compiling. 
+[2017.08.20-09.15.33:111][  0]LogMaterial: Missing cached shader map for material M_WoodenBarrel_01, compiling. 
+[2017.08.20-09.15.33:152][  0]LogMaterial: Missing cached shader map for material M_Pine_Low, compiling. 
+[2017.08.20-09.15.33:224][  0]LogMaterial: Missing cached shader map for material M_Exo_Crate_Open, compiling. 
+[2017.08.20-09.15.33:266][  0]LogMaterial: Missing cached shader map for material M_Exo_Cart, compiling. 
+[2017.08.20-09.15.33:308][  0]LogMaterial: Missing cached shader map for material M_Plains_LargeRock, compiling. 
+[2017.08.20-09.15.33:348][  0]LogMaterial: Missing cached shader map for material M_Plains_Tree_Stump01, compiling. 
+[2017.08.20-09.15.33:391][  0]LogMaterial: Missing cached shader map for material M_Exo_Generic_Plants, compiling. 
+[2017.08.20-09.15.33:468][  0]LogMaterial: Missing cached shader map for material M_LeavesPile, compiling. 
+[2017.08.20-09.15.33:522][  0]LogMaterial: Missing cached shader map for material M_GroundCover_LEafy, compiling. 
+[2017.08.20-09.15.33:594][  0]LogMaterial: Missing cached shader map for material M_TreeBark, compiling. 
+[2017.08.20-09.15.33:638][  0]LogMaterial: Missing cached shader map for material M_Cherry_Tree, compiling. 
+[2017.08.20-09.15.33:714][  0]LogMaterial: Missing cached shader map for material M_Env_Ice_Deco2_Flags, compiling. 
+[2017.08.20-09.15.33:875][  0]LogMaterial: Missing cached shader map for material M_Breakables_Barrels, compiling. 
+[2017.08.20-09.15.33:914][  0]LogMaterial: Missing cached shader map for material M_Pew, compiling. 
+[2017.08.20-09.15.33:954][  0]LogMaterial: Missing cached shader map for material M_Env_Plains_Mountain01, compiling. 
+[2017.08.20-09.15.33:995][  0]LogMaterial: Missing cached shader map for material M_HardWood_Floor, compiling. 
+[2017.08.20-09.15.34:035][  0]LogMaterial: Missing cached shader map for material M_PLains_Scrap_Bridge, compiling. 
+[2017.08.20-09.15.34:081][  0]LogMaterial: Missing cached shader map for material M_Plains_Cage, compiling. 
+[2017.08.20-09.15.34:123][  0]LogMaterial: Missing cached shader map for material M_PLains_Castle_WroughtIron, compiling. 
+[2017.08.20-09.15.34:165][  0]LogMaterial: Missing cached shader map for material M_Plains_SmallRock, compiling. 
+[2017.08.20-09.15.34:207][  0]LogMaterial: Missing cached shader map for material M_Plains_Cliff1, compiling. 
+[2017.08.20-09.15.34:249][  0]LogMaterial: Missing cached shader map for material M_Plains_GroundBrick, compiling. 
+[2017.08.20-09.15.34:517][  0]LogAIModule: Creating AISystem for world Main
+[2017.08.20-09.15.34:857][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Grunt_6.CollisionCylinder' 
+[2017.08.20-09.15.34:908][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.08.20-09.15.34:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.20-09.15.35:217][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 219.134ms.
+[2017.08.20-09.15.35:218][  0]LogFileHelpers: Loading map 'Main' took 46.765
+[2017.08.20-09.15.35:361][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.20-09.15.35:719][  0]LogCollectionManager: Loaded 0 collections in 0.003650 seconds
+[2017.08.20-09.15.35:881][  0]LogFileCache: Scanning file cache for directory 'E:/Summer-Vacation-Project/Saved/Collections/' took 0.01s
+[2017.08.20-09.15.35:881][  0]LogFileCache: Scanning file cache for directory 'E:/Summer-Vacation-Project/Content/Developers/tlstk/Collections/' took 0.01s
+[2017.08.20-09.15.35:881][  0]LogFileCache: Scanning file cache for directory 'E:/Summer-Vacation-Project/Content/Collections/' took 0.01s
+[2017.08.20-09.15.35:881][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.20-09.15.35:901][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2386 classes and 500 folders.
+[2017.08.20-09.15.36:048][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.08.20-09.15.36:455][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.08.20-09.15.36:558][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.08.20-09.15.37:099][  0]LogSlate: Took 0.008702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.20-09.15.37:125][  0]LogSlate: Took 0.023852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.20-09.15.37:133][  0]LogSlate: Took 0.006334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.20-09.15.37:149][  0]LogSlate: Took 0.007203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.20-09.15.37:480][  0]LogRenderer: Reallocating scene render targets to support 900x492 Format 9 NumSamples 1 (Frame:1).
+[2017.08.20-09.15.38:940][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.08.20-09.15.38:940][  0]LogLoad: (Engine Initialization) Total time: 85.36 seconds
+[2017.08.20-09.15.38:940][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.20-09.15.38:941][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.20-09.15.39:014][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.20-09.15.39:090][  0]LogSlate: Took 0.007173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-09.15.39:152][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Summer-Vacation-Project/Content/' took 0.17s
+[2017.08.20-09.15.39:313][  3]LogAssetRegistry: Asset discovery search completed in 71.5292 seconds
+[2017.08.20-09.15.39:319][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.20-09.15.39:319][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000119 seconds (updated 0 objects)
+[2017.08.20-09.21.06:114][573]LogTemp: Repeating last play command: 시뮬레이트
+[2017.08.20-09.21.07:409][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GrassLands/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GrassLands/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main'
+[2017.08.20-09.21.07:410][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.20-09.21.07:422][573]PIE: New page: SIE 세션: Main (2017. 8. 21. 오전 3:21:07)
+[2017.08.20-09.21.07:423][573]LogPlayLevel: Creating play world package: /Game/GrassLands/Maps/UEDPIE_0_Main
+[2017.08.20-09.21.07:639][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.215645s)
+[2017.08.20-09.21.07:640][573]LogAIModule: Creating AISystem for world Main
+[2017.08.20-09.21.07:641][573]LogPlayLevel: PIE: World Init took: (0.002401s)
+[2017.08.20-09.21.07:643][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrassLands/Maps/Main.Main to /Game/GrassLands/Maps/UEDPIE_0_Main.Main (0.219979s)
+[2017.08.20-09.21.07:706][573]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.20-09.21.07:810][573]LogInit: FAudioDevice initialized.
+[2017.08.20-09.21.07:868][573]LogLoad: Game class is 'GameMode_C'
+[2017.08.20-09.21.07:934][573]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Grunt_6.CollisionCylinder' 
+[2017.08.20-09.21.07:937][573]LogWorld: Bringing World /Game/GrassLands/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.08.20-18.21.07
+[2017.08.20-09.21.07:980][573]LogWorld: Bringing up level for play took: 0.098629
+[2017.08.20-09.21.07:985][573]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.20-09.21.08:093][573]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.08.20-09.21.08:101][573]PIE: /Game/GrassLands/Maps/UEDPIE_0_Main 에 대한 에디터에서 플레이 시작 시간: 0.791
+[2017.08.20-09.21.08:121][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GrassLands/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GrassLands/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main'
+[2017.08.20-09.21.40:710][654]LogBlueprintUserMessages: [BP_WarriorDiablo2] 170.0
+[2017.08.20-09.21.41:760][697]LogBlueprintUserMessages: [BP_WarriorDiablo2] 140.0
+[2017.08.20-09.22.01:250][493]LogBlueprintUserMessages: [BP_WarriorDiablo2] 130.0
+[2017.08.20-09.22.02:301][538]LogBlueprintUserMessages: [BP_WarriorDiablo2] 120.0
+[2017.08.20-09.22.04:402][628]LogBlueprintUserMessages: [Giant_54] 100.0
+[2017.08.20-09.22.05:878][688]LogBlueprintUserMessages: [Giant_54] 50.0
+[2017.08.20-09.22.14:850][100]LogScript: Warning: BP_WarriorDiablo2_ExecuteUbergraph_Main_RefProperty 프로퍼티를 통해 BP_WarriorDiablo2 에 접근하려 하였으나, BP_WarriorDiablo2 는 킬 대기중입니다.
+	Main_C /Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Main_C_1
+	Function /Game/GrassLands/Maps/Main.Main_C:ExecuteUbergraph_Main:022A
+[2017.08.20-09.22.14:852][100]PIE: Error: 블루프린트 런타임 오류: BP_WarriorDiablo2_ExecuteUbergraph_Main_RefProperty 프로퍼티를 통해 BP_WarriorDiablo2 에 접근하려 하였으나, BP_WarriorDiablo2 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_Main' 노드: Enable Input 그래프: EventGraph 오브젝트: Main 설명: BP_WarriorDiablo2_ExecuteUbergraph_Main_RefProperty 프로퍼티를 통해 BP_WarriorDiablo2 에 접근하려 하였으나, BP_WarriorDiablo2 는 킬 대기중입니다.
+[2017.08.20-09.22.14:870][101]LogNet: Browse: /Game/GrassLands/Maps/Main
+[2017.08.20-09.22.14:876][101]LogLoad: LoadMap: /Game/GrassLands/Maps/Main
+[2017.08.20-09.22.14:949][101]Cmd: MEM
+[2017.08.20-09.22.14:989][101]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-09.22.14:989][101]LogMemory: Process Physical Memory: 2022.37 MB used, 2022.37 MB peak
+[2017.08.20-09.22.14:989][101]LogMemory: Process Virtual Memory: 1951.07 MB used, 1951.07 MB peak
+[2017.08.20-09.22.14:989][101]LogMemory: Physical Memory: 5282.46 MB used,  2768.73 MB free, 8051.20 MB total
+[2017.08.20-09.22.14:989][101]LogMemory: Virtual Memory: 2782.48 MB used,  2768.73 MB free, 134217728.00 MB total
+[2017.08.20-09.22.14:989][101]LogMemory: 
+[2017.08.20-09.22.14:989][101]Allocator Stats for TBB: (not implemented)
+[2017.08.20-09.22.14:990][101]LogPlayLevel: Creating play world package: /Game/GrassLands/Maps/UEDPIE_0_Main
+[2017.08.20-09.22.15:173][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182625s)
+[2017.08.20-09.22.15:174][101]LogAIModule: Creating AISystem for world Main
+[2017.08.20-09.22.15:174][101]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2017.08.20-09.22.15:175][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrassLands/Maps/Main.Main to /Game/GrassLands/Maps/UEDPIE_0_Main.Main (0.185253s)
+[2017.08.20-09.22.15:175][101]LogLoad: Game class is 'GameMode_C'
+[2017.08.20-09.22.15:219][101]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Grunt_6.CollisionCylinder' 
+[2017.08.20-09.22.15:223][101]LogWorld: Bringing World /Game/GrassLands/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.08.20-18.22.15
+[2017.08.20-09.22.15:240][101]LogWorld: Bringing up level for play took: 0.063451
+[2017.08.20-09.22.15:240][101]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.20-09.22.15:245][101]LogLoad: Took 0.369573 seconds to LoadMap(/Game/GrassLands/Maps/UEDPIE_0_Main)
+[2017.08.20-09.22.15:289][102]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087285 > MaxSimulationTimeStep (0.050) for 'Grunt5_322', movement 'Walking'
+[2017.08.20-09.22.18:996][262]LogScript: Warning: BP_WarriorDiablo2_ExecuteUbergraph_Main_RefProperty 프로퍼티를 통해 BP_WarriorDiablo2 에 접근하려 하였으나, BP_WarriorDiablo2 는 킬 대기중입니다.
+	Main_C /Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Main_C_1
+	Function /Game/GrassLands/Maps/Main.Main_C:ExecuteUbergraph_Main:022A
+[2017.08.20-09.22.18:996][262]PIE: Error: 블루프린트 런타임 오류: BP_WarriorDiablo2_ExecuteUbergraph_Main_RefProperty 프로퍼티를 통해 BP_WarriorDiablo2 에 접근하려 하였으나, BP_WarriorDiablo2 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_Main' 노드: Enable Input 그래프: EventGraph 오브젝트: Main 설명: BP_WarriorDiablo2_ExecuteUbergraph_Main_RefProperty 프로퍼티를 통해 BP_WarriorDiablo2 에 접근하려 하였으나, BP_WarriorDiablo2 는 킬 대기중입니다.
+[2017.08.20-09.22.19:023][263]LogNet: Browse: /Game/GrassLands/Maps/Main
+[2017.08.20-09.22.19:048][263]LogLoad: LoadMap: /Game/GrassLands/Maps/Main
+[2017.08.20-09.22.19:117][263]Cmd: MEM
+[2017.08.20-09.22.19:144][263]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-09.22.19:144][263]LogMemory: Process Physical Memory: 2085.07 MB used, 2085.24 MB peak
+[2017.08.20-09.22.19:144][263]LogMemory: Process Virtual Memory: 2014.19 MB used, 2020.34 MB peak
+[2017.08.20-09.22.19:144][263]LogMemory: Physical Memory: 5374.35 MB used,  2676.85 MB free, 8051.20 MB total
+[2017.08.20-09.22.19:144][263]LogMemory: Virtual Memory: 2854.56 MB used,  2676.85 MB free, 134217728.00 MB total
+[2017.08.20-09.22.19:144][263]LogMemory: 
+[2017.08.20-09.22.19:144][263]Allocator Stats for TBB: (not implemented)
+[2017.08.20-09.22.19:144][263]LogPlayLevel: Creating play world package: /Game/GrassLands/Maps/UEDPIE_0_Main
+[2017.08.20-09.22.19:320][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176179s)
+[2017.08.20-09.22.19:321][263]LogAIModule: Creating AISystem for world Main
+[2017.08.20-09.22.19:321][263]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2017.08.20-09.22.19:322][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrassLands/Maps/Main.Main to /Game/GrassLands/Maps/UEDPIE_0_Main.Main (0.178882s)
+[2017.08.20-09.22.19:322][263]LogLoad: Game class is 'GameMode_C'
+[2017.08.20-09.22.19:376][263]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Grunt_6.CollisionCylinder' 
+[2017.08.20-09.22.19:379][263]LogWorld: Bringing World /Game/GrassLands/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.08.20-18.22.19
+[2017.08.20-09.22.19:394][263]LogWorld: Bringing up level for play took: 0.070310
+[2017.08.20-09.22.19:395][263]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.20-09.22.19:399][263]LogLoad: Took 0.350337 seconds to LoadMap(/Game/GrassLands/Maps/UEDPIE_0_Main)
+[2017.08.20-09.22.19:439][264]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093025 > MaxSimulationTimeStep (0.050) for 'Grunt5_322', movement 'Walking'
+[2017.08.20-09.22.29:849][759]LogBlueprintUserMessages: [Grunt4_194] Enemy Is Dead
+[2017.08.20-09.22.31:383][832]LogBlueprintUserMessages: [Grunt3_146] Enemy Is Dead
+[2017.08.20-09.22.33:263][922]LogBlueprintUserMessages: [Grunt2_59] Enemy Is Dead
+[2017.08.20-09.22.50:723][694]LogBlueprintUserMessages: [Giant_54] 100.0
+[2017.08.20-09.22.53:062][793]LogBlueprintUserMessages: [Giant_54] 50.0
+[2017.08.20-09.23.00:097][ 91]LogCharacterMovement: BP_WarriorDiablo2 is stuck and failed to move! Velocity: X=-141.54 Y=43.71 Z=0.00 Location: X=85.61 Y=3820.75 Z=7592.30 Normal: X=-0.91 Y=-0.42 Z=0.02 PenetrationDepth:1.313 Actor:SM_Plains_LargeRock152 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.08.20-09.23.03:287][238]LogNet: Browse: /Game/GrassLands/Maps/Main
+[2017.08.20-09.23.03:290][238]LogLoad: LoadMap: /Game/GrassLands/Maps/Main
+[2017.08.20-09.23.03:368][238]Cmd: MEM
+[2017.08.20-09.23.03:423][238]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-09.23.03:423][238]LogMemory: Process Physical Memory: 2032.11 MB used, 2097.62 MB peak
+[2017.08.20-09.23.03:423][238]LogMemory: Process Virtual Memory: 1955.38 MB used, 2026.99 MB peak
+[2017.08.20-09.23.03:423][238]LogMemory: Physical Memory: 5298.75 MB used,  2752.45 MB free, 8051.20 MB total
+[2017.08.20-09.23.03:423][238]LogMemory: Virtual Memory: 2814.48 MB used,  2752.45 MB free, 134217728.00 MB total
+[2017.08.20-09.23.03:423][238]LogMemory: 
+[2017.08.20-09.23.03:423][238]Allocator Stats for TBB: (not implemented)
+[2017.08.20-09.23.03:423][238]LogPlayLevel: Creating play world package: /Game/GrassLands/Maps/UEDPIE_0_Main
+[2017.08.20-09.23.03:628][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.204791s)
+[2017.08.20-09.23.03:629][238]LogAIModule: Creating AISystem for world Main
+[2017.08.20-09.23.03:629][238]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2017.08.20-09.23.03:631][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrassLands/Maps/Main.Main to /Game/GrassLands/Maps/UEDPIE_0_Main.Main (0.207104s)
+[2017.08.20-09.23.03:631][238]LogLoad: Game class is 'GameMode_C'
+[2017.08.20-09.23.03:684][238]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Grunt_6.CollisionCylinder' 
+[2017.08.20-09.23.03:688][238]LogWorld: Bringing World /Game/GrassLands/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.08.20-18.23.03
+[2017.08.20-09.23.03:706][238]LogWorld: Bringing up level for play took: 0.074485
+[2017.08.20-09.23.03:706][238]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.20-09.23.03:710][238]LogLoad: Took 0.420740 seconds to LoadMap(/Game/GrassLands/Maps/UEDPIE_0_Main)
+[2017.08.20-09.23.03:758][239]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090474 > MaxSimulationTimeStep (0.050) for 'Grunt5_322', movement 'Walking'
+[2017.08.20-09.23.13:192][648]LogBlueprintUserMessages: [BP_WarriorDiablo2] 170.0
+[2017.08.20-09.23.13:742][671]LogBlueprintUserMessages: [BP_WarriorDiablo2] 140.0
+[2017.08.20-09.23.14:057][684]LogBlueprintUserMessages: [BP_WarriorDiablo2] 110.0
+[2017.08.20-09.23.14:320][695]LogBlueprintUserMessages: [BP_WarriorDiablo2] 80.0
+[2017.08.20-09.23.14:705][711]LogBlueprintUserMessages: [BP_WarriorDiablo2] 50.0
+[2017.08.20-09.23.15:381][741]LogBlueprintUserMessages: [BP_WarriorDiablo2] 20.0
+[2017.08.20-09.23.19:448][913]LogNet: Browse: /Game/GrassLands/Maps/Main
+[2017.08.20-09.23.19:453][913]LogLoad: LoadMap: /Game/GrassLands/Maps/Main
+[2017.08.20-09.23.19:560][913]Cmd: MEM
+[2017.08.20-09.23.19:596][913]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-09.23.19:596][913]LogMemory: Process Physical Memory: 2016.28 MB used, 2097.62 MB peak
+[2017.08.20-09.23.19:596][913]LogMemory: Process Virtual Memory: 1945.54 MB used, 2026.99 MB peak
+[2017.08.20-09.23.19:596][913]LogMemory: Physical Memory: 5298.94 MB used,  2752.26 MB free, 8051.20 MB total
+[2017.08.20-09.23.19:596][913]LogMemory: Virtual Memory: 2818.44 MB used,  2752.26 MB free, 134217728.00 MB total
+[2017.08.20-09.23.19:596][913]LogMemory: 
+[2017.08.20-09.23.19:596][913]Allocator Stats for TBB: (not implemented)
+[2017.08.20-09.23.19:596][913]LogPlayLevel: Creating play world package: /Game/GrassLands/Maps/UEDPIE_0_Main
+[2017.08.20-09.23.19:843][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.246887s)
+[2017.08.20-09.23.19:844][913]LogAIModule: Creating AISystem for world Main
+[2017.08.20-09.23.19:844][913]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2017.08.20-09.23.19:846][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GrassLands/Maps/Main.Main to /Game/GrassLands/Maps/UEDPIE_0_Main.Main (0.249648s)
+[2017.08.20-09.23.19:846][913]LogLoad: Game class is 'GameMode_C'
+[2017.08.20-09.23.19:908][913]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/GrassLands/Maps/UEDPIE_0_Main.Main:PersistentLevel.Grunt_6.CollisionCylinder' 
+[2017.08.20-09.23.19:913][913]LogWorld: Bringing World /Game/GrassLands/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.08.20-18.23.19
+[2017.08.20-09.23.19:932][913]LogWorld: Bringing up level for play took: 0.084612
+[2017.08.20-09.23.19:933][913]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.20-09.23.19:937][913]LogLoad: Took 0.483731 seconds to LoadMap(/Game/GrassLands/Maps/UEDPIE_0_Main)
+[2017.08.20-09.23.19:994][914]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090653 > MaxSimulationTimeStep (0.050) for 'Grunt5_322', movement 'Walking'
+[2017.08.20-09.23.20:392][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GrassLands/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GrassLands/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main'
+[2017.08.20-09.23.20:454][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GrassLands/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/GrassLands/Maps/Main.Main_C' with ClassGeneratedBy '/Game/GrassLands/Maps/Main.Main:PersistentLevel.Main'
+[2017.08.20-09.23.47:761][554]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.20-09.23.48:262][555]Cmd: QUIT_EDITOR
+[2017.08.20-09.23.49:176][555]LogExit: Preparing to exit.
+[2017.08.20-09.23.50:226][555]LogExit: Editor shut down
+[2017.08.20-09.23.50:233][555]LogExit: Transaction tracking system shut down
+[2017.08.20-09.23.53:427][555]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.20-09.23.53:428][555]LogDirectoryWatcher: A directory notification for 'E:/Summer-Vacation-Project/Content/' was aborted.
+[2017.08.20-09.23.53:428][555]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.20-09.23.53:428][555]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.08.20-09.23.53:428][555]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.08.20-09.23.53:601][555]LogExit: Object subsystem successfully closed.
+[2017.08.20-09.23.53:633][555]LogD3D11RHI: Shutdown
+[2017.08.20-09.23.53:633][555]LogD3D11RHI: CleanupD3DDevice
+[2017.08.20-09.23.54:018][555]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.20-09.23.54:075][555]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.20-09.23.54:075][555]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.08.20-09.23.54:075][555]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.08.20-09.23.54:076][555]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.08.20-09.23.54:076][555]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.08.20-09.23.54:078][555]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.08.20-09.23.54:078][555]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.08.20-09.23.54:078][555]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.08.20-09.23.54:079][555]LogDirectoryWatcher: A directory notification for 'E:/Summer-Vacation-Project/Content/Collections/' was aborted.
+[2017.08.20-09.23.54:079][555]LogDirectoryWatcher: A directory notification for 'E:/Summer-Vacation-Project/Content/Developers/tlstk/Collections/' was aborted.
+[2017.08.20-09.23.54:079][555]LogDirectoryWatcher: A directory notification for 'E:/Summer-Vacation-Project/Saved/Collections/' was aborted.
+[2017.08.20-09.23.54:079][555]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.08.20-09.23.54:080][555]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.08.20-09.23.54:080][555]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.08.20-09.23.54:081][555]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.08.20-09.23.54:081][555]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.08.20-09.23.54:081][555]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.08.20-09.23.54:081][555]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.08.20-09.23.54:082][555]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.08.20-09.23.54:082][555]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.08.20-09.23.54:082][555]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.08.20-09.23.54:082][555]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.08.20-09.23.54:082][555]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.08.20-09.23.54:082][555]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.08.20-09.23.54:083][555]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.08.20-09.23.54:083][555]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.08.20-09.23.54:085][555]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.08.20-09.23.54:086][555]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.08.20-09.23.54:088][555]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.08.20-09.23.54:089][555]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.08.20-09.23.54:091][555]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.08.20-09.23.54:092][555]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.08.20-09.23.54:092][555]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.08.20-09.23.54:092][555]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.08.20-09.23.54:092][555]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.08.20-09.23.54:390][555]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.08.20-09.23.54:390][555]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.08.20-09.23.54:390][555]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.08.20-09.23.54:390][555]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.08.20-09.23.54:391][555]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.08.20-09.23.54:392][555]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.08.20-09.23.54:392][555]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.08.20-09.23.54:393][555]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.08.20-09.23.54:393][555]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.08.20-09.23.54:393][555]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.08.20-09.23.54:394][555]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.08.20-09.23.54:394][555]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.08.20-09.23.54:395][555]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.08.20-09.23.54:396][555]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.08.20-09.23.54:397][555]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.08.20-09.23.54:397][555]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.08.20-09.23.54:397][555]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.08.20-09.23.54:398][555]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.08.20-09.23.54:452][555]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.08.20-09.23.54:455][555]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.08.20-09.23.54:457][555]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.08.20-09.23.54:460][555]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.08.20-09.23.54:460][555]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.08.20-09.23.54:462][555]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.08.20-09.23.54:463][555]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.08.20-09.23.54:465][555]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.08.20-09.23.54:465][555]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.08.20-09.23.54:466][555]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.08.20-09.23.54:470][555]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.08.20-09.23.54:470][555]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.08.20-09.23.54:470][555]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.08.20-09.23.54:470][555]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.08.20-09.23.54:473][555]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.08.20-09.23.54:473][555]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.08.20-09.23.54:474][555]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.08.20-09.23.54:474][555]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.08.20-09.23.54:474][555]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.08.20-09.23.54:474][555]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.08.20-09.23.54:474][555]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.08.20-09.23.54:477][555]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.08.20-09.23.54:478][555]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.08.20-09.23.54:529][555]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.08.20-09.23.54:530][555]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.08.20-09.23.54:534][555]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.08.20-09.23.54:538][555]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.08.20-09.23.54:539][555]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.08.20-09.23.54:539][555]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.08.20-09.23.54:540][555]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.08.20-09.23.54:540][555]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.08.20-09.23.54:541][555]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.08.20-09.23.54:543][555]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.08.20-09.23.54:544][555]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.08.20-09.23.54:545][555]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.08.20-09.23.54:545][555]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.08.20-09.23.54:545][555]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.08.20-09.23.54:545][555]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.08.20-09.23.54:546][555]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.08.20-09.23.54:547][555]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.08.20-09.23.54:548][555]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.08.20-09.23.54:549][555]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.08.20-09.23.54:549][555]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.08.20-09.23.54:550][555]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.08.20-09.23.54:552][555]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.08.20-09.23.54:653][555]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.08.20-09.23.54:755][555]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.08.20-09.23.54:756][555]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.08.20-09.23.54:756][555]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.08.20-09.23.54:756][555]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.08.20-09.23.54:758][555]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.08.20-09.23.54:760][555]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.08.20-09.23.54:761][555]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.08.20-09.23.54:761][555]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.08.20-09.23.54:762][555]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.08.20-09.23.54:762][555]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.08.20-09.23.54:762][555]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.08.20-09.23.54:762][555]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.08.20-09.23.54:762][555]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.08.20-09.23.54:763][555]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.08.20-09.23.54:763][555]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.08.20-09.23.54:763][555]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.08.20-09.23.54:763][555]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.08.20-09.23.54:764][555]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.08.20-09.23.54:764][555]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.08.20-09.23.54:764][555]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.08.20-09.23.54:766][555]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.08.20-09.23.54:766][555]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.08.20-09.23.54:767][555]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.08.20-09.23.54:767][555]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.08.20-09.23.54:767][555]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.08.20-09.23.54:768][555]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.08.20-09.23.54:769][555]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.08.20-09.23.54:769][555]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.08.20-09.23.54:771][555]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.08.20-09.23.54:771][555]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.08.20-09.23.54:774][555]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.08.20-09.23.54:775][555]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.08.20-09.23.54:775][555]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.08.20-09.23.54:775][555]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.08.20-09.23.54:776][555]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.08.20-09.23.54:776][555]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.08.20-09.23.54:776][555]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.08.20-09.23.54:776][555]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.08.20-09.23.54:777][555]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.20-09.23.54:798][555]LogDerivedDataCache: Shutdown
+[2017.08.20-09.23.54:798][555]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.20-09.23.54:798][555]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.20-09.23.54:799][555]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.20-09.23.54:799][555]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.20-09.23.54:800][555]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.20-09.23.54:800][555]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.20-09.23.54:801][555]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.20-09.23.54:802][555]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.20-09.23.54:802][555]LogOnline: Display: Unloading online subsystem: NULL
+[2017.08.20-09.23.54:803][555]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.20-09.23.54:804][555]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.20-09.23.54:804][555]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.20-09.23.54:805][555]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4BD6B5F6-4658-BD34-A98C-61BCCC7EDF69%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=d819205c49ccdc5218c8c7b1cdb622cb%7Ce9abd0643c81437cbe0d3af0070a4d48%7C910f5fb1-90c2-4aef-bf25-dd1613a7efe4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.20-09.23.54:810][555]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.20-09.23.54:812][555]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.08.20-09.23.54:813][555]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.08.20-09.23.54:813][555]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.08.20-09.23.54:814][555]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.08.20-09.23.54:814][555]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.08.20-09.23.54:814][555]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.08.20-09.23.54:814][555]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.08.20-09.23.54:817][555]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.20-09.23.54:818][555]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.20-09.23.54:821][555]LogExit: Exiting.
+[2017.08.20-09.23.56:132][555]Log file closed, 08/20/17 18:23:56

@@ -1,0 +1,496 @@
+﻿Log file open, 08/11/17 22:56:52
+LogInit:Display: Running engine for game: RPG
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1566985182) SRandInit(1566985182).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.101080
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.11-13.56.54:226][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-13.56.54:226][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.11-13.56.54:348][  0]LogInit: Computer: DESKTOP-RNSDQO3
+[2017.08.11-13.56.54:348][  0]LogInit: User: tlstk
+[2017.08.11-13.56.54:348][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.11-13.56.54:348][  0]LogInit: High frequency timer resolution =2.648439 MHz
+[2017.08.11-13.56.54:348][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.11-13.56.54:348][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-13.56.54:348][  0]LogMemory: Process Physical Memory: 272.73 MB used, 272.73 MB peak
+[2017.08.11-13.56.54:348][  0]LogMemory: Process Virtual Memory: 266.29 MB used, 266.29 MB peak
+[2017.08.11-13.56.54:348][  0]LogMemory: Physical Memory: 3410.68 MB used,  4640.52 MB free, 8051.20 MB total
+[2017.08.11-13.56.54:348][  0]LogMemory: Virtual Memory: 641.68 MB used,  4640.52 MB free, 134217728.00 MB total
+[2017.08.11-13.56.54:534][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.11-13.56.54:534][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.11-13.56.54:543][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.11-13.56.55:887][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.11-13.56.55:897][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.11-13.56.55:897][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.11-13.56.55:899][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.11-13.56.55:899][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.11-13.56.55:899][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.11-13.56.55:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.11-13.56.55:907][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.11-13.56.55:907][  0]LogWindows: EnumDisplayDevices:
+[2017.08.11-13.56.55:908][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.11-13.56.55:910][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.11-13.56.55:912][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.11-13.56.55:913][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.11-13.56.55:913][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.11-13.56.55:913][  0]LogD3D11RHI:   Driver Version: 21.20.16.4534 (internal:21.20.16.4534, unified:21.20.16.4534)
+[2017.08.11-13.56.55:913][  0]LogD3D11RHI:      Driver Date: 10-7-2016
+[2017.08.11-13.56.55:913][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.11-13.56.55:921][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.11-13.56.55:931][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.11-13.56.55:932][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Intermediate/Shaders/WorkingDirectory/7920/).
+[2017.08.11-13.56.55:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tlstk/AppData/Local/Temp/UnrealShaderWorkingDir/FD58D67848722DB75E85E4B317E61843/'.
+[2017.08.11-13.56.55:932][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.11-13.56.57:233][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.11-13.56.57:292][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.11-13.56.57:352][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.11-13.56.57:415][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.11-13.56.57:478][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.11-13.56.57:556][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.11-13.56.57:617][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.11-13.56.57:683][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.11-13.56.57:767][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.11-13.56.57:831][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.11-13.56.57:893][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.11-13.56.57:952][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.11-13.56.58:019][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.11-13.56.58:093][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.11-13.56.58:153][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.11-13.56.58:271][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.11-13.56.58:271][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.11-13.56.58:321][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.11-13.56.58:448][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.11-13.56.58:487][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.11-13.56.58:560][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.11-13.56.58:626][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.11-13.56.58:697][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.11-13.56.58:763][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.11-13.56.58:763][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.11-13.56.59:376][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.11-13.56.59:504][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-13.56.59:504][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.11-13.56.59:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.11-13.56.59:505][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.11-13.56.59:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.11-13.56.59:505][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.11-13.56.59:525][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.11-13.56.59:537][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tlstk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.11-13.56.59:551][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.11-13.56.59:551][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.11-13.56.59:552][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-13.56.59:552][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-13.56.59:919][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-13.57.00:015][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.11-13.57.00:214][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.11-13.57.00:277][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.11-13.57.00:360][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.11-13.57.00:360][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.11-13.57.00:360][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.11-13.57.01:191][  0]LogNetVersion: RPG , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2515200283)
+[2017.08.11-13.57.01:270][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.08.11-13.57.01:372][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.061703 seconds
+[2017.08.11-13.57.01:382][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.11-13.57.01:382][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.11-13.57.01:382][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.11-13.57.01:477][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.11-13.57.04:683][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.11-13.57.04:728][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.11-13.57.05:368][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.11-13.57.05:860][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.11-13.57.05:911][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.11-13.57.05:969][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.11-13.57.06:026][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.11-13.57.06:366][  0]LogLinker:Warning: '/Game/FirstPersonBP/FirstPersonOverview' 파일을 찾을 수 없습니다.
+[2017.08.11-13.57.06:366][  0]LogLinker:Warning: '/Game/FirstPersonBP/FirstPersonOverview' 파일을 찾을 수 없습니다.
+[2017.08.11-13.57.06:366][  0]LogUObjectGlobals:Warning: 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.11-13.57.06:881][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.11-13.57.07:611][  0]LogEngine: Initializing Engine...
+[2017.08.11-13.57.07:612][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.11-13.57.07:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.11-13.57.07:851][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.11-13.57.08:035][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.11-13.57.08:062][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-13.57.08:148][  0]LogInit: FAudioDevice initialized.
+[2017.08.11-13.57.08:220][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-13.57.08:247][  0]LogInit: Texture streaming: Enabled
+[2017.08.11-13.57.08:379][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.11-13.57.08:736][  0]LogInit: Transaction tracking system initialized
+[2017.08.11-13.57.09:214][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.11-13.57.10:755][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.11-13.57.12:462][  0]LogConsoleResponse:Display: 
+[2017.08.11-13.57.12:654][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.11-13.57.12:654][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.11-13.57.13:131][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/' took 0.02s
+[2017.08.11-13.57.14:110][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.11-13.57.14:110][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-13.57.14:111][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.11-13.57.14:171][  0]MapCheck: New page: 맵 체크
+[2017.08.11-13.57.14:171][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.11-13.57.14:978][  0]LogAIModule: Creating AISystem for world Real
+[2017.08.11-13.57.14:986][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-13.57.15:043][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-13.57.15:154][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 110.372ms.
+[2017.08.11-13.57.15:154][  0]LogFileHelpers: Loading map 'Real' took 1.044
+[2017.08.11-13.57.15:470][  0]LogCollectionManager: Loaded 0 collections in 0.002415 seconds
+[2017.08.11-13.57.15:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Collections/' took 0.02s
+[2017.08.11-13.57.15:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Developers/tlstk/Collections/' took 0.01s
+[2017.08.11-13.57.15:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Collections/' took 0.01s
+[2017.08.11-13.57.15:640][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.08.11-13.57.15:667][  0]LogContentBrowser: Native class hierarchy populated in 0.0273 seconds. Added 2329 classes and 491 folders.
+[2017.08.11-13.57.15:823][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.08.11-13.57.15:906][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.11-13.57.16:013][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.11-13.57.16:246][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.11-13.57.16:252][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-13.57.16:257][  0]LogSlate: Took 0.003936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.11-13.57.16:260][  0]LogSlate: Took 0.000810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-13.57.16:265][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-13.57.16:391][  0]LogRenderer: Reallocating scene render targets to support 852x492 NumSamples 1 (Frame:1).
+[2017.08.11-13.57.16:813][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.11-13.57.16:902][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.11-13.57.16:902][  0]LogLoad: (Engine Initialization) Total time: 25.54 seconds
+[2017.08.11-13.57.16:902][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.08.11-13.57.16:902][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.11-13.57.17:242][  0]LogOcInput: OculusInput pre-init called
+[2017.08.11-13.57.17:242][  0]LogHMD: Starting GearVRController plugin
+[2017.08.11-13.57.17:260][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.11-13.57.17:292][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-13.57.17:910][  2]LogAssetRegistry: Asset discovery search completed in 16.6612 seconds
+[2017.08.11-13.57.17:912][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.11-13.57.17:912][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2017.08.11-13.57.18:251][  3]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.14.02:311][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn)
+[2017.08.11-14.14.03:882][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn)
+[2017.08.11-14.14.06:810][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn)
+[2017.08.11-14.14.07:419][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.14.48:478][590]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.14.51:499][756]Cmd: PIVOT HERE
+[2017.08.11-14.14.54:386][915]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.14.56:128][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.18:479][636]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.15.18:589][636]LogSavePackage: Save=51.30ms
+[2017.08.11-14.15.18:589][636]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_Auto1DF4B201643F0A52879847C81C048E148.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto1.umap'
+[2017.08.11-14.15.18:591][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto1.umap
+[2017.08.11-14.15.18:598][636]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Real' took 0.097
+[2017.08.11-14.15.18:598][636]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2017.08.11-14.15.32:409][ 40]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.34:455][146]Cmd: PIVOT HERE
+[2017.08.11-14.15.35:754][211]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.36:529][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.38:686][376]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.40:644][478]Cmd: PIVOT HERE
+[2017.08.11-14.15.42:702][593]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.44:236][668]Cmd: PIVOT HERE
+[2017.08.11-14.15.45:495][732]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.47:535][840]Cmd: PIVOT HERE
+[2017.08.11-14.15.49:112][922]LogEditorViewport: Clicking Background
+[2017.08.11-14.15.49:635][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.55:552][294]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.15.57:587][383]Cmd: PIVOT HERE
+[2017.08.11-14.16.04:671][775]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.06:520][870]Cmd: PIVOT HERE
+[2017.08.11-14.16.07:845][935]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.10:502][ 74]Cmd: PIVOT HERE
+[2017.08.11-14.16.11:872][140]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.12:554][177]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.13:287][218]LogEditorViewport: Clicking Background
+[2017.08.11-14.16.14:063][263]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.15:810][348]Cmd: PIVOT HERE
+[2017.08.11-14.16.17:774][446]LogEditorViewport: Clicking Background
+[2017.08.11-14.16.18:725][499]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.20:371][574]Cmd: PIVOT HERE
+[2017.08.11-14.16.22:611][684]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.16.24:162][757]Cmd: PIVOT HERE
+[2017.08.11-14.16.37:559][157]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.16.37:638][157]LogStaticMesh: Built static mesh [0.08s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.16.50:699][856]LogEditorViewport: Clicking Background
+[2017.08.11-14.17.18:486][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.17.32:775][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.17.33:726][918]Cmd: DELETE
+[2017.08.11-14.17.33:726][918]Cmd: ACTOR DELETE
+[2017.08.11-14.17.33:728][918]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.11-14.17.33:752][918]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.08.11-14.17.36:151][ 57]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_MergedFloorsHuge)
+[2017.08.11-14.17.37:559][115]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.17.39:375][191]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.17.40:442][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.17.55:532][958]LogEditorViewport: Clicking on Actor (context menu): AtmosphericFog (Atmospheric Fog)
+[2017.08.11-14.17.57:099][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.17.58:275][ 86]LogEditorViewport: Clicking on Actor (context menu): AtmosphericFog (Atmospheric Fog)
+[2017.08.11-14.18.01:838][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.02:986][326]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.06:516][501]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.11-14.18.10:480][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.11:482][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.12:428][779]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.18:248][ 78]Cmd: PIVOT HERE
+[2017.08.11-14.18.19:962][154]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.21:805][243]Cmd: PIVOT HERE
+[2017.08.11-14.18.28:027][555]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.30:699][689]Cmd: PIVOT HERE
+[2017.08.11-14.18.34:676][888]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.18.36:584][974]Cmd: PIVOT HERE
+[2017.08.11-14.18.46:394][273]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.18.46:464][273]LogStaticMesh: Built static mesh [0.07s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.19.33:077][948]LogRenderer: Reallocating scene render targets to support 1144x708 NumSamples 1 (Frame:1).
+[2017.08.11-14.20.05:202][538]Cmd: TRANSACTION UNDO
+[2017.08.11-14.20.05:202][538]LogEditorTransaction: Undo 액터 스케일을 설정합니다.
+[2017.08.11-14.20.12:014][669]Cmd: TRANSACTION UNDO
+[2017.08.11-14.20.12:014][669]LogEditorTransaction: Undo 액터 스케일을 설정합니다.
+[2017.08.11-14.20.13:058][669]Cmd: TRANSACTION UNDO
+[2017.08.11-14.20.13:058][669]LogEditorTransaction: Undo 액터 표시여부 설정
+[2017.08.11-14.20.14:532][669]Cmd: TRANSACTION UNDO
+[2017.08.11-14.20.14:532][669]LogEditorTransaction: Undo 액터 표시여부 설정
+[2017.08.11-14.20.19:746][733]LogSlate: Took 0.026657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-14.20.36:172][ 20]Cmd: TRANSACTION UNDO
+[2017.08.11-14.20.36:172][ 20]LogEditorTransaction: Undo 액터 이동
+[2017.08.11-14.20.39:618][ 20]Cmd: TRANSACTION UNDO
+[2017.08.11-14.20.39:618][ 20]LogEditorTransaction: Undo 액터 위치를 설정합니다.
+[2017.08.11-14.20.57:672][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.20.58:163][283]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.20.59:302][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.21.20:398][569]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.11-14.21.20:399][569]LogPhysics:Warning: ForeachShape(Convex): [/Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01] ScaledElem[0] invalid
+[2017.08.11-14.21.20:401][569]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.11-14.21.20:401][569]LogPhysics:Warning: ForeachShape(Convex): [/Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01] ScaledElem[0] invalid
+[2017.08.11-14.21.31:438][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.21.39:753][864]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.21.39:813][864]LogStaticMesh: Built static mesh [0.06s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.22.23:513][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.22.26:965][412]Cmd: TRANSACTION UNDO
+[2017.08.11-14.22.26:965][412]LogEditorTransaction: Undo 액터 이동
+[2017.08.11-14.23.07:322][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.23.20:734][733]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.25.19:325][895]LogSavePackage: Save=51.25ms
+[2017.08.11-14.25.19:325][895]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_Auto23FC56C3744E6D68250E2B2AED8ED61AF.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto2.umap'
+[2017.08.11-14.25.19:328][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto2.umap
+[2017.08.11-14.25.19:330][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Real' took 0.100
+[2017.08.11-14.25.19:330][895]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2017.08.11-14.26.44:119][277]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.26.46:285][362]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.26.47:404][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.27.00:601][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.27.38:341][325]LogEditorViewport: Clicking Background
+[2017.08.11-14.27.39:276][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.27.40:717][439]LogEditorViewport: Clicking Background
+[2017.08.11-14.27.41:587][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.27.44:272][598]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.27.46:913][731]Cmd: PIVOT HERE
+[2017.08.11-14.27.48:505][799]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.27.50:705][914]Cmd: PIVOT HERE
+[2017.08.11-14.28.02:271][257]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.28.02:341][257]LogStaticMesh: Built static mesh [0.07s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.28.46:840][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.28.57:729][588]Cmd: SELECT NONE
+[2017.08.11-14.29.01:953][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.29.13:486][  9]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.29.13:558][  9]LogStaticMesh: Built static mesh [0.07s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.29.46:787][147]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.29.47:939][184]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.29.48:477][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.29.49:338][235]Cmd: DELETE
+[2017.08.11-14.29.49:338][235]Cmd: ACTOR DELETE
+[2017.08.11-14.29.49:339][235]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.11-14.29.49:379][235]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2017.08.11-14.29.50:167][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2017.08.11-14.29.53:384][392]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.11-14.29.53:418][392]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2017.08.11-14.29.54:159][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2017.08.11-14.29.54:595][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_3)
+[2017.08.11-14.29.56:015][488]Cmd: DELETE
+[2017.08.11-14.29.56:015][488]Cmd: ACTOR DELETE
+[2017.08.11-14.29.56:018][488]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.11-14.29.56:063][488]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2017.08.11-14.29.56:563][504]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.29.57:074][523]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.30.17:293][124]Cmd: TRANSACTION UNDO
+[2017.08.11-14.30.17:294][124]LogEditorTransaction: Undo 액터 스케일을 설정합니다.
+[2017.08.11-14.30.29:475][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.30.43:556][986]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.30.45:747][ 68]Cmd: PIVOT HERE
+[2017.08.11-14.30.57:271][248]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.30.57:333][248]LogStaticMesh: Built static mesh [0.06s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.31.14:761][670]EditorErrors: New page: 액터 붙임
+[2017.08.11-14.31.37:697][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.31.52:162][930]Cmd: SELECT NONE
+[2017.08.11-14.32.13:089][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.32.30:414][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.32.38:317][659]Cmd: SELECT NONE
+[2017.08.11-14.32.56:507][344]LogActorFactory: Actor Factory created SM_MergedColumn
+[2017.08.11-14.32.57:815][394]LogActorFactory: Actor Factory created SM_MergedColumn
+[2017.08.11-14.33.07:340][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn)
+[2017.08.11-14.33.08:179][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.33.16:823][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn)
+[2017.08.11-14.33.18:285][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.33.23:514][257]Cmd: SELECT NONE
+[2017.08.11-14.33.27:778][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn)
+[2017.08.11-14.33.29:432][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.33.36:330][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.34.13:724][977]LogEditorViewport: Clicking Background
+[2017.08.11-14.34.16:190][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.34.19:658][252]LogEditorViewport: Clicking Background
+[2017.08.11-14.34.43:910][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.34.47:255][635]LogEditorViewport: Clicking Background
+[2017.08.11-14.35.03:109][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.35.08:465][624]LogEditorViewport: Clicking Background
+[2017.08.11-14.35.31:765][517]LogSavePackage: Save=113.08ms
+[2017.08.11-14.35.31:765][517]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/RealB0D272454A9674A8D5DDA09110517C6B.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.11-14.35.31:781][517]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.11-14.35.34:382][607]MapCheck: New page: 맵 체크
+[2017.08.11-14.35.34:416][607]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.11-14.35.34:417][607]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.11-14.35.34:761][607]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.11-14.35.34:790][607]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.08.11-14.35.34:807][607]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Floors_Block, compiling. 
+[2017.08.11-14.35.34:820][607]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars, compiling. 
+[2017.08.11-14.35.34:834][607]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_StoneWall, compiling. 
+[2017.08.11-14.35.36:108][607]TextureStreamingBuild:Display: Compiling optional shaders took 1.376 seconds.
+[2017.08.11-14.35.36:168][607]LogLevel:Display: Export Material TexCoord Scales took 0.060 seconds.
+[2017.08.11-14.35.36:174][607]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.08.11-14.35.36:199][607]LightingResults: New page: 라이팅 빌드 - 2017. 8. 12. 오전 8:35:36
+[2017.08.11-14.35.36:266][607]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.11-14.35.36:501][607]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.11-14.35.36:525][607]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.11-14.35.37:586][607]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.11-14.35.37:586][607]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7920
+[2017.08.11-14.35.40:885][607]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.11-14.35.40:886][607]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.11-14.35.40:886][607]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.11-14.35.40:886][607]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.11-14.35.40:886][607]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.11-14.35.40:886][607]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.11-14.35.41:197][607]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.11-14.35.41:197][607]MapCheck: New page: Real - 2017. 8. 12. 오전 8:35:41
+[2017.08.11-14.35.41:199][607]MapCheck:Error: 오류 WorldSettings_1 맵 라이팅을 리빌드해야 합니다. 
+[2017.08.11-14.35.41:270][607]MapCheck: 정보 맵 체크 완료: 오류 1 회, 경고 0 회, 소요 시간 72.521ms.
+[2017.08.11-14.35.41:292][607]LogEditorBuildUtils: Build time 0:06
+[2017.08.11-14.35.41:499][608]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_Pillars, compiling. 
+[2017.08.11-14.35.41:513][608]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_Pillars, compiling. 
+[2017.08.11-14.35.41:565][609]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_StoneWall, compiling. 
+[2017.08.11-14.35.41:572][609]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_StoneWall, compiling. 
+[2017.08.11-14.36.00:850][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.36.12:799][196]Cmd: SELECT NONE
+[2017.08.11-14.36.13:570][211]Job is a success!
+[2017.08.11-14.36.14:888][212]LogTexture:Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.11-14.36.14:888][212]LogTexture:Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.11-14.36.14:888][212]LogTexture:Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.11-14.36.14:888][212]LogTexture:Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.11-14.36.15:011][212]LogTexture:Display: 텍스처 빌드: ShadowMapTexture2D_0 (G8, 1024X256)
+[2017.08.11-14.36.15:011][212]LogTexture:Display: 텍스처 빌드: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.08.11-14.36.15:053][212]Lightmass on DESKTOP-RNSDQO3: 30.4 sec total, 1.35 sec importing, 457 ms setup, 7.61 sec photons, 21.0 sec processing, 0 ms extra exporting [5/5 mappings]. Threads: 1:23 min total, 41.5 sec processing.
+[2017.08.11-14.36.15:092][212]LogStaticLightingSystem: Illumination: 38.5 sec (893 ms encoding lightmaps, 116 ms encoding shadowmaps)
+[2017.08.11-14.36.15:092][212]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.11-14.36.15:092][212]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.11-14.36.15:923][212]DumpUnbuiltLightIteractions
+[2017.08.11-14.36.15:923][212]Lights with unbuilt interactions: 0
+[2017.08.11-14.36.15:923][212]
+[2017.08.11-14.36.15:923][212]Primitives with unbuilt interactions: 0
+[2017.08.11-14.36.15:928][213]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.11-14.36.15:928][213]MapCheck: New page: Real - 2017. 8. 12. 오전 8:36:15
+[2017.08.11-14.36.16:004][213]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 76.215ms.
+[2017.08.11-14.37.01:135][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.38.27:224][139]Cmd: SELECT NONE
+[2017.08.11-14.38.29:208][225]LogSavePackage: Save=47.09ms
+[2017.08.11-14.38.29:208][225]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real7C6DA5F143667EFA1ABD48A9202E09CF.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.11-14.38.29:214][225]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.11-14.38.29:306][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Real_BuiltData" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset" SILENT=true
+[2017.08.11-14.38.29:614][225]LogSavePackage: Save=305.10ms
+[2017.08.11-14.38.29:614][225]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_BuiltDataD145688A4ECF10F768EEC7BE88160B9C.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset'
+[2017.08.11-14.38.29:621][225]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset
+[2017.08.11-14.38.50:764][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.38.51:517][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.39.00:495][366]LogStaticMesh: SM_Plains_Wall_Straight_01 스태틱 메시 빌드중...
+[2017.08.11-14.39.00:554][366]LogStaticMesh: Built static mesh [0.06s] /Game/Lesson2/Ruins/SM_Plains_Wall_Straight_01.SM_Plains_Wall_Straight_01
+[2017.08.11-14.39.08:666][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.39.10:872][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MergedColumn2)
+[2017.08.11-14.39.12:143][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.39.13:438][800]Cmd: TRANSACTION UNDO
+[2017.08.11-14.39.13:438][800]LogEditorTransaction: Undo 액터 클릭
+[2017.08.11-14.39.14:157][821]Cmd: TRANSACTION UNDO
+[2017.08.11-14.39.14:157][821]LogEditorTransaction: Undo 액터 클릭
+[2017.08.11-14.39.14:644][835]Cmd: TRANSACTION UNDO
+[2017.08.11-14.39.14:644][835]LogEditorTransaction: Undo 액터 클릭
+[2017.08.11-14.39.15:239][857]Cmd: TRANSACTION UNDO
+[2017.08.11-14.39.15:239][857]LogEditorTransaction: Undo 액터 클릭
+[2017.08.11-14.39.15:671][873]Cmd: TRANSACTION UNDO
+[2017.08.11-14.39.15:671][873]LogEditorTransaction: Undo 액터 클릭
+[2017.08.11-14.39.18:786][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.39.26:137][277]Cmd: SELECT NONE
+[2017.08.11-14.39.28:747][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.39.32:634][511]Cmd: SELECT NONE
+[2017.08.11-14.39.33:467][548]Cmd: SELECT NONE
+[2017.08.11-14.39.34:586][589]LogSavePackage: Save=75.37ms
+[2017.08.11-14.39.34:586][589]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real99FCA71B4EF60F6F1EFC06AD3B2EB6F9.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.11-14.39.34:595][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.11-14.39.34:664][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Real_BuiltData" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset" SILENT=true
+[2017.08.11-14.39.35:154][589]LogSavePackage: Save=471.55ms
+[2017.08.11-14.39.35:154][589]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_BuiltDataBDF221734B0DB4B7F87FBEBABD63A0DC.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset'
+[2017.08.11-14.39.35:157][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset
+[2017.08.11-14.39.39:872][756]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.39.41:572][816]LogActorFactory: Actor Factory created SM_Plains_Wall_Straight_01
+[2017.08.11-14.39.56:629][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_2)
+[2017.08.11-14.39.57:583][376]Cmd: DELETE
+[2017.08.11-14.39.57:583][376]Cmd: ACTOR DELETE
+[2017.08.11-14.39.57:585][376]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.11-14.39.57:628][376]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.08.11-14.40.03:164][625]LogSavePackage: Save=52.92ms
+[2017.08.11-14.40.03:164][625]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real192B4F7A4F5221035B2E0A9DF3802D0B.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.11-14.40.03:171][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.11-14.40.03:224][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Real_BuiltData" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset" SILENT=true
+[2017.08.11-14.40.03:568][625]LogSavePackage: Save=337.32ms
+[2017.08.11-14.40.03:568][625]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_BuiltData868B9FB14EB7151A995E24A7C8FCA356.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset'
+[2017.08.11-14.40.03:570][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset
+[2017.08.11-14.40.53:904][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)
+[2017.08.11-14.41.22:495][746]LogStaticMesh: SM_MergedWall 스태틱 메시 빌드중...
+[2017.08.11-14.41.22:554][746]LogStaticMesh: Built static mesh [0.06s] /Game/Lesson2/Ruins/SM_MergedWall.SM_MergedWall
+[2017.08.11-14.41.27:233][891]LogActorFactory: Actor Factory created SM_MergedWall
+[2017.08.11-14.41.30:149][  8]LogActorFactory: Actor Factory created SM_MergedWall
+[2017.08.11-14.41.30:795][ 33]Cmd: TRANSACTION UNDO
+[2017.08.11-14.41.30:795][ 33]LogEditorTransaction: Undo 액터 생성
+[2017.08.11-14.41.56:420][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Wall_Straight_01)

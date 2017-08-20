@@ -1,0 +1,861 @@
+﻿Log file open, 08/15/17 22:07:43
+LogInit:Display: Running engine for game: RPG
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-675747763) SRandInit(-675747763).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.111649
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.15-13.07.44:398][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.15-13.07.44:398][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.15-13.07.44:416][  0]LogInit: Computer: DESKTOP-RNSDQO3
+[2017.08.15-13.07.44:416][  0]LogInit: User: tlstk
+[2017.08.15-13.07.44:416][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.15-13.07.44:416][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2017.08.15-13.07.44:416][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.15-13.07.44:416][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.15-13.07.44:416][  0]LogMemory: Process Physical Memory: 272.56 MB used, 272.56 MB peak
+[2017.08.15-13.07.44:416][  0]LogMemory: Process Virtual Memory: 258.34 MB used, 258.34 MB peak
+[2017.08.15-13.07.44:416][  0]LogMemory: Physical Memory: 3297.96 MB used,  4753.24 MB free, 8051.20 MB total
+[2017.08.15-13.07.44:416][  0]LogMemory: Virtual Memory: 633.70 MB used,  4753.24 MB free, 134217728.00 MB total
+[2017.08.15-13.07.44:502][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.15-13.07.44:502][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.15-13.07.44:505][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.15-13.07.45:492][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.15-13.07.45:501][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.15-13.07.45:501][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.15-13.07.45:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.15-13.07.45:503][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.15-13.07.45:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.15-13.07.45:508][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.15-13.07.45:508][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.15-13.07.45:508][  0]LogWindows: EnumDisplayDevices:
+[2017.08.15-13.07.45:508][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.15-13.07.45:509][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.15-13.07.45:510][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.15-13.07.45:511][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.15-13.07.45:511][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.15-13.07.45:511][  0]LogD3D11RHI:   Driver Version: 21.20.16.4534 (internal:21.20.16.4534, unified:21.20.16.4534)
+[2017.08.15-13.07.45:511][  0]LogD3D11RHI:      Driver Date: 10-7-2016
+[2017.08.15-13.07.45:511][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.15-13.07.45:519][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.15-13.07.45:526][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.15-13.07.45:527][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Intermediate/Shaders/WorkingDirectory/10612/).
+[2017.08.15-13.07.45:527][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tlstk/AppData/Local/Temp/UnrealShaderWorkingDir/A8A248C741FB1A250E1331AE4046EBBD/'.
+[2017.08.15-13.07.45:527][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.15-13.07.46:724][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.15-13.07.46:785][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.15-13.07.46:847][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.15-13.07.46:919][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.15-13.07.47:014][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.15-13.07.47:084][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.15-13.07.47:147][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.15-13.07.47:207][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.15-13.07.47:260][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.15-13.07.47:321][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.15-13.07.47:381][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.15-13.07.47:451][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.15-13.07.47:515][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.15-13.07.47:579][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.15-13.07.47:642][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.15-13.07.47:784][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.15-13.07.47:784][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.15-13.07.47:834][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.15-13.07.47:972][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.15-13.07.48:020][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.15-13.07.48:078][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.15-13.07.48:135][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.15-13.07.48:193][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.15-13.07.48:268][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.15-13.07.48:268][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.15-13.07.48:884][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.15-13.07.49:001][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.15-13.07.49:001][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.15-13.07.49:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.15-13.07.49:001][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.15-13.07.49:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.15-13.07.49:001][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.15-13.07.49:017][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.15-13.07.49:030][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tlstk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.15-13.07.49:051][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.15-13.07.49:051][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.15-13.07.49:052][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.15-13.07.49:052][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.15-13.07.49:396][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.15-13.07.49:494][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.15-13.07.49:667][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.15-13.07.49:738][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.15-13.07.49:807][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.15-13.07.49:807][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.15-13.07.49:807][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.15-13.07.50:481][  0]LogNetVersion: RPG , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2515200283)
+[2017.08.15-13.07.50:553][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.08.15-13.07.50:639][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.051191 seconds
+[2017.08.15-13.07.50:646][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.15-13.07.50:646][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.15-13.07.50:646][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.15-13.07.50:726][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.15-13.07.53:789][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.15-13.07.53:838][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.15-13.07.54:469][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.15-13.07.54:940][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.15-13.07.54:988][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.15-13.07.55:046][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.15-13.07.55:103][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.15-13.07.55:934][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.15-13.07.56:631][  0]LogEngine: Initializing Engine...
+[2017.08.15-13.07.56:632][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.15-13.07.56:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.15-13.07.56:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.15-13.07.57:052][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.15-13.07.57:074][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-13.07.57:210][  0]LogInit: FAudioDevice initialized.
+[2017.08.15-13.07.57:269][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.15-13.07.57:290][  0]LogInit: Texture streaming: Enabled
+[2017.08.15-13.07.57:412][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.15-13.07.57:680][  0]LogInit: Transaction tracking system initialized
+[2017.08.15-13.07.58:062][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.15-13.07.59:220][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.15-13.08.00:317][  0]LogConsoleResponse:Display: 
+[2017.08.15-13.08.00:488][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.15-13.08.00:488][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.15-13.08.01:682][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/' took 0.05s
+[2017.08.15-13.08.01:738][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.15-13.08.01:738][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.15-13.08.01:738][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeGrassLands/Maps/ElvenRuins.umap'
+[2017.08.15-13.08.01:738][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.15-13.08.01:796][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57.996ms.
+[2017.08.15-13.08.01:796][  0]LogFileHelpers: Loading map 'ElvenRuins' took 0.058
+[2017.08.15-13.08.01:881][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.15-13.08.01:981][  0]LogCollectionManager: Loaded 0 collections in 0.001366 seconds
+[2017.08.15-13.08.02:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Collections/' took 0.01s
+[2017.08.15-13.08.02:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Developers/tlstk/Collections/' took 0.01s
+[2017.08.15-13.08.02:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Collections/' took 0.01s
+[2017.08.15-13.08.02:087][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.15-13.08.02:096][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2017.08.15-13.08.02:176][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.15-13.08.02:217][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.15-13.08.02:272][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.15-13.08.02:371][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.15-13.08.02:376][  0]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.15-13.08.02:380][  0]LogSlate: Took 0.003937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.15-13.08.02:381][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.15-13.08.02:385][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.15-13.08.02:481][  0]LogRenderer: Reallocating scene render targets to support 916x456 NumSamples 1 (Frame:1).
+[2017.08.15-13.08.02:857][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.15-13.08.02:930][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.15-13.08.02:930][  0]LogLoad: (Engine Initialization) Total time: 20.61 seconds
+[2017.08.15-13.08.02:930][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.08.15-13.08.02:930][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.15-13.08.02:961][  0]LogOcInput: OculusInput pre-init called
+[2017.08.15-13.08.02:961][  0]LogHMD: Starting GearVRController plugin
+[2017.08.15-13.08.02:978][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.15-13.08.03:028][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.15-13.08.03:126][  3]LogAssetRegistry: Asset discovery search completed in 12.5956 seconds
+[2017.08.15-13.08.03:133][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.15-13.08.03:133][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.08.15-13.09.35:657][194]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.15-13.09.36:789][203]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPG
+[2017.08.15-13.09.36:789][203]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.15-13.09.36:789][203]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.15-13.09.36:789][203]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.15-13.09.36:817][204]LogTemp: BranchPath = DESKTOP-RNSDQO3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-RNSDQO3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.15-13.09.36:902][207]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tlstk\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.15-13.09.41:160][335]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.15-13.09.48:973][643]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.15-13.09.49:343][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:343][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy2/EnemyBT_Boss.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:343][643]LoadErrors:Error: 오류 /Game/BluePrint/Enemy2/EnemyBT_Boss : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB
+[2017.08.15-13.09.49:469][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:470][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy2/EnemyBT_Boss.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:597][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:597][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/Enemy_Spider.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:598][643]LoadErrors:Error: 오류 /Game/BluePrint/Enemy3/Enemy_Spider : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController
+[2017.08.15-13.09.49:601][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:601][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/Enemy_Spider.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:604][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:604][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/SpiderAnimBlueprint.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:604][643]LoadErrors:Error: 오류 /Game/BluePrint/Enemy3/SpiderAnimBlueprint : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController
+[2017.08.15-13.09.49:604][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:604][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/SpiderAnimBlueprint.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:604][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.49:605][643]LoadErrors: 정보 로드에 실패했습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController.EnemyController_C 레퍼런싱한 것: Default__Enemy_Spider_C
+[2017.08.15-13.09.49:605][643]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/SpiderAnimBlueprint.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyController' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.50:039][643]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.15-13.09.50:542][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.50:542][643]LoadErrors: 정보 로드에 실패했습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB.EnemyBB 레퍼런싱한 것: EnemyBT_Boss
+[2017.08.15-13.09.50:542][643]LogLinker:Warning: NULL 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.50:543][643]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.50:543][643]LoadErrors: 정보 로드에 실패했습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB.EnemyBB 레퍼런싱한 것: BehaviorTreeGraphNode_Root_0
+[2017.08.15-13.09.50:543][643]LogLinker:Warning: NULL 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.09.51:442][643]LogAIModule: Creating AISystem for world Main
+[2017.08.15-13.09.51:769][643]Cmd: MAP LOAD FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeGrassLands/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.15-13.09.51:769][643]LightingResults: New page: 라이팅 빌드
+[2017.08.15-13.09.51:861][643]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2017.08.15-13.09.51:862][643]LoadErrors: New page: 맵 로드중: Main.umap
+[2017.08.15-13.09.51:863][643]MapCheck: New page: 맵 체크
+[2017.08.15-13.09.51:863][643]LightingResults: New page: 라이팅 빌드
+[2017.08.15-13.09.52:590][643]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.08.15-13.09.52:704][643]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.15-13.09.52:869][643]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 164.784ms.
+[2017.08.15-13.09.52:874][643]LogFileHelpers: Loading map 'Main' took 1.107
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:ExecuteUbergraph_Enemy' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:PawnSensing' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:MaxHP' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:CurrentHP' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:CurrentStatePawn' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy_C:State Key' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:886][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy:SetState.K2Node_FunctionEntry_30' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:State Key' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:CurrentStatePawn' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:CurrentHP' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:MaxHP' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:PawnSensing' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:ReceiveAnyDamage' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C:ExecuteUbergraph_Enemy' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:887][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Enemy.SKEL_Enemy_C' ref from Metadata '/Game/BluePrint/Enemy1/Enemy.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C:ExecuteUbergraph_EnemyController' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C:OnPossess' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C:Home Loc Key' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C:Idle Time Key' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController_C:Target Loc Key' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.EnemyController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C:Target Loc Key' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C:Idle Time Key' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C:Home Loc Key' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C:OnPossess' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C:ExecuteUbergraph_EnemyController' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:898][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyController.SKEL_EnemyController_C' ref from Metadata '/Game/BluePrint/Enemy1/EnemyController.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.AggroCheck_C' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.AggroCheck_C:PerformConditionCheck' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.AggroCheck_C:Target' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.AggroCheck:PerformConditionCheck.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.AggroCheck:PerformConditionCheck.K2Node_FunctionResult_1' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.SKEL_AggroCheck_C:Target' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.SKEL_AggroCheck_C:PerformConditionCheck' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:909][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/AggroCheck.SKEL_AggroCheck_C' ref from Metadata '/Game/BluePrint/Enemy1/AggroCheck.PackageMetaData'
+[2017.08.15-13.10.09:920][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/EnemyBT.EnemyBT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/BluePrint/Enemy1/EnemyBT.PackageMetaData'
+[2017.08.15-13.10.09:933][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Dead.Dead_C' ref from Metadata '/Game/BluePrint/Enemy1/Dead.PackageMetaData'
+[2017.08.15-13.10.09:933][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Dead.Dead_C:ExecuteUbergraph_Dead' ref from Metadata '/Game/BluePrint/Enemy1/Dead.PackageMetaData'
+[2017.08.15-13.10.09:933][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Dead.Dead_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy1/Dead.PackageMetaData'
+[2017.08.15-13.10.09:933][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Dead.SKEL_Dead_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy1/Dead.PackageMetaData'
+[2017.08.15-13.10.09:933][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Dead.SKEL_Dead_C:ExecuteUbergraph_Dead' ref from Metadata '/Game/BluePrint/Enemy1/Dead.PackageMetaData'
+[2017.08.15-13.10.09:933][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Dead.SKEL_Dead_C' ref from Metadata '/Game/BluePrint/Enemy1/Dead.PackageMetaData'
+[2017.08.15-13.10.09:945][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/LookAtTarget.LookAtTarget_C' ref from Metadata '/Game/BluePrint/Enemy1/LookAtTarget.PackageMetaData'
+[2017.08.15-13.10.09:945][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/LookAtTarget.LookAtTarget_C:ExecuteUbergraph_LookAtTarget' ref from Metadata '/Game/BluePrint/Enemy1/LookAtTarget.PackageMetaData'
+[2017.08.15-13.10.09:945][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/LookAtTarget.LookAtTarget_C:ReceiveTickAI' ref from Metadata '/Game/BluePrint/Enemy1/LookAtTarget.PackageMetaData'
+[2017.08.15-13.10.09:946][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/LookAtTarget.SKEL_LookAtTarget_C:ReceiveTickAI' ref from Metadata '/Game/BluePrint/Enemy1/LookAtTarget.PackageMetaData'
+[2017.08.15-13.10.09:946][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/LookAtTarget.SKEL_LookAtTarget_C:ExecuteUbergraph_LookAtTarget' ref from Metadata '/Game/BluePrint/Enemy1/LookAtTarget.PackageMetaData'
+[2017.08.15-13.10.09:946][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/LookAtTarget.SKEL_LookAtTarget_C' ref from Metadata '/Game/BluePrint/Enemy1/LookAtTarget.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.NewTargetLoc_C' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.NewTargetLoc_C:ExecuteUbergraph_NewTargetLoc' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.NewTargetLoc_C:ReceiveExecute' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.NewTargetLoc_C:HomeLoc' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.NewTargetLoc_C:TargetLoc' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.SKEL_NewTargetLoc_C:TargetLoc' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.SKEL_NewTargetLoc_C:HomeLoc' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.SKEL_NewTargetLoc_C:ReceiveExecute' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.SKEL_NewTargetLoc_C:ExecuteUbergraph_NewTargetLoc' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:957][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/NewTargetLoc.SKEL_NewTargetLoc_C' ref from Metadata '/Game/BluePrint/Enemy1/NewTargetLoc.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SetState_C' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SetState_C:ExecuteUbergraph_SetState' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SetState_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SetState_C:NewState' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SKEL_SetState_C:NewState' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SKEL_SetState_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SKEL_SetState_C:ExecuteUbergraph_SetState' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:969][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/SetState.SKEL_SetState_C' ref from Metadata '/Game/BluePrint/Enemy1/SetState.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:ExecuteUbergraph_Bear' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:Box' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:Attack Collision' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear_C:NewVar_0' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.Bear:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:NewVar_0' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:Attack Collision' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:Box' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:981][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:ExecuteUbergraph_Bear' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:982][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.09:982][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/Bear.SKEL_Bear_C' ref from Metadata '/Game/BluePrint/Enemy1/Bear.PackageMetaData'
+[2017.08.15-13.10.10:056][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint_C' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:056][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint_C:ExecuteUbergraph_BearAnimBlueprint' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:056][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:056][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint_C:CurrentVelocityAnim' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:056][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint_C:CurrentStateAnim' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:056][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateEntryNode_0' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Peace.AnimGraphNode_StateResult_0' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Chase.AnimGraphNode_StateResult_1' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_3.Dead.AnimGraphNode_StateResult_2' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_4.Attack.AnimGraphNode_StateResult_3' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.AnimationTransitionGraph_0.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.AnimationTransitionGraph_1.AnimGraphNode_TransitionResult_1' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_2.AnimationTransitionGraph_2.AnimGraphNode_TransitionResult_2' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_3.AnimationTransitionGraph_3.AnimGraphNode_TransitionResult_3' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_4.AnimationTransitionGraph_4.AnimGraphNode_TransitionResult_4' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_5.AnimationTransitionGraph_5.AnimGraphNode_TransitionResult_5' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_6.AnimationTransitionGraph_6.AnimGraphNode_TransitionResult_6' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.BearAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_7.AnimationTransitionGraph_7.AnimGraphNode_TransitionResult_7' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.SKEL_BearAnimBlueprint_C:CurrentStateAnim' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.SKEL_BearAnimBlueprint_C:CurrentVelocityAnim' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.SKEL_BearAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.SKEL_BearAnimBlueprint_C:ExecuteUbergraph_BearAnimBlueprint' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:057][ 56]LogMetaData: Removing '/Game/BluePrint/Bear/BearAnimBlueprint.SKEL_BearAnimBlueprint_C' ref from Metadata '/Game/BluePrint/Enemy1/BearAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.10:081][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/EnemyBB" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyBB.uasset" SILENT=true
+[2017.08.15-13.10.10:097][ 56]LogSavePackage: Save=10.94ms
+[2017.08.15-13.10.10:097][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyBBE476D21144A999B78D97BC8E87420653.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyBB.uasset'
+[2017.08.15-13.10.10:102][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyBB.uasset
+[2017.08.15-13.10.10:107][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/Enemy" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Enemy.uasset" SILENT=true
+[2017.08.15-13.10.10:228][ 56]LogSavePackage: Save=116.10ms
+[2017.08.15-13.10.10:228][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyFCE163664066FA3E91AA0B93A7388D4C.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Enemy.uasset'
+[2017.08.15-13.10.10:232][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Enemy.uasset
+[2017.08.15-13.10.10:237][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/EnemyController" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyController.uasset" SILENT=true
+[2017.08.15-13.10.10:288][ 56]LogSavePackage: Save=46.26ms
+[2017.08.15-13.10.10:288][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyController5062EE144561B349778B6190F5D5A415.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyController.uasset'
+[2017.08.15-13.10.10:292][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyController.uasset
+[2017.08.15-13.10.10:297][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/AggroCheck" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/AggroCheck.uasset" SILENT=true
+[2017.08.15-13.10.10:342][ 56]LogSavePackage: Save=39.51ms
+[2017.08.15-13.10.10:342][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/AggroCheckBE7E4B074A9E95D0D8BC108FDDFAC303.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/AggroCheck.uasset'
+[2017.08.15-13.10.10:347][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/AggroCheck.uasset
+[2017.08.15-13.10.10:351][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/EnemyBT" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyBT.uasset" SILENT=true
+[2017.08.15-13.10.10:396][ 56]LogSavePackage: Save=40.17ms
+[2017.08.15-13.10.10:396][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyBT98A7749347D25C0684006F95D3823942.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyBT.uasset'
+[2017.08.15-13.10.10:400][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/EnemyBT.uasset
+[2017.08.15-13.10.10:405][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/Dead" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Dead.uasset" SILENT=true
+[2017.08.15-13.10.10:431][ 56]LogSavePackage: Save=21.19ms
+[2017.08.15-13.10.10:431][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Dead946C542645215C9F9E1E33B3F39D214C.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Dead.uasset'
+[2017.08.15-13.10.10:436][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Dead.uasset
+[2017.08.15-13.10.10:440][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/LookAtTarget" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/LookAtTarget.uasset" SILENT=true
+[2017.08.15-13.10.10:470][ 56]LogSavePackage: Save=24.95ms
+[2017.08.15-13.10.10:470][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/LookAtTargetD40A7FF74BF872987570A8B5C23F5B97.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/LookAtTarget.uasset'
+[2017.08.15-13.10.10:474][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/LookAtTarget.uasset
+[2017.08.15-13.10.10:479][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/NewTargetLoc" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/NewTargetLoc.uasset" SILENT=true
+[2017.08.15-13.10.10:511][ 56]LogSavePackage: Save=27.02ms
+[2017.08.15-13.10.10:511][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/NewTargetLoc44F44DC642A2FEC032A5A69C5E2CFC2C.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/NewTargetLoc.uasset'
+[2017.08.15-13.10.10:515][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/NewTargetLoc.uasset
+[2017.08.15-13.10.10:519][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/SetState" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/SetState.uasset" SILENT=true
+[2017.08.15-13.10.10:548][ 56]LogSavePackage: Save=24.45ms
+[2017.08.15-13.10.10:548][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SetState8E79D63D41A873ED2D3472A322831AF7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/SetState.uasset'
+[2017.08.15-13.10.10:552][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/SetState.uasset
+[2017.08.15-13.10.10:569][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/Bear" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Bear.uasset" SILENT=true
+[2017.08.15-13.10.10:630][ 56]LogSavePackage: Save=57.99ms
+[2017.08.15-13.10.10:630][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Bear851B0444438C21A43B87B382615493EB.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Bear.uasset'
+[2017.08.15-13.10.10:633][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/Bear.uasset
+[2017.08.15-13.10.10:638][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Enemy1/Bear" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy1/Bear.uasset" SILENT=true
+[2017.08.15-13.10.10:656][ 56]LogSavePackage: Save=5.21ms
+[2017.08.15-13.10.10:656][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Bear08A4B8E64033D9B41929D18B2E08CE7B.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy1/Bear.uasset'
+[2017.08.15-13.10.10:659][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy1/Bear.uasset
+[2017.08.15-13.10.10:680][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/BearAnimBlueprint" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/BearAnimBlueprint.uasset" SILENT=true
+[2017.08.15-13.10.10:881][ 56]LogSavePackage: Save=198.70ms
+[2017.08.15-13.10.10:881][ 56]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BearAnimBlueprint4E8544514DA714389D5E7781860C3C33.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/BearAnimBlueprint.uasset'
+[2017.08.15-13.10.10:885][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Bear/BearAnimBlueprint.uasset
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:ExecuteUbergraph_Enemy_Boss' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:ReceiveAnyDamage' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:PawnSensing' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:MaxHP' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:CurrentHP' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:CurrentStatePawn' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.Enemy_Boss_C:State Key' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:State Key' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:CurrentStatePawn' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:CurrentHP' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:MaxHP' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:PawnSensing' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:ReceiveAnyDamage' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C:ExecuteUbergraph_Enemy_Boss' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:004][211]LogMetaData: Removing '/Game/BluePrint/Boss/Enemy_Boss.SKEL_Enemy_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/Enemy_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C:ExecuteUbergraph_EnemyController_Boss' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C:OnPossess' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C:Home Loc Key' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C:Idle Time Key' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.EnemyController_Boss_C:Target Loc Key' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C:Target Loc Key' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C:Idle Time Key' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C:Home Loc Key' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C:OnPossess' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C:ExecuteUbergraph_EnemyController_Boss' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:079][211]LogMetaData: Removing '/Game/BluePrint/Boss/EnemyController_Boss.SKEL_EnemyController_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/EnemyController_Boss.PackageMetaData'
+[2017.08.15-13.10.18:146][211]LogMetaData: Removing '/Game/BluePrint/Boss/AggroCheck_Boss.AggroCheck_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/AggroCheck_Boss.PackageMetaData'
+[2017.08.15-13.10.18:146][211]LogMetaData: Removing '/Game/BluePrint/Boss/AggroCheck_Boss.AggroCheck_Boss_C:PerformConditionCheck' ref from Metadata '/Game/BluePrint/Enemy2/AggroCheck_Boss.PackageMetaData'
+[2017.08.15-13.10.18:146][211]LogMetaData: Removing '/Game/BluePrint/Boss/AggroCheck_Boss.AggroCheck_Boss_C:Target' ref from Metadata '/Game/BluePrint/Enemy2/AggroCheck_Boss.PackageMetaData'
+[2017.08.15-13.10.18:146][211]LogMetaData: Removing '/Game/BluePrint/Boss/AggroCheck_Boss.SKEL_AggroCheck_Boss_C:Target' ref from Metadata '/Game/BluePrint/Enemy2/AggroCheck_Boss.PackageMetaData'
+[2017.08.15-13.10.18:146][211]LogMetaData: Removing '/Game/BluePrint/Boss/AggroCheck_Boss.SKEL_AggroCheck_Boss_C:PerformConditionCheck' ref from Metadata '/Game/BluePrint/Enemy2/AggroCheck_Boss.PackageMetaData'
+[2017.08.15-13.10.18:146][211]LogMetaData: Removing '/Game/BluePrint/Boss/AggroCheck_Boss.SKEL_AggroCheck_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/AggroCheck_Boss.PackageMetaData'
+[2017.08.15-13.10.18:284][211]LogMetaData: Removing '/Game/BluePrint/Boss/Dead_Boss.Dead_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/Dead_Boss.PackageMetaData'
+[2017.08.15-13.10.18:285][211]LogMetaData: Removing '/Game/BluePrint/Boss/Dead_Boss.Dead_Boss_C:ExecuteUbergraph_Dead_Boss' ref from Metadata '/Game/BluePrint/Enemy2/Dead_Boss.PackageMetaData'
+[2017.08.15-13.10.18:285][211]LogMetaData: Removing '/Game/BluePrint/Boss/Dead_Boss.Dead_Boss_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy2/Dead_Boss.PackageMetaData'
+[2017.08.15-13.10.18:285][211]LogMetaData: Removing '/Game/BluePrint/Boss/Dead_Boss.SKEL_Dead_Boss_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy2/Dead_Boss.PackageMetaData'
+[2017.08.15-13.10.18:285][211]LogMetaData: Removing '/Game/BluePrint/Boss/Dead_Boss.SKEL_Dead_Boss_C:ExecuteUbergraph_Dead_Boss' ref from Metadata '/Game/BluePrint/Enemy2/Dead_Boss.PackageMetaData'
+[2017.08.15-13.10.18:285][211]LogMetaData: Removing '/Game/BluePrint/Boss/Dead_Boss.SKEL_Dead_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/Dead_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.etState_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.etState_Boss_C:ExecuteUbergraph_etState_Boss' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.etState_Boss_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.etState_Boss_C:NewState' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.SKEL_etState_Boss_C:NewState' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.SKEL_etState_Boss_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.SKEL_etState_Boss_C:ExecuteUbergraph_etState_Boss' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:346][211]LogMetaData: Removing '/Game/BluePrint/Boss/etState_Boss.SKEL_etState_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/etState_Boss.PackageMetaData'
+[2017.08.15-13.10.18:409][211]LogMetaData: Removing '/Game/BluePrint/Boss/LookAtTarget_Boss.LookAtTarget_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/LookAtTarget_Boss.PackageMetaData'
+[2017.08.15-13.10.18:409][211]LogMetaData: Removing '/Game/BluePrint/Boss/LookAtTarget_Boss.LookAtTarget_Boss_C:ExecuteUbergraph_LookAtTarget_Boss' ref from Metadata '/Game/BluePrint/Enemy2/LookAtTarget_Boss.PackageMetaData'
+[2017.08.15-13.10.18:409][211]LogMetaData: Removing '/Game/BluePrint/Boss/LookAtTarget_Boss.LookAtTarget_Boss_C:ReceiveTickAI' ref from Metadata '/Game/BluePrint/Enemy2/LookAtTarget_Boss.PackageMetaData'
+[2017.08.15-13.10.18:409][211]LogMetaData: Removing '/Game/BluePrint/Boss/LookAtTarget_Boss.SKEL_LookAtTarget_Boss_C:ReceiveTickAI' ref from Metadata '/Game/BluePrint/Enemy2/LookAtTarget_Boss.PackageMetaData'
+[2017.08.15-13.10.18:409][211]LogMetaData: Removing '/Game/BluePrint/Boss/LookAtTarget_Boss.SKEL_LookAtTarget_Boss_C:ExecuteUbergraph_LookAtTarget_Boss' ref from Metadata '/Game/BluePrint/Enemy2/LookAtTarget_Boss.PackageMetaData'
+[2017.08.15-13.10.18:409][211]LogMetaData: Removing '/Game/BluePrint/Boss/LookAtTarget_Boss.SKEL_LookAtTarget_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/LookAtTarget_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.NewTargetLoc_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.NewTargetLoc_Boss_C:ExecuteUbergraph_NewTargetLoc_Boss' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.NewTargetLoc_Boss_C:ReceiveExecute' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.NewTargetLoc_Boss_C:HomeLoc' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.NewTargetLoc_Boss_C:TargetLoc' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.SKEL_NewTargetLoc_Boss_C:TargetLoc' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.SKEL_NewTargetLoc_Boss_C:HomeLoc' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.SKEL_NewTargetLoc_Boss_C:ReceiveExecute' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.SKEL_NewTargetLoc_Boss_C:ExecuteUbergraph_NewTargetLoc_Boss' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:467][211]LogMetaData: Removing '/Game/BluePrint/Boss/NewTargetLoc_Boss.SKEL_NewTargetLoc_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/NewTargetLoc_Boss.PackageMetaData'
+[2017.08.15-13.10.18:569][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:569][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:569][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss_C:ExecuteUbergraph_Boss' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss_C:Box' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.Boss:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.SKEL_Boss_C:Box' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.SKEL_Boss_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.SKEL_Boss_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.SKEL_Boss_C:ExecuteUbergraph_Boss' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.SKEL_Boss_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:570][211]LogMetaData: Removing '/Game/BluePrint/Boss/Boss.SKEL_Boss_C' ref from Metadata '/Game/BluePrint/Enemy2/Boss.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint_C' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint_C:ExecuteUbergraph_BossAnimBlueprint' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint_C:CurrentVelocityAnim' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint_C:CurrentStateAnim' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.BossAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateEntryNode_0' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.SKEL_BossAnimBlueprint_C:CurrentStateAnim' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.SKEL_BossAnimBlueprint_C:CurrentVelocityAnim' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.SKEL_BossAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.SKEL_BossAnimBlueprint_C:ExecuteUbergraph_BossAnimBlueprint' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:656][211]LogMetaData: Removing '/Game/BluePrint/Boss/BossAnimBlueprint.SKEL_BossAnimBlueprint_C' ref from Metadata '/Game/BluePrint/Enemy2/BossAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.18:709][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/Enemy_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Enemy_Boss.uasset" SILENT=true
+[2017.08.15-13.10.18:798][211]LogSavePackage: Save=82.08ms
+[2017.08.15-13.10.18:798][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Enemy_Boss7B0DD1DF40C63B492AFCA8AF506163DE.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Enemy_Boss.uasset'
+[2017.08.15-13.10.18:802][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Enemy_Boss.uasset
+[2017.08.15-13.10.18:808][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/EnemyController_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyController_Boss.uasset" SILENT=true
+[2017.08.15-13.10.18:847][211]LogSavePackage: Save=36.37ms
+[2017.08.15-13.10.18:847][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyController_BossD3769D19465736DAD75C438D2126D6D6.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyController_Boss.uasset'
+[2017.08.15-13.10.18:851][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyController_Boss.uasset
+[2017.08.15-13.10.18:856][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/AggroCheck_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/AggroCheck_Boss.uasset" SILENT=true
+[2017.08.15-13.10.18:894][211]LogSavePackage: Save=35.07ms
+[2017.08.15-13.10.18:894][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/AggroCheck_Boss81C595FE4611947C7101E8B22341B14E.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/AggroCheck_Boss.uasset'
+[2017.08.15-13.10.18:898][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/AggroCheck_Boss.uasset
+[2017.08.15-13.10.18:902][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/EnemyBT_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyBT_Boss.uasset" SILENT=true
+[2017.08.15-13.10.18:944][211]LogSavePackage: Save=38.94ms
+[2017.08.15-13.10.18:944][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyBT_Boss142CF7E645B26F718A2731A5B2885C90.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyBT_Boss.uasset'
+[2017.08.15-13.10.18:951][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyBT_Boss.uasset
+[2017.08.15-13.10.18:956][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/Dead_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Dead_Boss.uasset" SILENT=true
+[2017.08.15-13.10.18:980][211]LogSavePackage: Save=21.49ms
+[2017.08.15-13.10.18:980][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Dead_BossC2B10F974F20AC0B92000686A5047250.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Dead_Boss.uasset'
+[2017.08.15-13.10.18:984][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Dead_Boss.uasset
+[2017.08.15-13.10.18:988][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/etState_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/etState_Boss.uasset" SILENT=true
+[2017.08.15-13.10.19:019][211]LogSavePackage: Save=28.26ms
+[2017.08.15-13.10.19:019][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/etState_BossB3FECB784FB3F165A20009B64BD3D435.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/etState_Boss.uasset'
+[2017.08.15-13.10.19:023][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/etState_Boss.uasset
+[2017.08.15-13.10.19:027][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/LookAtTarget_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/LookAtTarget_Boss.uasset" SILENT=true
+[2017.08.15-13.10.19:059][211]LogSavePackage: Save=28.88ms
+[2017.08.15-13.10.19:059][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/LookAtTarget_BossE1DA80C54336C84CDE3E11BD0D9BE9B2.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/LookAtTarget_Boss.uasset'
+[2017.08.15-13.10.19:064][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/LookAtTarget_Boss.uasset
+[2017.08.15-13.10.19:069][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/NewTargetLoc_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/NewTargetLoc_Boss.uasset" SILENT=true
+[2017.08.15-13.10.19:108][211]LogSavePackage: Save=35.81ms
+[2017.08.15-13.10.19:108][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/NewTargetLoc_Boss20B24EDC4E9AD09297EAB9A39A9E430C.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/NewTargetLoc_Boss.uasset'
+[2017.08.15-13.10.19:112][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/NewTargetLoc_Boss.uasset
+[2017.08.15-13.10.19:117][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/EnemyBB_Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyBB_Boss.uasset" SILENT=true
+[2017.08.15-13.10.19:130][211]LogSavePackage: Save=9.47ms
+[2017.08.15-13.10.19:130][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyBB_Boss153FAAF84AB0296D98130AAEE6BB4548.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyBB_Boss.uasset'
+[2017.08.15-13.10.19:134][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/EnemyBB_Boss.uasset
+[2017.08.15-13.10.19:154][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Boss.uasset" SILENT=true
+[2017.08.15-13.10.19:220][211]LogSavePackage: Save=63.39ms
+[2017.08.15-13.10.19:220][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BossBACEE46B4139F065F55232BA417175C6.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Boss.uasset'
+[2017.08.15-13.10.19:225][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/Boss.uasset
+[2017.08.15-13.10.19:232][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Enemy2/Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy2/Boss.uasset" SILENT=true
+[2017.08.15-13.10.19:256][211]LogSavePackage: Save=7.64ms
+[2017.08.15-13.10.19:256][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BossFF0BC4D44ED42D8BA78E6798F275B9CC.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy2/Boss.uasset'
+[2017.08.15-13.10.19:261][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy2/Boss.uasset
+[2017.08.15-13.10.19:283][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/BossAnimBlueprint" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/BossAnimBlueprint.uasset" SILENT=true
+[2017.08.15-13.10.19:566][211]LogSavePackage: Save=279.35ms
+[2017.08.15-13.10.19:566][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BossAnimBlueprint224EDF8B4A70296E848F87B57775CFD7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/BossAnimBlueprint.uasset'
+[2017.08.15-13.10.19:574][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Boss/BossAnimBlueprint.uasset
+[2017.08.15-13.10.27:156][406]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:156][406]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/EnemyBT_Spider.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:156][406]LoadErrors:Error: 오류 /Game/BluePrint/Enemy3/EnemyBT_Spider : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB
+[2017.08.15-13.10.27:194][406]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:194][406]LogLinker:Warning: ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/EnemyBT_Spider.uasset 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:197][406]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:197][406]LoadErrors: 정보 로드에 실패했습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB.EnemyBB 레퍼런싱한 것: EnemyBT_Spider
+[2017.08.15-13.10.27:197][406]LogLinker:Warning: NULL 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:198][406]LogLinker:Warning: '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:198][406]LoadErrors: 정보 로드에 실패했습니다. /Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB.EnemyBB 레퍼런싱한 것: BehaviorTreeGraphNode_Root_0
+[2017.08.15-13.10.27:198][406]LogLinker:Warning: NULL 로드중 '/Game/InfinityBladeAdversaries/Blueprints/Enemy1/EnemyBB' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:ExecuteUbergraph_Enemy_Spider' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:ReceiveAnyDamage' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:PawnSensing' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:MaxHP' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:273][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:CurrentHP' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:CurrentStatePawn' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.Enemy_Spider_C:State Key' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:State Key' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:CurrentStatePawn' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:CurrentHP' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:MaxHP' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:PawnSensing' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:ReceiveAnyDamage' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C:ExecuteUbergraph_Enemy_Spider' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:274][406]LogMetaData: Removing '/Game/BluePrint/Spider/Enemy_Spider.SKEL_Enemy_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/Enemy_Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider_C:ExecuteUbergraph_Spider' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider_C:Box' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.Spider:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.SKEL_Spider_C:Box' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.SKEL_Spider_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.SKEL_Spider_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.SKEL_Spider_C:ExecuteUbergraph_Spider' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.SKEL_Spider_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:328][406]LogMetaData: Removing '/Game/BluePrint/Spider/Spider.SKEL_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/Spider.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint_C' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint_C:ExecuteUbergraph_SpiderAnimBlueprint' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint_C:CurrentVelocityAnim' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint_C:CurrentStateAnim' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SpiderAnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateEntryNode_0' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SKEL_SpiderAnimBlueprint_C:CurrentStateAnim' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SKEL_SpiderAnimBlueprint_C:CurrentVelocityAnim' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SKEL_SpiderAnimBlueprint_C:BlueprintUpdateAnimation' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SKEL_SpiderAnimBlueprint_C:ExecuteUbergraph_SpiderAnimBlueprint' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:418][406]LogMetaData: Removing '/Game/BluePrint/Spider/SpiderAnimBlueprint.SKEL_SpiderAnimBlueprint_C' ref from Metadata '/Game/BluePrint/Enemy3/SpiderAnimBlueprint.PackageMetaData'
+[2017.08.15-13.10.27:467][406]LogMetaData: Removing '/Game/BluePrint/Spider/AggroCheck_Spider.AggroCheck_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/AggroCheck_Spider.PackageMetaData'
+[2017.08.15-13.10.27:467][406]LogMetaData: Removing '/Game/BluePrint/Spider/AggroCheck_Spider.AggroCheck_Spider_C:PerformConditionCheck' ref from Metadata '/Game/BluePrint/Enemy3/AggroCheck_Spider.PackageMetaData'
+[2017.08.15-13.10.27:467][406]LogMetaData: Removing '/Game/BluePrint/Spider/AggroCheck_Spider.AggroCheck_Spider_C:Target' ref from Metadata '/Game/BluePrint/Enemy3/AggroCheck_Spider.PackageMetaData'
+[2017.08.15-13.10.27:467][406]LogMetaData: Removing '/Game/BluePrint/Spider/AggroCheck_Spider.SKEL_AggroCheck_Spider_C:Target' ref from Metadata '/Game/BluePrint/Enemy3/AggroCheck_Spider.PackageMetaData'
+[2017.08.15-13.10.27:467][406]LogMetaData: Removing '/Game/BluePrint/Spider/AggroCheck_Spider.SKEL_AggroCheck_Spider_C:PerformConditionCheck' ref from Metadata '/Game/BluePrint/Enemy3/AggroCheck_Spider.PackageMetaData'
+[2017.08.15-13.10.27:467][406]LogMetaData: Removing '/Game/BluePrint/Spider/AggroCheck_Spider.SKEL_AggroCheck_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/AggroCheck_Spider.PackageMetaData'
+[2017.08.15-13.10.27:513][406]LogMetaData: Removing '/Game/BluePrint/Spider/Dead_Spider.Dead_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/Dead_Spider.PackageMetaData'
+[2017.08.15-13.10.27:513][406]LogMetaData: Removing '/Game/BluePrint/Spider/Dead_Spider.Dead_Spider_C:ExecuteUbergraph_Dead_Spider' ref from Metadata '/Game/BluePrint/Enemy3/Dead_Spider.PackageMetaData'
+[2017.08.15-13.10.27:513][406]LogMetaData: Removing '/Game/BluePrint/Spider/Dead_Spider.Dead_Spider_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy3/Dead_Spider.PackageMetaData'
+[2017.08.15-13.10.27:513][406]LogMetaData: Removing '/Game/BluePrint/Spider/Dead_Spider.SKEL_Dead_Spider_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy3/Dead_Spider.PackageMetaData'
+[2017.08.15-13.10.27:513][406]LogMetaData: Removing '/Game/BluePrint/Spider/Dead_Spider.SKEL_Dead_Spider_C:ExecuteUbergraph_Dead_Spider' ref from Metadata '/Game/BluePrint/Enemy3/Dead_Spider.PackageMetaData'
+[2017.08.15-13.10.27:513][406]LogMetaData: Removing '/Game/BluePrint/Spider/Dead_Spider.SKEL_Dead_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/Dead_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C:ExecuteUbergraph_EnemyController_Spider' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C:OnPossess' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C:Home Loc Key' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C:Idle Time Key' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.EnemyController_Spider_C:Target Loc Key' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C:Target Loc Key' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C:Idle Time Key' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C:Home Loc Key' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C:OnPossess' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C:UserConstructionScript' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C:ExecuteUbergraph_EnemyController_Spider' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:646][406]LogMetaData: Removing '/Game/BluePrint/Spider/EnemyController_Spider.SKEL_EnemyController_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/EnemyController_Spider.PackageMetaData'
+[2017.08.15-13.10.27:690][406]LogMetaData: Removing '/Game/BluePrint/Spider/LookAtTarget_Spider.LookAtTarget_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/LookAtTarget_Spider.PackageMetaData'
+[2017.08.15-13.10.27:690][406]LogMetaData: Removing '/Game/BluePrint/Spider/LookAtTarget_Spider.LookAtTarget_Spider_C:ExecuteUbergraph_LookAtTarget_Spider' ref from Metadata '/Game/BluePrint/Enemy3/LookAtTarget_Spider.PackageMetaData'
+[2017.08.15-13.10.27:690][406]LogMetaData: Removing '/Game/BluePrint/Spider/LookAtTarget_Spider.LookAtTarget_Spider_C:ReceiveTickAI' ref from Metadata '/Game/BluePrint/Enemy3/LookAtTarget_Spider.PackageMetaData'
+[2017.08.15-13.10.27:690][406]LogMetaData: Removing '/Game/BluePrint/Spider/LookAtTarget_Spider.SKEL_LookAtTarget_Spider_C:ReceiveTickAI' ref from Metadata '/Game/BluePrint/Enemy3/LookAtTarget_Spider.PackageMetaData'
+[2017.08.15-13.10.27:690][406]LogMetaData: Removing '/Game/BluePrint/Spider/LookAtTarget_Spider.SKEL_LookAtTarget_Spider_C:ExecuteUbergraph_LookAtTarget_Spider' ref from Metadata '/Game/BluePrint/Enemy3/LookAtTarget_Spider.PackageMetaData'
+[2017.08.15-13.10.27:690][406]LogMetaData: Removing '/Game/BluePrint/Spider/LookAtTarget_Spider.SKEL_LookAtTarget_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/LookAtTarget_Spider.PackageMetaData'
+[2017.08.15-13.10.27:732][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.NewTargetLoc_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:732][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.NewTargetLoc_Spider_C:ExecuteUbergraph_NewTargetLoc_Spider' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:732][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.NewTargetLoc_Spider_C:ReceiveExecute' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:732][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.NewTargetLoc_Spider_C:HomeLoc' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:733][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.NewTargetLoc_Spider_C:TargetLoc' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:733][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.SKEL_NewTargetLoc_Spider_C:TargetLoc' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:733][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.SKEL_NewTargetLoc_Spider_C:HomeLoc' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:733][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.SKEL_NewTargetLoc_Spider_C:ReceiveExecute' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:733][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.SKEL_NewTargetLoc_Spider_C:ExecuteUbergraph_NewTargetLoc_Spider' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:733][406]LogMetaData: Removing '/Game/BluePrint/Spider/NewTargetLoc_Spider.SKEL_NewTargetLoc_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/NewTargetLoc_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SetState_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SetState_Spider_C:ExecuteUbergraph_SetState_Spider' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SetState_Spider_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SetState_Spider_C:NewState' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SKEL_SetState_Spider_C:NewState' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SKEL_SetState_Spider_C:ReceiveExecuteAI' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SKEL_SetState_Spider_C:ExecuteUbergraph_SetState_Spider' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:776][406]LogMetaData: Removing '/Game/BluePrint/Spider/SetState_Spider.SKEL_SetState_Spider_C' ref from Metadata '/Game/BluePrint/Enemy3/SetState_Spider.PackageMetaData'
+[2017.08.15-13.10.27:826][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/Enemy_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Enemy_Spider.uasset" SILENT=true
+[2017.08.15-13.10.27:908][406]LogSavePackage: Save=78.84ms
+[2017.08.15-13.10.27:908][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Enemy_Spider936AD6F649B35080A3914585B824C025.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Enemy_Spider.uasset'
+[2017.08.15-13.10.27:913][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Enemy_Spider.uasset
+[2017.08.15-13.10.27:930][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Spider.uasset" SILENT=true
+[2017.08.15-13.10.27:986][406]LogSavePackage: Save=53.43ms
+[2017.08.15-13.10.27:986][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Spider00B0206B464BEB085A0E0BB1143F39A6.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Spider.uasset'
+[2017.08.15-13.10.27:991][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Spider.uasset
+[2017.08.15-13.10.27:997][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Enemy3/Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:014][406]LogSavePackage: Save=5.81ms
+[2017.08.15-13.10.28:014][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Spider5CD6350D475514E97319029C7AF2A937.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/Spider.uasset'
+[2017.08.15-13.10.28:019][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Enemy3/Spider.uasset
+[2017.08.15-13.10.28:037][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/SpiderAnimBlueprint" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/SpiderAnimBlueprint.uasset" SILENT=true
+[2017.08.15-13.10.28:229][406]LogSavePackage: Save=189.47ms
+[2017.08.15-13.10.28:230][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SpiderAnimBlueprintEC7660AD4E12897196163894D1CAFEE7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/SpiderAnimBlueprint.uasset'
+[2017.08.15-13.10.28:235][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/SpiderAnimBlueprint.uasset
+[2017.08.15-13.10.28:240][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/AggroCheck_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/AggroCheck_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:283][406]LogSavePackage: Save=40.70ms
+[2017.08.15-13.10.28:283][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/AggroCheck_SpiderFC8502194DE911429BB8D185E35D1638.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/AggroCheck_Spider.uasset'
+[2017.08.15-13.10.28:288][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/AggroCheck_Spider.uasset
+[2017.08.15-13.10.28:293][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/Dead_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Dead_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:320][406]LogSavePackage: Save=23.53ms
+[2017.08.15-13.10.28:320][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Dead_SpiderEF8FF35D4D9D8EB19FE17082CE5AF072.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Dead_Spider.uasset'
+[2017.08.15-13.10.28:325][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/Dead_Spider.uasset
+[2017.08.15-13.10.28:329][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/EnemyBB_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyBB_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:341][406]LogSavePackage: Save=8.16ms
+[2017.08.15-13.10.28:341][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyBB_Spider61CD26454329D5FBC8B2B1B18023B58F.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyBB_Spider.uasset'
+[2017.08.15-13.10.28:347][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyBB_Spider.uasset
+[2017.08.15-13.10.28:351][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/EnemyBT_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyBT_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:396][406]LogSavePackage: Save=41.47ms
+[2017.08.15-13.10.28:396][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyBT_Spider49AF2D85464FA5B29E4E78B5458E08C3.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyBT_Spider.uasset'
+[2017.08.15-13.10.28:401][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyBT_Spider.uasset
+[2017.08.15-13.10.28:458][406]LogSavePackage: Save=49.37ms
+[2017.08.15-13.10.28:458][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/EnemyController_SpiderB52DF23C4DB674A2B56E3A8DEB7EA6DE.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyController_Spider.uasset'
+[2017.08.15-13.10.28:463][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/EnemyController_Spider.uasset
+[2017.08.15-13.10.28:468][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/LookAtTarget_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/LookAtTarget_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:500][406]LogSavePackage: Save=28.45ms
+[2017.08.15-13.10.28:500][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/LookAtTarget_SpiderEBBA3A8247F41E8D1A28258172CDBA87.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/LookAtTarget_Spider.uasset'
+[2017.08.15-13.10.28:505][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/LookAtTarget_Spider.uasset
+[2017.08.15-13.10.28:511][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/NewTargetLoc_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/NewTargetLoc_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:543][406]LogSavePackage: Save=27.92ms
+[2017.08.15-13.10.28:543][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/NewTargetLoc_SpiderB12E0E1543BFC692B93720B6913AE4A7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/NewTargetLoc_Spider.uasset'
+[2017.08.15-13.10.28:548][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/NewTargetLoc_Spider.uasset
+[2017.08.15-13.10.28:553][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Spider/SetState_Spider" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/SetState_Spider.uasset" SILENT=true
+[2017.08.15-13.10.28:585][406]LogSavePackage: Save=28.44ms
+[2017.08.15-13.10.28:585][406]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SetState_SpiderDE60EE524D31BDA455B07A999AF347B5.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/SetState_Spider.uasset'
+[2017.08.15-13.10.28:590][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Spider/SetState_Spider.uasset
+[2017.08.15-13.13.49:412][228]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 112 classes and 0 folders.
+[2017.08.15-13.13.50:448][228]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.15-13.13.57:286][442]LogSlate: Took 0.007271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.15-13.14.12:408][  7]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.15-13.14.12:650][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.15-13.14.14:181][  7]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.08.15-13.14.14:234][  7]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.15-13.14.26:462][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Player/WarriorAnimBlueprint" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Player/WarriorAnimBlueprint.uasset" SILENT=true
+[2017.08.15-13.14.26:870][622]LogSavePackage: Save=377.09ms
+[2017.08.15-13.14.26:870][622]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/WarriorAnimBlueprint2C8F86C245351F76D6DC0085F691C3CE.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Player/WarriorAnimBlueprint.uasset'
+[2017.08.15-13.14.26:875][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Player/WarriorAnimBlueprint.uasset
+[2017.08.15-13.15.37:583][928]LogRenderer: Reallocating scene render targets to support 916x540 NumSamples 1 (Frame:1).
+[2017.08.15-13.20.03:561][825]LogSavePackage: Save=13551.73ms
+[2017.08.15-13.20.03:561][825]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Main_Auto1E32A16094DC9667D68EF44991B8F19F3.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/Main_Auto1.umap'
+[2017.08.15-13.20.03:577][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/Main_Auto1.umap
+[2017.08.15-13.20.03:581][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/Main' took 13.786
+[2017.08.15-13.20.03:581][825]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.786
+[2017.08.15-13.20.03:588][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Player/WarriorAnimBlueprint] ([1] browsable assets)...
+[2017.08.15-13.20.03:588][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/WarriorAnimBlueprint]
+[2017.08.15-13.20.03:835][825]LogSavePackage: Save=229.99ms
+[2017.08.15-13.20.03:835][825]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/WarriorAnimBlueprint_Auto1C931238345652A4B588C9A864028C575.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Player/WarriorAnimBlueprint_Auto1.uasset'
+[2017.08.15-13.20.03:836][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Player/WarriorAnimBlueprint_Auto1.uasset
+[2017.08.15-13.20.03:837][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrint/Bear/Bear] ([1] browsable assets)...
+[2017.08.15-13.20.03:860][825]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrint/Bear/Bear.Bear]
+[2017.08.15-13.20.03:860][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Bear/Bear]
+[2017.08.15-13.20.03:860][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Bear/Bear" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Bear/Bear_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-13.20.03:924][825]LogSavePackage: Save=54.05ms
+[2017.08.15-13.20.03:924][825]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Bear_Auto1DF4332A044D03A89E1D87EAE56CC0859.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Bear/Bear_Auto1.uasset'
+[2017.08.15-13.20.03:927][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Bear/Bear_Auto1.uasset
+[2017.08.15-13.20.03:928][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrint/Boss/Boss] ([1] browsable assets)...
+[2017.08.15-13.20.03:949][825]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrint/Boss/Boss.Boss]
+[2017.08.15-13.20.03:949][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Boss/Boss]
+[2017.08.15-13.20.03:949][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Boss/Boss" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Boss/Boss_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-13.20.04:014][825]LogSavePackage: Save=53.82ms
+[2017.08.15-13.20.04:014][825]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Boss_Auto1141048A7489FC63F2552229F627EDA0A.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Boss/Boss_Auto1.uasset'
+[2017.08.15-13.20.04:016][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Boss/Boss_Auto1.uasset
+[2017.08.15-13.20.04:017][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Spider/Spider] ([1] browsable assets)...
+[2017.08.15-13.20.04:017][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Spider/Spider]
+[2017.08.15-13.20.04:073][825]LogSavePackage: Save=43.17ms
+[2017.08.15-13.20.04:073][825]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Spider_Auto19759F0744A34DCE2F3DAC1A302E1E5F1.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Spider/Spider_Auto1.uasset'
+[2017.08.15-13.20.04:075][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Spider/Spider_Auto1.uasset
+[2017.08.15-13.20.04:075][825]LogFileHelpers: Auto-saving content packages took 0.491
+[2017.08.15-13.33.23:653][ 67]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.08.15-13.33.25:803][ 68]LogRenderer: Reallocating scene render targets to support 916x672 NumSamples 1 (Frame:1).
+[2017.08.15-13.34.36:589][ 51]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.08.15-13.35.03:135][938]LogCascade: Quitting Cascade. FXSystem=0x00000180A6C19440
+[2017.08.15-13.36.32:239][528]LogEditorTransaction: Undo 선택된 노드를 하나의 노드로 접습니다.
+[2017.08.15-13.36.33:053][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.15-13.37.43:686][146]BlueprintLog: New page: WarriorDiablo 컴파일
+[2017.08.15-13.37.44:719][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Player/WarriorDiablo" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Player/WarriorDiablo.uasset" SILENT=true
+[2017.08.15-13.37.44:844][169]LogSavePackage: Save=111.52ms
+[2017.08.15-13.37.44:844][169]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/WarriorDiabloA479B93641DAAC4C5C3E51AC73098AC3.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Player/WarriorDiablo.uasset'
+[2017.08.15-13.37.44:849][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Player/WarriorDiablo.uasset
+[2017.08.15-13.37.47:141][301]LogRenderer: Reallocating scene render targets to support 1216x672 NumSamples 1 (Frame:4022).
+[2017.08.15-13.39.06:941][964]LogSavePackage: Save=11581.86ms
+[2017.08.15-13.39.06:941][964]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Main_Auto2E8CA670D4464370099454B929ECDCFE8.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/Main_Auto2.umap'
+[2017.08.15-13.39.06:944][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/Main_Auto2.umap
+[2017.08.15-13.39.06:951][964]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/Main' took 11.772
+[2017.08.15-13.39.06:951][964]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 11.772
+[2017.08.15-13.39.06:955][964]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrint/Player/WarriorAnimBlueprint] ([1] browsable assets)...
+[2017.08.15-13.39.06:978][964]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/BluePrint/Player/WarriorAnimBlueprint.WarriorAnimBlueprint]
+[2017.08.15-13.39.06:978][964]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Player/WarriorAnimBlueprint]
+[2017.08.15-13.39.07:226][964]LogSavePackage: Save=234.24ms
+[2017.08.15-13.39.07:226][964]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/WarriorAnimBlueprint_Auto227EA72454F1CA2BDE953C88B520725C7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Player/WarriorAnimBlueprint_Auto2.uasset'
+[2017.08.15-13.39.07:228][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/BluePrint/Player/WarriorAnimBlueprint_Auto2.uasset
+[2017.08.15-13.39.07:228][964]LogFileHelpers: Auto-saving content packages took 0.274
+[2017.08.15-13.47.21:017][729]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2017.08.15-13.47.26:098][903]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.08.15-13.47.31:617][ 26]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2017.08.15-13.48.39:231][552]LogSavePackage: Save=11199.18ms
+[2017.08.15-13.48.39:231][552]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/MainB6A217DA448A6F42BECF5BAF338D54BD.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeGrassLands/Maps/Main.umap'
+[2017.08.15-13.48.39:256][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeGrassLands/Maps/Main.umap
+[2017.08.15-13.48.39:322][552]LogFileHelpers: Saving map 'Main' took 11.585
+[2017.08.15-13.48.54:205][874]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.15-13.48.54:440][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/InfinityBladeGrassLands/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/InfinityBladeGrassLands/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/InfinityBladeGrassLands/Maps/Main.Main_C' with ClassGeneratedBy '/Game/InfinityBladeGrassLands/Maps/Main.Main:PersistentLevel.Main'
+[2017.08.15-13.48.54:441][874]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.08.15-13.48.54:441][874]LogPlayLevel: [PlayLevel] Compiling Bear before play...
+[2017.08.15-13.48.54:457][874]LogPlayLevel: [PlayLevel]   Compiling BearAnimBlueprint as a dependent...
+[2017.08.15-13.48.54:955][874]LogPlayLevel: [PlayLevel] Compiling Boss before play...
+[2017.08.15-13.48.54:969][874]LogPlayLevel: [PlayLevel]   Compiling BossAnimBlueprint as a dependent...
+[2017.08.15-13.48.55:507][874]LogPlayLevel: PlayLevel: Blueprint regeneration took 1065 ms (4 blueprints)
+[2017.08.15-13.48.55:511][874]PIE: New page: PIE 세션: Main (2017. 8. 16. 오전 7:48:55)
+[2017.08.15-13.48.55:511][874]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_Main
+[2017.08.15-13.48.55:699][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187914s)
+[2017.08.15-13.48.55:700][874]LogAIModule: Creating AISystem for world Main
+[2017.08.15-13.48.55:701][874]LogPlayLevel: PIE: World Init took: (0.001267s)
+[2017.08.15-13.48.55:702][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/Main.Main to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_Main.Main (0.191173s)
+[2017.08.15-13.48.55:782][874]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-13.48.55:832][874]LogInit: FAudioDevice initialized.
+[2017.08.15-13.48.55:877][874]LogLoad: Game class is 'WarriorGameMode_C'
+[2017.08.15-13.48.55:907][874]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.08.15-22.48.55
+[2017.08.15-13.48.55:935][874]LogBehaviorTree:Warning: Can't initialize BTDecorator_Blackboard_0 due to missing blackboard data.
+[2017.08.15-13.48.55:935][874]LogBehaviorTree:Warning: Can't initialize BTDecorator_Blackboard_1 due to missing blackboard data.
+[2017.08.15-13.48.55:935][874]LogBehaviorTree:Warning: Can't initialize BTDecorator_Blackboard_4 due to missing blackboard data.
+[2017.08.15-13.48.55:935][874]LogBehaviorTree:Warning: Can't initialize task: BTTask_MoveTo_2, make sure that behavior tree specifies blackboard asset!
+[2017.08.15-13.48.55:935][874]LogBehaviorTree:Warning: Can't initialize BTDecorator_Blackboard_8 due to missing blackboard data.
+[2017.08.15-13.48.55:935][874]LogBehaviorTree:Warning: Can't initialize BTDecorator_Blackboard_9 due to missing blackboard data.
+[2017.08.15-13.48.55:936][874]LogOutputDevice:Warning: 
+
+Script Stack:
+EnemyController_Boss_C.ExecuteUbergraph_EnemyController_Boss
+EnemyController_Boss_C.OnPossess
+
+[2017.08.15-13.48.56:217][874]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.281 s
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: 
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: Ensure condition failed: BBAsset [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Tasks\BTTask_WaitBlackboardTime.cpp] [Line: 19]
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: 
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: Stack: 
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F994E2B6
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F96FB8C2
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9711E86
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F621E6D5
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F619BB0B
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F619D36D
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F619D36D
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61A03C3
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61AA81D
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61A9D7C
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61BD533
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61B803D
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61D0F0F
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F9068734
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F9226DD4
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F92644F4
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F923DFD2
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F92277DE
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F923DFD2
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F9068734
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000F923D366
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA183F27
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F62D1148
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-AIModule.dll!0x00000000F61A7701
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DAD80F33
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DAD74EC1
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA511367
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA9ED51F
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DB2BCA6B
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA8987F7
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F811BED3
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F814688E
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8162354
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F7C32DC8
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8458D86
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor.exe!0x000000009814E2B2
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor.exe!0x000000009813F0B0
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor.exe!0x000000009813F12A
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor.exe!0x0000000098150CF9
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: UE4Editor.exe!0x00000000981525F7
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: KERNEL32.DLL!0x000000002ADF2774
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: ntdll.dll!0x000000002C4F0D51
+[2017.08.15-13.48.56:217][874]LogOutputDevice:Error: 
+[2017.08.15-13.48.56:225][874]LogStats:                SubmitErrorReport -  0.000 s

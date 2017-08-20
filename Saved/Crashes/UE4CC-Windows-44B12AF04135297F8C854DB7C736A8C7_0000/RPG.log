@@ -1,0 +1,394 @@
+﻿Log file open, 08/18/17 03:42:23
+LogInit:Display: Running engine for game: RPG
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-928406499) SRandInit(-928406499).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.098114
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.17-18.42.23:766][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-18.42.23:766][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.17-18.42.23:797][  0]LogInit: Computer: DESKTOP-RNSDQO3
+[2017.08.17-18.42.23:797][  0]LogInit: User: tlstk
+[2017.08.17-18.42.23:797][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.17-18.42.23:797][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2017.08.17-18.42.23:797][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.17-18.42.23:797][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.17-18.42.23:797][  0]LogMemory: Process Physical Memory: 274.26 MB used, 274.26 MB peak
+[2017.08.17-18.42.23:797][  0]LogMemory: Process Virtual Memory: 274.44 MB used, 274.44 MB peak
+[2017.08.17-18.42.23:797][  0]LogMemory: Physical Memory: 2501.09 MB used,  5550.11 MB free, 8051.20 MB total
+[2017.08.17-18.42.23:797][  0]LogMemory: Virtual Memory: 649.70 MB used,  5550.11 MB free, 134217728.00 MB total
+[2017.08.17-18.42.24:065][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.17-18.42.24:065][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.17-18.42.24:143][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.17-18.42.27:650][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.17-18.42.27:660][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.17-18.42.27:660][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.17-18.42.27:662][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.17-18.42.27:662][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.17-18.42.27:662][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.17-18.42.27:668][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.17-18.42.27:668][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.17-18.42.27:668][  0]LogWindows: EnumDisplayDevices:
+[2017.08.17-18.42.27:668][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.17-18.42.27:670][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.17-18.42.27:671][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.17-18.42.27:672][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.17-18.42.27:672][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.17-18.42.27:672][  0]LogD3D11RHI:   Driver Version: 21.20.16.4534 (internal:21.20.16.4534, unified:21.20.16.4534)
+[2017.08.17-18.42.27:672][  0]LogD3D11RHI:      Driver Date: 10-7-2016
+[2017.08.17-18.42.27:672][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.17-18.42.27:678][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.17-18.42.27:685][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.17-18.42.27:686][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Intermediate/Shaders/WorkingDirectory/8644/).
+[2017.08.17-18.42.27:686][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tlstk/AppData/Local/Temp/UnrealShaderWorkingDir/9A2EAFDC4CD6085318502E8C260D9799/'.
+[2017.08.17-18.42.27:686][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.17-18.42.29:928][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.17-18.42.29:982][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.17-18.42.30:037][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.17-18.42.30:092][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.17-18.42.30:151][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.17-18.42.30:206][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.17-18.42.30:260][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.17-18.42.30:314][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.17-18.42.30:367][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.17-18.42.30:424][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.17-18.42.30:479][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.17-18.42.30:535][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.17-18.42.30:591][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.17-18.42.30:644][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.17-18.42.30:697][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.17-18.42.30:824][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.17-18.42.30:824][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.17-18.42.30:868][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.17-18.42.30:975][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.17-18.42.31:006][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.17-18.42.31:060][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.17-18.42.31:113][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.17-18.42.31:168][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.17-18.42.31:225][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.17-18.42.31:225][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.17-18.42.31:853][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.17-18.42.32:259][  0]LogDerivedDataCache: Loaded boot cache 0.40s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.17-18.42.32:259][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.17-18.42.32:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.17-18.42.32:259][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.17-18.42.32:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.17-18.42.32:259][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.17-18.42.32:281][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.17-18.42.32:293][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tlstk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.17-18.42.32:303][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.17-18.42.32:303][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.17-18.42.32:314][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-18.42.32:314][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-18.42.33:207][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-18.42.33:298][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.17-18.42.33:500][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.17-18.42.33:550][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.17-18.42.33:604][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.17-18.42.33:604][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.17-18.42.33:604][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.17-18.42.34:278][  0]LogNetVersion: RPG , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2515200283)
+[2017.08.17-18.42.34:346][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.08.17-18.42.34:426][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.054052 seconds
+[2017.08.17-18.42.34:432][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.17-18.42.34:432][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.17-18.42.34:432][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.17-18.42.34:507][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.17-18.42.41:708][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.17-18.42.41:752][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.17-18.42.42:394][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.17-18.42.42:843][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.17-18.42.42:930][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.17-18.42.42:987][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.17-18.42.43:041][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.17-18.42.43:350][  0]LogLinker:Warning: '/Game/FirstPersonBP/FirstPersonOverview' 파일을 찾을 수 없습니다.
+[2017.08.17-18.42.43:350][  0]LogLinker:Warning: '/Game/FirstPersonBP/FirstPersonOverview' 파일을 찾을 수 없습니다.
+[2017.08.17-18.42.43:351][  0]LogUObjectGlobals:Warning: 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.17-18.42.43:855][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.17-18.42.44:511][  0]LogEngine: Initializing Engine...
+[2017.08.17-18.42.44:512][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.17-18.42.44:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.17-18.42.44:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.17-18.42.44:891][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.17-18.42.44:911][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.42.46:096][  0]LogInit: FAudioDevice initialized.
+[2017.08.17-18.42.46:154][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.17-18.42.46:171][  0]LogInit: Texture streaming: Enabled
+[2017.08.17-18.42.46:283][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.17-18.42.46:648][  0]LogInit: Transaction tracking system initialized
+[2017.08.17-18.42.47:064][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.17-18.42.48:297][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.17-18.42.49:492][  0]LogConsoleResponse:Display: 
+[2017.08.17-18.42.49:685][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.17-18.42.49:685][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.17-18.42.50:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/' took 0.03s
+[2017.08.17-18.42.51:400][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.17-18.42.51:400][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/GrassLands/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-18.42.51:401][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.17-18.42.51:467][  0]MapCheck: New page: 맵 체크
+[2017.08.17-18.42.51:467][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.17-18.42.52:191][  0]LogBlueprint:Error: [Compiler GameMode] 오류 이 블루프린트(self)는 GameMode 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.17-18.42.52:193][  0]LogBlueprint:Warning: [Compiler GameMode] 경고 [0031.00] GameMode 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 2 ms] (/Game/BluePrint/Player/GameMode.GameMode)
+[2017.08.17-18.42.52:193][  0]LogBlueprint:Warning: [Compiler GameMode] 경고 [0031.00] GameMode 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 0 ms] (/Game/BluePrint/Player/GameMode.GameMode)
+[2017.08.17-18.42.52:193][  0]LogBlueprint:Warning: [Compiler GameMode] 경고 [0031.00] GameMode 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 2 회, [소요시간 0 ms] (/Game/BluePrint/Player/GameMode.GameMode)
+[2017.08.17-18.42.58:706][  0]LogAIModule: Creating AISystem for world Main
+[2017.08.17-18.42.58:861][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-18.42.59:032][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-18.42.59:160][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 128.63ms.
+[2017.08.17-18.42.59:160][  0]LogFileHelpers: Loading map 'Main' took 7.760
+[2017.08.17-18.42.59:372][  0]LogCollectionManager: Loaded 0 collections in 0.001422 seconds
+[2017.08.17-18.42.59:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Collections/' took 0.01s
+[2017.08.17-18.42.59:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Developers/tlstk/Collections/' took 0.01s
+[2017.08.17-18.42.59:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Collections/' took 0.01s
+[2017.08.17-18.42.59:463][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.17-18.42.59:472][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2017.08.17-18.42.59:547][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.17-18.43.00:016][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.17-18.43.00:072][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.43.00:487][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.17-18.43.00:500][  0]LogSlate: Took 0.008828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-18.43.00:536][  0]LogSlate: Took 0.035245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.17-18.43.00:542][  0]LogSlate: Took 0.005532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.17-18.43.00:551][  0]LogSlate: Took 0.005048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.17-18.43.00:667][  0]LogRenderer: Reallocating scene render targets to support 916x456 NumSamples 1 (Frame:1).
+[2017.08.17-18.43.01:630][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.17-18.43.01:712][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.43.01:712][  0]LogLoad: (Engine Initialization) Total time: 40.52 seconds
+[2017.08.17-18.43.01:712][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.49 seconds
+[2017.08.17-18.43.01:712][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.17-18.43.02:051][  0]LogOcInput: OculusInput pre-init called
+[2017.08.17-18.43.02:051][  0]LogHMD: Starting GearVRController plugin
+[2017.08.17-18.43.02:077][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.17-18.43.02:124][  0]LogSlate: Took 0.006544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-18.43.02:411][  1]LogAssetRegistry: Asset discovery search completed in 28.0871 seconds
+[2017.08.17-18.43.02:414][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.17-18.43.02:414][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.08.17-18.43.03:059][  3]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-18.43.40:263][195]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.17-18.43.41:188][198]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPG
+[2017.08.17-18.43.41:188][198]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.17-18.43.41:188][198]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.17-18.43.41:188][198]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.17-18.43.41:193][198]LogTemp: BranchPath = DESKTOP-RNSDQO3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-RNSDQO3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.17-18.43.41:254][199]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tlstk\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.17-18.43.51:683][527]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-18.43.51:862][527]LogAIModule: Creating AISystem for world Real
+[2017.08.17-18.43.51:904][527]Cmd: MAP LOAD FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-18.43.51:904][527]LightingResults: New page: 라이팅 빌드
+[2017.08.17-18.43.51:905][527]LoadErrors: New page: 맵 로드중: Real.umap
+[2017.08.17-18.43.51:914][527]MapCheck: New page: 맵 체크
+[2017.08.17-18.43.51:914][527]LightingResults: New page: 라이팅 빌드
+[2017.08.17-18.43.52:055][527]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-18.43.52:154][527]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-18.43.52:326][527]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 172.284ms.
+[2017.08.17-18.43.52:327][527]LogFileHelpers: Loading map 'Real' took 0.423
+[2017.08.17-18.44.07:492][ 86]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.08.17-18.44.08:113][ 86]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-18.44.08:178][ 86]LogSlate: Took 0.004366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.17-18.44.10:302][164]LogSlate: Took 0.007649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.17-18.44.56:078][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-18.46.59:929][897]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Enemy_Grunt_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.47.00:655][940]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Enemy_Grunt_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.47.06:082][265]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Enemy_Grunt_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.47.51:749][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-18.47.53:020][508]BlueprintLog: New page: Enemy_Grunt 컴파일
+[2017.08.17-18.48.05:337][ 69]BlueprintLog: New page: Enemy_Grunt 컴파일
+[2017.08.17-18.48.06:745][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Grunt/Enemy_Grunt" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset" SILENT=true
+[2017.08.17-18.48.06:807][144]LogSavePackage: Save=47.64ms
+[2017.08.17-18.48.06:807][144]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Enemy_GruntDB8DFBA444C7A0796094E38079E56CF3.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset'
+[2017.08.17-18.48.06:810][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset
+[2017.08.17-18.48.47:826][ 77]LogRenderer: Reallocating scene render targets to support 916x660 NumSamples 1 (Frame:1).
+[2017.08.17-18.50.19:738][945]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_19:PersistentLevel.Enemy_Grunt_Child_C_8.CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.50.19:738][945]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Enemy_Grunt_C_0.CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.50.19:738][945]LogActorComponent: ReregisterComponent: (/Game/BluePrint/Grunt/Enemy_Grunt_Child.Default__Enemy_Grunt_Child_C:CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.50.19:738][945]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_17:PersistentLevel.Enemy_Grunt_Child_C_3.CharacterMesh0) Not currently registered. Aborting.
+[2017.08.17-18.50.39:173][672]BlueprintLog: New page: Enemy_Grunt 컴파일
+[2017.08.17-18.50.41:211][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Grunt/Enemy_Grunt" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset" SILENT=true
+[2017.08.17-18.50.41:279][729]LogSavePackage: Save=60.79ms
+[2017.08.17-18.50.41:279][729]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Enemy_Grunt6FE864C441D84B4BC2E0F38759A8C8D8.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset'
+[2017.08.17-18.50.41:285][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset
+[2017.08.17-18.51.17:646][180]BlueprintLog: New page: Enemy_Grunt_Child 컴파일
+[2017.08.17-18.51.18:426][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Grunt/Enemy_Grunt_Child" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt_Child.uasset" SILENT=true
+[2017.08.17-18.51.18:463][199]LogSavePackage: Save=32.85ms
+[2017.08.17-18.51.18:463][199]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Enemy_Grunt_Child61A26FB544499843BA7170B0D49E7D86.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt_Child.uasset'
+[2017.08.17-18.51.18:468][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt_Child.uasset
+[2017.08.17-18.52.17:438][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-18.52.18:145][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-18.52.37:840][759]LogEditorViewport: Clicking on Actor (LMB): Grunt_C (Grunt)
+[2017.08.17-18.52.39:036][797]Cmd: DELETE
+[2017.08.17-18.52.39:036][797]Cmd: ACTOR DELETE
+[2017.08.17-18.52.39:049][797]LogEditorActor: Deleted Actor: Grunt_C
+[2017.08.17-18.52.39:084][797]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2017.08.17-18.52.44:047][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PawnSensing' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AttackCollision' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Grunt_C_1' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PawnSensing_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AttackCollision_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Grunt_C_0' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Grunt_C_244' or package '/Engine/Transient'.
+[2017.08.17-18.52.46:299][896]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Grunt_C_243' or package '/Engine/Transient'.
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.Grunt:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.SKEL_Grunt_C' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.Grunt_C' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.Grunt:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.Grunt:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.Grunt:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:032][352]LogMetaData: Removing '/Game/BluePrint/Grunt/Grunt.Grunt:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrint/Grunt/Enemy_Grunt_Child.PackageMetaData'
+[2017.08.17-18.52.58:065][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Grunt/Grunt" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Grunt.uasset" SILENT=true
+[2017.08.17-18.52.58:097][352]LogSavePackage: Save=28.91ms
+[2017.08.17-18.52.58:097][352]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Grunt36DB22724C7BF028244513806CADA364.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Grunt.uasset'
+[2017.08.17-18.52.58:103][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Grunt.uasset
+[2017.08.17-18.53.06:502][650]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.17-18.53.06:737][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.53.09:877][650]PIE: New page: PIE 세션: Real (2017. 8. 18. 오후 12:53:09)
+[2017.08.17-18.53.09:877][650]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.17-18.53.09:880][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003712s)
+[2017.08.17-18.53.09:881][650]LogAIModule: Creating AISystem for world Real
+[2017.08.17-18.53.09:881][650]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2017.08.17-18.53.09:882][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004821s)
+[2017.08.17-18.53.09:927][650]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.53.09:988][650]LogInit: FAudioDevice initialized.
+[2017.08.17-18.53.10:029][650]LogLoad: Game class is 'GameMode_C'
+[2017.08.17-18.53.10:035][650]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.18-03.53.10
+[2017.08.17-18.53.10:037][650]LogWorld: Bringing up level for play took: 0.003753
+[2017.08.17-18.53.10:085][650]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.08.17-18.53.10:086][650]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 2.969
+[2017.08.17-18.54.37:689][ 70]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.17-18.54.37:890][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.17-18.54.39:084][ 70]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.08.17-18.55.21:640][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Grunt/GruntAnimBlueprint" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/GruntAnimBlueprint.uasset" SILENT=true
+[2017.08.17-18.55.21:881][ 20]LogSavePackage: Save=221.23ms
+[2017.08.17-18.55.21:881][ 20]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GruntAnimBlueprint0574B5C5499B3A11BB85B0907EE84338.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/GruntAnimBlueprint.uasset'
+[2017.08.17-18.55.21:883][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/GruntAnimBlueprint.uasset
+[2017.08.17-18.56.02:688][191]LogSavePackage: Save=100.72ms
+[2017.08.17-18.56.02:688][191]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_Auto1853747384FB57C02008A39828F7694BD.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto1.umap'
+[2017.08.17-18.56.02:689][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto1.umap
+[2017.08.17-18.56.02:694][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Real' took 0.174
+[2017.08.17-18.56.02:694][191]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2017.08.17-18.56.38:425][483]BlueprintLog: New page: Enemy_Grunt 컴파일
+[2017.08.17-18.56.39:266][506]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.17-18.56.39:303][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.56.39:303][506]PIE: New page: PIE 세션: Real (2017. 8. 18. 오후 12:56:39)
+[2017.08.17-18.56.39:304][506]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.17-18.56.39:307][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003755s)
+[2017.08.17-18.56.39:308][506]LogAIModule: Creating AISystem for world Real
+[2017.08.17-18.56.39:308][506]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.08.17-18.56.39:308][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004747s)
+[2017.08.17-18.56.39:354][506]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.56.39:415][506]LogInit: FAudioDevice initialized.
+[2017.08.17-18.56.39:471][506]LogLoad: Game class is 'GameMode_C'
+[2017.08.17-18.56.39:475][506]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.18-03.56.39
+[2017.08.17-18.56.39:476][506]LogWorld: Bringing up level for play took: 0.004243
+[2017.08.17-18.56.39:479][506]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.362
+[2017.08.17-18.56.41:166][584]LogBlueprintUserMessages: [Grunt_99] 50.0
+[2017.08.17-18.57.14:395][449]BlueprintLog: New page: Enemy_Grunt 컴파일
+[2017.08.17-18.57.15:765][502]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.17-18.57.15:803][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-18.57.15:803][502]PIE: New page: PIE 세션: Real (2017. 8. 18. 오후 12:57:15)
+[2017.08.17-18.57.15:803][502]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.17-18.57.15:807][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003588s)
+[2017.08.17-18.57.15:807][502]LogAIModule: Creating AISystem for world Real
+[2017.08.17-18.57.15:807][502]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.08.17-18.57.15:807][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004545s)
+[2017.08.17-18.57.15:854][502]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-18.57.15:903][502]LogInit: FAudioDevice initialized.
+[2017.08.17-18.57.15:948][502]LogLoad: Game class is 'GameMode_C'
+[2017.08.17-18.57.15:952][502]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.18-03.57.15
+[2017.08.17-18.57.15:954][502]LogWorld: Bringing up level for play took: 0.005745
+[2017.08.17-18.57.15:957][502]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.84
+[2017.08.17-18.57.17:710][580]LogBlueprintUserMessages: [Grunt_99] 50.0
+[2017.08.17-18.57.19:120][645]LogBlueprintUserMessages: [Grunt_99] Enemy Is Dead
+[2017.08.17-18.57.20:891][727]LogBlueprintUserMessages: [Grunt_99] Enemy Is Dead
+[2017.08.17-18.57.23:995][882]LogBlueprintUserMessages: [Grunt_99] Enemy Is Dead
+[2017.08.17-18.57.25:921][978]LogBlueprintUserMessages: [Grunt_99] Enemy Is Dead
+[2017.08.17-18.57.55:346][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Grunt/Enemy_Grunt" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset" SILENT=true
+[2017.08.17-18.57.55:411][678]LogSavePackage: Save=51.38ms
+[2017.08.17-18.57.55:411][678]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Enemy_Grunt72A571074F3C6AC752FAB5A881DE19ED.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset'
+[2017.08.17-18.57.55:415][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/Grunt/Enemy_Grunt.uasset
+[2017.08.17-18.58.01:674][ 43]LogUObjectBase:Warning: Object is not registered
+[2017.08.17-18.58.01:905][ 43]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.231 s
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: 
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: Stack: 
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9C9E2B6
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9A4B8C2
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9A61E86
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F2CE7556
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000F8CFD27B
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F75724AA
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F74172CC
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F741A6D9
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F7538035
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000017FDB57
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000001804B61
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000001A248D3
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000185F604
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000018377FC
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000182814C
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9C915B0
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9C7B7D1
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9C933DB
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9C77B22
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: USER32.dll!0x000000002A09BC50
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: USER32.dll!0x000000002A09B5CF
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F9C93CE6
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF80DB44
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF7FF0B0
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF7FF12A
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF810CF9
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF8125F7
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: KERNEL32.DLL!0x000000002ADF2774
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: ntdll.dll!0x000000002C4F0D51
+[2017.08.17-18.58.01:905][ 43]LogOutputDevice:Error: 
+[2017.08.17-18.58.01:915][ 43]LogStats:                SubmitErrorReport -  0.000 s

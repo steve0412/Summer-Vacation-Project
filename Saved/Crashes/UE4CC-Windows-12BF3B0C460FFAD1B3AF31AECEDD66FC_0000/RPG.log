@@ -1,0 +1,1037 @@
+﻿Log file open, 08/14/17 06:44:18
+LogInit:Display: Running engine for game: RPG
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1701477360) SRandInit(1701477360).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089646
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.13-21.44.19:257][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.13-21.44.19:257][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.13-21.44.19:267][  0]LogInit: Computer: DESKTOP-RNSDQO3
+[2017.08.13-21.44.19:267][  0]LogInit: User: tlstk
+[2017.08.13-21.44.19:267][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.13-21.44.19:267][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2017.08.13-21.44.19:268][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.13-21.44.19:268][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.13-21.44.19:268][  0]LogMemory: Process Physical Memory: 272.91 MB used, 272.91 MB peak
+[2017.08.13-21.44.19:268][  0]LogMemory: Process Virtual Memory: 270.27 MB used, 270.27 MB peak
+[2017.08.13-21.44.19:268][  0]LogMemory: Physical Memory: 2799.73 MB used,  5251.47 MB free, 8051.20 MB total
+[2017.08.13-21.44.19:268][  0]LogMemory: Virtual Memory: 645.70 MB used,  5251.47 MB free, 134217728.00 MB total
+[2017.08.13-21.44.19:342][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.13-21.44.19:342][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.13-21.44.19:346][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.13-21.44.20:223][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.13-21.44.20:232][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.13-21.44.20:232][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.13-21.44.20:233][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.13-21.44.20:233][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.13-21.44.20:233][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.13-21.44.20:237][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.13-21.44.20:237][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.13-21.44.20:237][  0]LogWindows: EnumDisplayDevices:
+[2017.08.13-21.44.20:238][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.13-21.44.20:239][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.13-21.44.20:240][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.13-21.44.20:240][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.13-21.44.20:240][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.13-21.44.20:240][  0]LogD3D11RHI:   Driver Version: 21.20.16.4534 (internal:21.20.16.4534, unified:21.20.16.4534)
+[2017.08.13-21.44.20:240][  0]LogD3D11RHI:      Driver Date: 10-7-2016
+[2017.08.13-21.44.20:240][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.13-21.44.20:247][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.13-21.44.20:253][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.13-21.44.20:254][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Intermediate/Shaders/WorkingDirectory/3100/).
+[2017.08.13-21.44.20:254][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tlstk/AppData/Local/Temp/UnrealShaderWorkingDir/6AD545464148CC28108D07B92CED1B52/'.
+[2017.08.13-21.44.20:254][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.13-21.44.21:358][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.13-21.44.21:412][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.13-21.44.21:466][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.13-21.44.21:519][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.13-21.44.21:574][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.13-21.44.21:628][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.13-21.44.21:683][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.13-21.44.21:736][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.13-21.44.21:784][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.13-21.44.21:839][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.13-21.44.21:893][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.13-21.44.21:946][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.13-21.44.22:001][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.13-21.44.22:054][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.13-21.44.22:109][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.13-21.44.22:219][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.13-21.44.22:219][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.13-21.44.22:263][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.13-21.44.22:363][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.13-21.44.22:395][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.13-21.44.22:447][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.13-21.44.22:508][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.13-21.44.22:571][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.13-21.44.22:632][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.13-21.44.22:633][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.13-21.44.23:173][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.13-21.44.23:279][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.13-21.44.23:279][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.13-21.44.23:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.13-21.44.23:279][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.13-21.44.23:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.13-21.44.23:279][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.13-21.44.23:296][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.13-21.44.23:308][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tlstk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.13-21.44.23:318][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.13-21.44.23:319][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.13-21.44.23:319][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.13-21.44.23:319][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.13-21.44.23:683][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.13-21.44.23:774][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.13-21.44.23:955][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.13-21.44.24:018][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.13-21.44.24:086][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.13-21.44.24:086][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.13-21.44.24:086][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.13-21.44.24:756][  0]LogNetVersion: RPG , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2515200283)
+[2017.08.13-21.44.24:824][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.08.13-21.44.24:902][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046725 seconds
+[2017.08.13-21.44.24:908][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.13-21.44.24:908][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.13-21.44.24:908][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.13-21.44.24:985][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.13-21.44.27:706][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.13-21.44.27:747][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.13-21.44.28:342][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.13-21.44.28:773][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-21.44.28:813][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-21.44.28:865][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-21.44.28:916][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-21.44.29:679][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.13-21.44.30:322][  0]LogEngine: Initializing Engine...
+[2017.08.13-21.44.30:323][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.13-21.44.30:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.13-21.44.30:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.13-21.44.30:710][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.13-21.44.30:729][  0]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-21.44.30:858][  0]LogInit: FAudioDevice initialized.
+[2017.08.13-21.44.30:913][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/tlstk/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.13-21.44.30:930][  0]LogInit: Texture streaming: Enabled
+[2017.08.13-21.44.31:041][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.13-21.44.31:041][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FC266520-4B29-709A-C9B8-DC929991AEA9}
+[2017.08.13-21.44.31:282][  0]LogInit: Transaction tracking system initialized
+[2017.08.13-21.44.31:629][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.13-21.44.32:676][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.13-21.44.33:715][  0]LogConsoleResponse:Display: 
+[2017.08.13-21.44.33:872][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.13-21.44.33:872][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.13-21.44.33:920][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/' took 0.05s
+[2017.08.13-21.44.35:016][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-21.44.35:016][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.13-21.44.35:016][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.13-21.44.35:064][  0]MapCheck: New page: 맵 체크
+[2017.08.13-21.44.35:064][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.13-21.44.35:872][  0]LogAIModule: Creating AISystem for world Real
+[2017.08.13-21.44.35:884][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.13-21.44.35:940][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.13-21.44.36:014][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 74.649ms.
+[2017.08.13-21.44.36:014][  0]LogFileHelpers: Loading map 'Real' took 0.999
+[2017.08.13-21.44.36:164][  0]LogCollectionManager: Loaded 0 collections in 0.001453 seconds
+[2017.08.13-21.44.36:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Collections/' took 0.01s
+[2017.08.13-21.44.36:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Developers/tlstk/Collections/' took 0.01s
+[2017.08.13-21.44.36:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tlstk/Desktop/Unreal Projects/RPG/Content/Collections/' took 0.01s
+[2017.08.13-21.44.36:251][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.13-21.44.36:260][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2017.08.13-21.44.36:331][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.13-21.44.36:371][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.13-21.44.36:419][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.13-21.44.36:524][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.13-21.44.36:530][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.13-21.44.36:534][  0]LogSlate: Took 0.003274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.13-21.44.36:535][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.13-21.44.36:539][  0]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.13-21.44.36:632][  0]LogRenderer: Reallocating scene render targets to support 820x436 NumSamples 1 (Frame:1).
+[2017.08.13-21.44.36:968][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.13-21.44.37:039][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.13-21.44.37:039][  0]LogLoad: (Engine Initialization) Total time: 19.47 seconds
+[2017.08.13-21.44.37:039][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2017.08.13-21.44.37:040][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.13-21.44.37:382][  0]LogOcInput: OculusInput pre-init called
+[2017.08.13-21.44.37:382][  0]LogHMD: Starting GearVRController plugin
+[2017.08.13-21.44.37:402][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.13-21.44.37:462][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-21.44.38:054][  2]LogAssetRegistry: Asset discovery search completed in 13.2528 seconds
+[2017.08.13-21.44.38:058][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.13-21.44.38:058][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.08.13-21.44.38:151][  3]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-21.44.40:664][136]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-21.44.40:802][136]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.08.13-21.44.41:035][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.13-21.44.42:226][136]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.08.13-21.44.43:646][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.08.13-21.44.45:284][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.13-21.44.45:521][136]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.08.13-21.44.48:145][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.13-21.44.52:919][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.08.13-21.45.01:084][136]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.08.13-21.45.01:337][136]LogRenderer: Reallocating scene render targets to support 912x436 NumSamples 1 (Frame:1).
+[2017.08.13-21.45.01:337][136]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-21.45.01:829][136]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-21.45.18:881][526]LogSlate: Took 0.000603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.13-21.45.19:083][526]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-21.45.19:140][527]LogSlate: Took 0.000412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.13-21.46.15:828][ 63]LogSavePackage: Save=23.55ms
+[2017.08.13-21.46.15:828][ 63]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/ExoGame_Greater_Spider_Attack_Melee1F7B88A34DAE64A183270CA8434E32AF.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Attack_Melee.uasset'
+[2017.08.13-21.46.15:835][ 63]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Attack_Melee.uasset
+[2017.08.13-21.46.17:725][137]LogSavePackage: Save=22.96ms
+[2017.08.13-21.46.17:725][137]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/ExoGame_Bears_Attack_MeleeBDD50EE9415E59645738C3AB7EC9801F.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Melee.uasset'
+[2017.08.13-21.46.17:727][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Enemy/Enemy_Bear/Enemy_Bear_Animations/ExoGame_Bears_Attack_Melee.uasset
+[2017.08.13-21.46.31:248][788]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-21.46.50:312][848]LogSavePackage: Save=56.67ms
+[2017.08.13-21.46.50:312][848]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearDE5106764BF99347350A2CB4000FD781.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-21.46.50:317][848]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-21.46.55:984][181]LogSavePackage: Save=62.49ms
+[2017.08.13-21.46.55:984][181]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearCD2F21FD4161C4624BB3328012FB3398.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-21.46.55:989][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-21.47.03:294][600]LogSavePackage: Save=58.52ms
+[2017.08.13-21.47.03:294][600]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Giant5CCD40C14CC3AF68CE844E85DAF453F0.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-21.47.03:300][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-21.47.10:466][ 26]LogRenderer: Reallocating scene render targets to support 912x540 NumSamples 1 (Frame:1).
+[2017.08.13-21.47.32:370][180]BlueprintLog: New page: BP_Giant 컴파일
+[2017.08.13-21.47.33:584][211]LogSavePackage: Save=79.83ms
+[2017.08.13-21.47.33:584][211]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Giant1F39F8314AB8A25A757806BC0FAD46EF.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-21.47.33:593][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-21.47.50:322][164]BlueprintLog: New page: BP_Spider 컴파일
+[2017.08.13-21.48.03:223][906]BlueprintLog: New page: BP_Spider 컴파일
+[2017.08.13-21.48.03:977][926]LogSavePackage: Save=47.81ms
+[2017.08.13-21.48.03:977][926]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Spider21030FE8438DD03AD45987953C1157F8.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset'
+[2017.08.13-21.48.03:980][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset
+[2017.08.13-21.48.10:121][286]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-21.48.36:753][282]BlueprintLog: New page: GiantAnimBlueprint 컴파일
+[2017.08.13-21.48.39:333][394]LogSavePackage: Save=210.74ms
+[2017.08.13-21.48.39:333][394]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantAnimBlueprintBC01C1DF4D57A743D68843B36256DCC7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset'
+[2017.08.13-21.48.39:338][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset
+[2017.08.13-21.48.41:526][490]LogSavePackage: Save=197.74ms
+[2017.08.13-21.48.41:526][490]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BearAnimBlueprintA59F6AA4415F84B2D462DCA02E3296BE.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BearAnimBlueprint.uasset'
+[2017.08.13-21.48.41:528][490]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BearAnimBlueprint.uasset
+[2017.08.13-21.49.08:922][908]BlueprintLog: New page: GiantAnimBlueprint 컴파일
+[2017.08.13-21.49.10:405][960]LogSavePackage: Save=248.34ms
+[2017.08.13-21.49.10:405][960]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantAnimBlueprint9166C2774C92BEB34E49F1A66646ECA7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset'
+[2017.08.13-21.49.10:410][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset
+[2017.08.13-21.49.30:702][923]BlueprintLog: New page: SpiderAnimBlueprint 컴파일
+[2017.08.13-21.49.31:801][949]LogSavePackage: Save=243.85ms
+[2017.08.13-21.49.31:801][949]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SpiderAnimBlueprint5B9C86B84210AA8DF945B09288F488AD.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/SpiderAnimBlueprint.uasset'
+[2017.08.13-21.49.31:807][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/SpiderAnimBlueprint.uasset
+[2017.08.13-21.50.57:371][ 98]BlueprintLog: New page: BP_Spider 컴파일
+[2017.08.13-21.50.58:060][111]LogSavePackage: Save=49.80ms
+[2017.08.13-21.50.58:060][111]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Spider7F71E8ED4ED738D76DB08A9A38C9F425.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset'
+[2017.08.13-21.50.58:065][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset
+[2017.08.13-21.51.09:588][657]BlueprintLog: New page: BP_Spider 컴파일
+[2017.08.13-21.51.10:377][672]LogSavePackage: Save=53.83ms
+[2017.08.13-21.51.10:377][672]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Spider924AFB4C4D9B535072EA5D94E46A951C.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset'
+[2017.08.13-21.51.10:382][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset
+[2017.08.13-21.51.20:091][129]BlueprintLog: New page: BP_Giant 컴파일
+[2017.08.13-21.51.20:899][146]LogSavePackage: Save=59.14ms
+[2017.08.13-21.51.20:899][146]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Giant5038297C42C4FA7308A50D9AC732CC4E.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-21.51.20:905][146]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-21.51.43:699][ 22]LogSavePackage: Save=41.43ms
+[2017.08.13-21.51.43:699][ 22]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_GiantDD3B20F641FAC9839C78EB9CF4EF548E.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-21.51.43:703][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-21.51.51:352][474]LogSavePackage: Save=48.37ms
+[2017.08.13-21.51.51:352][474]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearD79705274EB1EFB77D0BA9A391BEAFA9.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-21.51.51:357][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-21.52.21:977][566]BlueprintLog: New page: BP_Bear 컴파일
+[2017.08.13-21.52.32:981][ 21]BlueprintLog: New page: BP_Spider 컴파일
+[2017.08.13-21.52.33:645][ 29]LogSavePackage: Save=66.26ms
+[2017.08.13-21.52.33:645][ 29]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Spider50E0D07942982C397CFEBE88F8EBCC21.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset'
+[2017.08.13-21.52.33:651][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset
+[2017.08.13-21.52.39:970][401]BlueprintLog: New page: BP_Giant 컴파일
+[2017.08.13-21.52.40:674][421]LogSavePackage: Save=69.98ms
+[2017.08.13-21.52.40:674][421]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Giant4959E8C84A54CE077FC77BAFB583161F.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-21.52.40:681][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-21.52.53:128][541]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-21.52.53:312][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-21.52.53:313][541]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 3:52:53)
+[2017.08.13-21.52.53:313][541]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-21.52.53:318][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004541s)
+[2017.08.13-21.52.53:318][541]LogAIModule: Creating AISystem for world Real
+[2017.08.13-21.52.53:318][541]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2017.08.13-21.52.53:319][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005678s)
+[2017.08.13-21.52.53:375][541]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-21.52.53:429][541]LogInit: FAudioDevice initialized.
+[2017.08.13-21.52.53:486][541]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-21.52.53:490][541]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-06.52.53
+[2017.08.13-21.52.53:492][541]LogWorld: Bringing up level for play took: 0.005440
+[2017.08.13-21.52.53:560][541]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.13-21.52.53:560][541]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:010B
+[2017.08.13-21.52.53:561][541]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.52.53:563][541]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.487
+[2017.08.13-21.53.07:871][221]LogEditorViewport: Clicking on Actor (LMB): BP_Bear_C (BP_Bear)
+[2017.08.13-21.53.12:974][412]Cmd: SELECT NONE
+[2017.08.13-21.53.15:714][530]LogSavePackage: Save=103.72ms
+[2017.08.13-21.53.15:714][530]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/RealE8F5E2EB448D33F0E96FB28014615257.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.13-21.53.15:719][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.13-21.53.15:777][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Real_BuiltData" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset" SILENT=true
+[2017.08.13-21.53.16:109][530]LogSavePackage: Save=317.82ms
+[2017.08.13-21.53.16:109][530]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_BuiltDataFA61F1D847F047543516AABDB3BE6AA9.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset'
+[2017.08.13-21.53.16:110][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset
+[2017.08.13-21.53.16:449][548]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-21.53.16:488][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-21.53.16:488][548]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 3:53:16)
+[2017.08.13-21.53.16:488][548]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-21.53.16:491][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003564s)
+[2017.08.13-21.53.16:492][548]LogAIModule: Creating AISystem for world Real
+[2017.08.13-21.53.16:492][548]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2017.08.13-21.53.16:492][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004665s)
+[2017.08.13-21.53.16:537][548]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-21.53.16:592][548]LogInit: FAudioDevice initialized.
+[2017.08.13-21.53.16:626][548]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-21.53.16:628][548]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-06.53.16
+[2017.08.13-21.53.16:630][548]LogWorld: Bringing up level for play took: 0.003766
+[2017.08.13-21.53.16:631][548]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:010B
+[2017.08.13-21.53.16:631][548]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.16:631][548]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.582
+[2017.08.13-21.53.21:517][836]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.21:518][836]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.22:068][869]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.22:068][869]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.22:885][918]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.22:886][918]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.23:418][950]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.23:418][950]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.23:936][981]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.23:937][981]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.24:470][ 13]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.24:471][ 13]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.25:286][ 62]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.25:286][ 62]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.25:820][ 94]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.25:821][ 94]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.26:639][143]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.26:639][143]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.27:173][175]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.27:174][175]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.27:990][224]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.27:990][224]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.28:532][256]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.28:532][256]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.29:353][305]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.29:354][305]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.29:887][331]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00DC
+[2017.08.13-21.53.29:887][331]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.30:710][379]LogScript:Warning: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+	BP_Bear_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real:PersistentLevel.BP_Bear_298
+	Function /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear_C:ExecuteUbergraph_BP_Bear:00AD
+[2017.08.13-21.53.30:711][379]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.53.39:070][778]LogSavePackage: Save=59.09ms
+[2017.08.13-21.53.39:070][778]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearA1AC67544E385AEAD310198833F41765.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-21.53.39:075][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-21.54.53:342][130]LogSavePackage: Save=41.81ms
+[2017.08.13-21.54.53:342][130]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Spider19D6865143BF074A638CC981C3A44ED7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset'
+[2017.08.13-21.54.53:347][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset
+[2017.08.13-21.55.45:217][154]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-21.55.50:864][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-21.57.01:371][787]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-21.57.02:307][818]LogSavePackage: Save=85.29ms
+[2017.08.13-21.57.02:307][818]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Enemy96CEFCF342635FE189449FB65D5833A7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset'
+[2017.08.13-21.57.02:312][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset
+[2017.08.13-21.57.34:514][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/BP_WarriorDiablo" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset" SILENT=true
+[2017.08.13-21.57.34:657][180]LogSavePackage: Save=129.26ms
+[2017.08.13-21.57.34:657][180]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_WarriorDiablo0E75020E42D5ED723667E1B342AFEF85.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset'
+[2017.08.13-21.57.34:662][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset
+[2017.08.13-21.57.43:454][701]BlueprintLog: New page: BP_WarriorDiablo 컴파일
+[2017.08.13-21.57.44:223][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/BP_WarriorDiablo" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset" SILENT=true
+[2017.08.13-21.57.44:348][723]LogSavePackage: Save=113.84ms
+[2017.08.13-21.57.44:348][723]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_WarriorDiablo2AD4F00544FA7A3F63A4709DE209AB78.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset'
+[2017.08.13-21.57.44:353][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset
+[2017.08.13-21.59.15:723][184]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-21.59.16:657][223]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-21.59.17:677][268]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-21.59.17:725][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-21.59.17:725][268]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 3:59:17)
+[2017.08.13-21.59.17:725][268]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-21.59.17:731][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005214s)
+[2017.08.13-21.59.17:732][268]LogAIModule: Creating AISystem for world Real
+[2017.08.13-21.59.17:732][268]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2017.08.13-21.59.17:732][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006871s)
+[2017.08.13-21.59.17:782][268]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-21.59.17:835][268]LogInit: FAudioDevice initialized.
+[2017.08.13-21.59.17:882][268]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-21.59.17:887][268]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-06.59.17
+[2017.08.13-21.59.17:888][268]LogWorld: Bringing up level for play took: 0.005894
+[2017.08.13-21.59.17:890][268]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.17:893][268]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.156
+[2017.08.13-21.59.20:096][355]LogBlueprintUserMessages: [BP_Bear_298] Enemy is Dead!
+[2017.08.13-21.59.24:178][515]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-21.59.24:261][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-21.59.24:262][515]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 3:59:24)
+[2017.08.13-21.59.24:262][515]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-21.59.24:267][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005499s)
+[2017.08.13-21.59.24:268][515]LogAIModule: Creating AISystem for world Real
+[2017.08.13-21.59.24:268][515]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2017.08.13-21.59.24:269][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006981s)
+[2017.08.13-21.59.24:336][515]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-21.59.24:406][515]LogInit: FAudioDevice initialized.
+[2017.08.13-21.59.24:457][515]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-21.59.24:463][515]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-06.59.24
+[2017.08.13-21.59.24:465][515]LogWorld: Bringing up level for play took: 0.007972
+[2017.08.13-21.59.24:466][515]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.24:468][515]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.418
+[2017.08.13-21.59.29:368][714]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.29:912][737]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.30:981][780]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.31:522][802]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.32:329][835]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.32:868][857]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.33:682][890]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.34:218][912]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.35:050][948]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.35:586][971]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.36:398][  5]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.36:953][ 29]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.37:754][ 62]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-21.59.38:290][ 85]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-22.00.07:785][244]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.00.08:400][268]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.00.08:447][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.00.08:447][268]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:00:08)
+[2017.08.13-22.00.08:447][268]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.00.08:452][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005261s)
+[2017.08.13-22.00.08:453][268]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.00.08:453][268]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.08.13-22.00.08:454][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006393s)
+[2017.08.13-22.00.08:527][268]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.00.08:590][268]LogInit: FAudioDevice initialized.
+[2017.08.13-22.00.08:639][268]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.00.08:643][268]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.00.08
+[2017.08.13-22.00.08:647][268]LogWorld: Bringing up level for play took: 0.007057
+[2017.08.13-22.00.08:648][268]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-22.00.08:650][268]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.601
+[2017.08.13-22.00.10:373][333]LogBlueprintUserMessages: [BP_Bear_298] Enemy is Dead!
+[2017.08.13-22.00.20:322][796]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.00.28:633][274]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.00.31:142][408]LogSavePackage: Save=37.31ms
+[2017.08.13-22.00.31:142][408]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Ball8E9A69F24F7BB05DB5B76DBC4D9F7BF4.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Ball.uasset'
+[2017.08.13-22.00.31:148][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Ball.uasset
+[2017.08.13-22.00.33:105][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/BP_WarriorDiablo" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset" SILENT=true
+[2017.08.13-22.00.33:219][515]LogSavePackage: Save=105.24ms
+[2017.08.13-22.00.33:219][515]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_WarriorDiablo1A065F4B4F7DF6DE9AE59ABFDA12EDC7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset'
+[2017.08.13-22.00.33:223][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/BluePrint/BP_WarriorDiablo.uasset
+[2017.08.13-22.00.34:045][555]LogSavePackage: Save=81.84ms
+[2017.08.13-22.00.34:045][555]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Enemy12598F2A4FBB6EFA717486A87293D22D.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset'
+[2017.08.13-22.00.34:049][555]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset
+[2017.08.13-22.00.37:173][717]LogEditorViewport: Clicking on Actor (LMB): BP_Bear_C (BP_Bear)
+[2017.08.13-22.00.45:850][153]LogSavePackage: Save=44.68ms
+[2017.08.13-22.00.45:850][153]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Bear8D7ACD3C4342264009F7A592DA55A13B.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-22.00.45:855][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-22.00.52:584][551]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-22.00.53:624][583]LogSavePackage: Save=84.00ms
+[2017.08.13-22.00.53:624][583]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_EnemyEDDC77B24C4F49788CAEB594EB4A661F.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset'
+[2017.08.13-22.00.53:629][583]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset
+[2017.08.13-22.00.58:444][865]LogSavePackage: Save=54.00ms
+[2017.08.13-22.00.58:444][865]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearFA4ACDFC45F83D147AC8A3BADAD039FD.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-22.00.58:450][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-22.00.58:992][896]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.00.59:025][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.00.59:025][896]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:00:59)
+[2017.08.13-22.00.59:026][896]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.00.59:031][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005023s)
+[2017.08.13-22.00.59:031][896]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.00.59:031][896]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2017.08.13-22.00.59:032][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006061s)
+[2017.08.13-22.00.59:076][896]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.00.59:120][896]LogInit: FAudioDevice initialized.
+[2017.08.13-22.00.59:162][896]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.00.59:166][896]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.00.59
+[2017.08.13-22.00.59:167][896]LogWorld: Bringing up level for play took: 0.004331
+[2017.08.13-22.00.59:168][896]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-22.00.59:170][896]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 1.12
+[2017.08.13-22.01.01:028][979]LogBlueprintUserMessages: [BP_Bear_298] Enemy is Dead!
+[2017.08.13-22.02.26:275][303]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-22.02.26:543][303]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.BP_Bear_298.CollisionCylinder is already used by CapsuleComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.REINST_BP_Bear_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.13-22.02.26:543][303]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.BP_Bear_298.Arrow is already used by ArrowComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.REINST_BP_Bear_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.13-22.02.26:543][303]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.BP_Bear_298.CharMoveComp is already used by CharacterMovementComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.REINST_BP_Bear_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.13-22.02.26:543][303]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.BP_Bear_298.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ThirdPersonBP/Maps/Real.Real:PersistentLevel.REINST_BP_Bear_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.13-22.02.27:435][324]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.02.27:489][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.02.27:490][324]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:02:27)
+[2017.08.13-22.02.27:490][324]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.02.27:494][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004302s)
+[2017.08.13-22.02.27:495][324]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.02.27:495][324]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2017.08.13-22.02.27:495][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005695s)
+[2017.08.13-22.02.27:546][324]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.02.27:597][324]LogInit: FAudioDevice initialized.
+[2017.08.13-22.02.27:638][324]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.02.27:642][324]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.02.27
+[2017.08.13-22.02.27:644][324]LogWorld: Bringing up level for play took: 0.005128
+[2017.08.13-22.02.27:645][324]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-22.02.27:647][324]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.403
+[2017.08.13-22.02.34:616][648]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-22.02.58:292][  9]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-22.02.59:527][ 27]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.02.59:576][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.02.59:576][ 27]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:02:59)
+[2017.08.13-22.02.59:576][ 27]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.02.59:580][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004027s)
+[2017.08.13-22.02.59:581][ 27]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.02.59:581][ 27]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.08.13-22.02.59:582][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005361s)
+[2017.08.13-22.02.59:631][ 27]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.02.59:682][ 27]LogInit: FAudioDevice initialized.
+[2017.08.13-22.02.59:727][ 27]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.02.59:731][ 27]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.02.59
+[2017.08.13-22.02.59:734][ 27]LogWorld: Bringing up level for play took: 0.006420
+[2017.08.13-22.02.59:735][ 27]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_BP_Bear' 노드: Set Collision Enabled 그래프: EventGraph 오브젝트: BP_Bear 설명: Accessed None 이 Attack Collision 프로퍼티를 읽으려 합니다.
+[2017.08.13-22.02.59:737][ 27]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.313
+[2017.08.13-22.03.01:476][ 88]LogBlueprintUserMessages: [BP_Bear_298] Enemy is Dead!
+[2017.08.13-22.03.05:450][283]BlueprintLog: New page: BP_Enemy 컴파일
+[2017.08.13-22.04.24:944][757]LogSavePackage: Save=98.60ms
+[2017.08.13-22.04.24:944][757]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_Auto1F8D056EE4DB1DA1DFFE026B268A9E0F2.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto1.umap'
+[2017.08.13-22.04.24:946][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto1.umap
+[2017.08.13-22.04.24:950][757]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Real' took 0.165
+[2017.08.13-22.04.24:950][757]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2017.08.13-22.04.24:954][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeAdversaries/Blueprints/BP_Bear] ([1] browsable assets)...
+[2017.08.13-22.04.24:978][757]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/InfinityBladeAdversaries/Blueprints/BP_Bear.BP_Bear]
+[2017.08.13-22.04.24:978][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Blueprints/BP_Bear]
+[2017.08.13-22.04.25:053][757]LogSavePackage: Save=64.99ms
+[2017.08.13-22.04.25:053][757]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Bear_Auto1E635ACB84F28DB9AB9550581BEB87A1D.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeAdversaries/Blueprints/BP_Bear_Auto1.uasset'
+[2017.08.13-22.04.25:056][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeAdversaries/Blueprints/BP_Bear_Auto1.uasset
+[2017.08.13-22.04.25:057][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfinityBladeAdversaries/Blueprints/BP_Enemy] ([1] browsable assets)...
+[2017.08.13-22.04.25:057][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Blueprints/BP_Enemy]
+[2017.08.13-22.04.25:167][757]LogSavePackage: Save=97.44ms
+[2017.08.13-22.04.25:167][757]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Enemy_Auto1D65D3D954451878AB983C881DF3302F4.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeAdversaries/Blueprints/BP_Enemy_Auto1.uasset'
+[2017.08.13-22.04.25:170][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/InfinityBladeAdversaries/Blueprints/BP_Enemy_Auto1.uasset
+[2017.08.13-22.04.25:170][757]LogFileHelpers: Auto-saving content packages took 0.218
+[2017.08.13-22.06.03:454][272]LogSavePackage: Save=55.48ms
+[2017.08.13-22.06.03:454][272]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearC0008F9D48718630474FC1A790B22AF8.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-22.06.03:464][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-22.06.05:145][341]LogSavePackage: Save=82.53ms
+[2017.08.13-22.06.05:145][341]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Enemy28118C8D4E61068BB50F9B99E976B403.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset'
+[2017.08.13-22.06.05:152][341]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy.uasset
+[2017.08.13-22.06.08:437][498]LogEditorViewport: Clicking on Actor (LMB): BP_Bear_C (BP_Bear)
+[2017.08.13-22.06.08:946][519]LogEditorViewport: Clicking on Actor (LMB): BP_Bear_C (BP_Bear)
+[2017.08.13-22.06.11:068][611]Cmd: DELETE
+[2017.08.13-22.06.11:068][611]Cmd: ACTOR DELETE
+[2017.08.13-22.06.11:071][611]LogEditorActor: Deleted Actor: BP_Bear_C
+[2017.08.13-22.06.11:118][611]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2017.08.13-22.06.13:404][696]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (GiantAnimBlueprint)
+[2017.08.13-22.06.17:616][880]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.06.17:664][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.06.17:665][880]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:06:17)
+[2017.08.13-22.06.17:665][880]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.06.17:670][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005044s)
+[2017.08.13-22.06.17:671][880]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.06.17:671][880]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2017.08.13-22.06.17:671][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006344s)
+[2017.08.13-22.06.17:733][880]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.06.17:793][880]LogInit: FAudioDevice initialized.
+[2017.08.13-22.06.17:825][880]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.06.17:828][880]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.06.17
+[2017.08.13-22.06.17:828][880]LogWorld: Bringing up level for play took: 0.002979
+[2017.08.13-22.06.17:829][880]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.22
+[2017.08.13-22.06.46:350][417]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (GiantAnimBlueprint)
+[2017.08.13-22.06.48:458][503]Cmd: SELECT NONE
+[2017.08.13-22.11.21:078][337]BlueprintLog: New page: BP_EnemyController 컴파일
+[2017.08.13-22.11.40:827][455]BlueprintLog: New page: BP_EnemyController 컴파일
+[2017.08.13-22.11.48:660][764]BlueprintLog: New page: BP_EnemyController 컴파일
+[2017.08.13-22.12.13:066][246]LogSavePackage: Save=42.99ms
+[2017.08.13-22.12.13:066][246]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_EnemyController322508C54317EBF1D618BCA19D304906.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_EnemyController.uasset'
+[2017.08.13-22.12.13:071][246]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_EnemyController.uasset
+[2017.08.13-22.15.39:255][498]LogSavePackage: Save=107.38ms
+[2017.08.13-22.15.39:255][498]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_Auto26AF249814E82E79C206AE8831B58ECB0.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto2.umap'
+[2017.08.13-22.15.39:257][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Autosaves/Game/ThirdPersonBP/Maps/Real_Auto2.umap
+[2017.08.13-22.15.39:260][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Real' took 0.185
+[2017.08.13-22.15.39:260][498]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.185
+[2017.08.13-22.16.05:175][681]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.16.05:220][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.16.05:220][681]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:16:05)
+[2017.08.13-22.16.05:220][681]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.16.05:224][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004155s)
+[2017.08.13-22.16.05:225][681]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.16.05:225][681]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2017.08.13-22.16.05:226][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005516s)
+[2017.08.13-22.16.05:292][681]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.16.05:348][681]LogInit: FAudioDevice initialized.
+[2017.08.13-22.16.05:390][681]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.16.05:394][681]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.16.05
+[2017.08.13-22.16.05:394][681]LogWorld: Bringing up level for play took: 0.003909
+[2017.08.13-22.16.05:399][681]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.65
+[2017.08.13-22.16.41:074][275]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.13-22.16.42:061][283]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPG
+[2017.08.13-22.16.42:061][283]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.13-22.16.42:061][283]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.13-22.16.42:061][283]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.13-22.16.42:061][283]LogTemp: BranchPath = DESKTOP-RNSDQO3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-RNSDQO3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.13-22.16.42:106][285]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tlstk\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.13-22.17.30:202][ 66]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.17.32:018][162]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.17.32:058][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.17.32:058][162]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:17:32)
+[2017.08.13-22.17.32:058][162]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.17.32:062][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003999s)
+[2017.08.13-22.17.32:063][162]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.17.32:063][162]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2017.08.13-22.17.32:063][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005132s)
+[2017.08.13-22.17.32:114][162]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.17.32:159][162]LogInit: FAudioDevice initialized.
+[2017.08.13-22.17.32:204][162]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.17.32:207][162]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.17.32
+[2017.08.13-22.17.32:208][162]LogWorld: Bringing up level for play took: 0.003534
+[2017.08.13-22.17.32:211][162]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.161
+[2017.08.13-22.17.50:572][193]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_35:PersistentLevel.BP_Ball_C_1.Ball) Not currently registered. Aborting.
+[2017.08.13-22.17.50:572][193]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.BP_Ball_C_0.Ball) Not currently registered. Aborting.
+[2017.08.13-22.17.51:657][257]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.17.52:703][305]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.17.52:756][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.17.52:756][305]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:17:52)
+[2017.08.13-22.17.52:756][305]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.17.52:761][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004894s)
+[2017.08.13-22.17.52:762][305]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.17.52:762][305]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2017.08.13-22.17.52:762][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006252s)
+[2017.08.13-22.17.52:829][305]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.17.52:892][305]LogInit: FAudioDevice initialized.
+[2017.08.13-22.17.52:937][305]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.17.52:941][305]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.17.52
+[2017.08.13-22.17.52:941][305]LogWorld: Bringing up level for play took: 0.003973
+[2017.08.13-22.17.52:945][305]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.895
+[2017.08.13-22.18.00:456][612]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_35:PersistentLevel.BP_Ball_C_1.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.00:456][612]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.BP_Ball_C_0.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.02:497][729]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_35:PersistentLevel.BP_Ball_C_1.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.02:497][729]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.BP_Ball_C_0.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.04:373][836]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.18.05:212][867]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.18.05:263][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.18.05:263][867]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:18:05)
+[2017.08.13-22.18.05:263][867]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.18.05:269][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005935s)
+[2017.08.13-22.18.05:270][867]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.18.05:270][867]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2017.08.13-22.18.05:271][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.007408s)
+[2017.08.13-22.18.05:329][867]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.18.05:389][867]LogInit: FAudioDevice initialized.
+[2017.08.13-22.18.05:441][867]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.18.05:445][867]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.18.05
+[2017.08.13-22.18.05:445][867]LogWorld: Bringing up level for play took: 0.004007
+[2017.08.13-22.18.05:449][867]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.601
+[2017.08.13-22.18.09:439][ 38]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_35:PersistentLevel.BP_Ball_C_1.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.09:439][ 38]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.BP_Ball_C_0.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.12:687][227]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.BP_Ball_C_0.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.12:688][227]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_35:PersistentLevel.BP_Ball_C_1.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.14:017][302]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.18.14:778][326]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.18.14:832][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.18.14:832][326]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:18:14)
+[2017.08.13-22.18.14:832][326]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.18.14:837][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004929s)
+[2017.08.13-22.18.14:838][326]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.18.14:838][326]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2017.08.13-22.18.14:839][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006142s)
+[2017.08.13-22.18.14:903][326]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.18.14:967][326]LogInit: FAudioDevice initialized.
+[2017.08.13-22.18.15:021][326]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.18.15:024][326]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.18.15
+[2017.08.13-22.18.15:025][326]LogWorld: Bringing up level for play took: 0.003759
+[2017.08.13-22.18.15:029][326]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.979
+[2017.08.13-22.18.21:331][619]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_35:PersistentLevel.BP_Ball_C_1.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.21:331][619]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.BP_Ball_C_0.Ball) Not currently registered. Aborting.
+[2017.08.13-22.18.28:059][ 18]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.18.42:405][856]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.18.43:066][882]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.18.43:104][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.18.43:105][882]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:18:43)
+[2017.08.13-22.18.43:105][882]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.18.43:108][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003447s)
+[2017.08.13-22.18.43:109][882]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.18.43:109][882]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.08.13-22.18.43:109][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004469s)
+[2017.08.13-22.18.43:153][882]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.18.43:199][882]LogInit: FAudioDevice initialized.
+[2017.08.13-22.18.43:242][882]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.18.43:245][882]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.18.43
+[2017.08.13-22.18.43:245][882]LogWorld: Bringing up level for play took: 0.003362
+[2017.08.13-22.18.43:249][882]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.801
+[2017.08.13-22.18.49:373][187]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.18.50:080][216]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.18.50:118][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.18.50:118][216]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:18:50)
+[2017.08.13-22.18.50:118][216]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.18.50:122][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003361s)
+[2017.08.13-22.18.50:122][216]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.18.50:123][216]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.08.13-22.18.50:123][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004629s)
+[2017.08.13-22.18.50:172][216]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.18.50:218][216]LogInit: FAudioDevice initialized.
+[2017.08.13-22.18.50:258][216]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.18.50:261][216]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.18.50
+[2017.08.13-22.18.50:261][216]LogWorld: Bringing up level for play took: 0.002920
+[2017.08.13-22.18.50:264][216]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.215
+[2017.08.13-22.19.00:773][710]BlueprintLog: New page: BP_Ball 컴파일
+[2017.08.13-22.19.01:940][767]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.19.01:979][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.19.01:979][767]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:19:01)
+[2017.08.13-22.19.01:979][767]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.19.01:982][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003538s)
+[2017.08.13-22.19.01:983][767]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.19.01:983][767]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2017.08.13-22.19.01:984][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.004925s)
+[2017.08.13-22.19.02:032][767]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.19.02:077][767]LogInit: FAudioDevice initialized.
+[2017.08.13-22.19.02:122][767]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.19.02:126][767]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.19.02
+[2017.08.13-22.19.02:127][767]LogWorld: Bringing up level for play took: 0.003296
+[2017.08.13-22.19.02:130][767]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.08
+[2017.08.13-22.20.17:233][ 84]LogSavePackage: Save=40.23ms
+[2017.08.13-22.20.17:233][ 84]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BallF5BF9BA5405A219A091B9A893186AE62.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Ball.uasset'
+[2017.08.13-22.20.17:239][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Ball.uasset
+[2017.08.13-22.21.05:110][801]BlueprintLog: New page: BP_Giant 컴파일
+[2017.08.13-22.21.05:958][824]LogSavePackage: Save=51.78ms
+[2017.08.13-22.21.05:958][824]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Giant2C5A375F414582E118103C8A5BAE69B0.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-22.21.05:962][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-22.21.15:458][392]BlueprintLog: New page: BP_Spider 컴파일
+[2017.08.13-22.21.16:237][411]LogSavePackage: Save=52.92ms
+[2017.08.13-22.21.16:237][411]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Spider579123844E873C3CDAD8B89317B304AC.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset'
+[2017.08.13-22.21.16:241][411]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Spider.uasset
+[2017.08.13-22.21.19:627][614]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.21.19:672][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.21.19:673][614]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:21:19)
+[2017.08.13-22.21.19:673][614]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.21.19:676][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003797s)
+[2017.08.13-22.21.19:678][614]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.21.19:678][614]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2017.08.13-22.21.19:678][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005506s)
+[2017.08.13-22.21.19:740][614]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.21.19:800][614]LogInit: FAudioDevice initialized.
+[2017.08.13-22.21.19:843][614]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.21.19:847][614]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.21.19
+[2017.08.13-22.21.19:848][614]LogWorld: Bringing up level for play took: 0.003744
+[2017.08.13-22.21.19:850][614]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.199
+[2017.08.13-22.25.10:611][204]BlueprintLog: New page: BP_Giant 컴파일
+[2017.08.13-22.25.11:382][214]LogSavePackage: Save=88.57ms
+[2017.08.13-22.25.11:382][214]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Giant48361B80429E8629EC4D9F8A6B78CA48.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset'
+[2017.08.13-22.25.11:393][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Giant.uasset
+[2017.08.13-22.27.35:209][ 52]BlueprintLog: New page: BP_Enemy_2 컴파일
+[2017.08.13-22.27.42:949][203]LogSavePackage: Save=209.76ms
+[2017.08.13-22.27.42:949][203]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Enemy_2E1F158FD4E82B9A36B681E941EC2785D.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy_2.uasset'
+[2017.08.13-22.27.42:963][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy_2.uasset
+[2017.08.13-22.27.46:065][247]LogSavePackage: Save=164.83ms
+[2017.08.13-22.27.46:065][247]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_Enemy_30C580A874B223FF18E896DAE9747B587.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy_3.uasset'
+[2017.08.13-22.27.46:073][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Enemy_3.uasset
+[2017.08.13-22.29.21:639][865]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (GiantAnimBlueprint)
+[2017.08.13-22.29.30:976][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-22.29.33:186][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-22.29.37:324][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-22.32.14:430][203]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.32.17:589][314]LogSavePackage: Save=73.75ms
+[2017.08.13-22.32.17:589][314]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Giant032F348F4BE0E51AB6AA41AAC452941A.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.32.17:603][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.33.11:326][284]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.33.12:517][302]LogSavePackage: Save=47.15ms
+[2017.08.13-22.33.12:517][302]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Giant8AD2916C4C3E682675509197237B8D19.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.33.12:523][302]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.33.38:647][290]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.33.39:291][303]LogSavePackage: Save=39.70ms
+[2017.08.13-22.33.39:292][303]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Giant557EACEE442B4ED4D8A655A4FD67A0C5.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.33.39:297][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.34.16:927][855]LogSlate: Took 0.008542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.13-22.34.19:764][966]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.34.21:212][996]LogSavePackage: Save=50.92ms
+[2017.08.13-22.34.21:212][996]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Giant00F78367432CE00D62337698A090EB87.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.34.21:218][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.34.24:494][ 90]LogSavePackage: Save=140.90ms
+[2017.08.13-22.34.24:494][ 90]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/RealDB90B3EC47CF6DBAA1647EA72302EFB4.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.13-22.34.24:500][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.13-22.34.24:586][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Real_BuiltData" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset" SILENT=true
+[2017.08.13-22.34.24:988][ 90]LogSavePackage: Save=381.77ms
+[2017.08.13-22.34.24:989][ 90]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_BuiltData063F13B9442E8968286BEC93981BBAB7.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset'
+[2017.08.13-22.34.24:990][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset
+[2017.08.13-22.35.03:386][953]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.35.05:282][980]LogSavePackage: Save=76.82ms
+[2017.08.13-22.35.05:282][980]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantD14065C24311A2F4E9AFBE834B491402.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.35.05:292][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.36.03:264][110]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.36.03:276][110]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:276][110]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:276][110]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:279][110]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:280][110]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:280][110]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:983][110]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:983][110]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:983][110]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.36.03:984][110]LogBlueprint:Warning: [Compiler Giant] 경고 [3106.41] Giant 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 719 ms] (/Game/InfinityBladeAdversaries/Blueprints/Giant.Giant)
+[2017.08.13-22.37.31:006][300]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.37.31:017][300]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.37.31:017][300]LogBlueprint:Error: [Compiler Giant] 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.37.31:233][300]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.37.31:233][300]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 PrimitiveComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.08.13-22.37.31:233][300]LogBlueprint:Warning: [Compiler Giant] 경고 [3193.66] Giant 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 226 ms] (/Game/InfinityBladeAdversaries/Blueprints/Giant.Giant)
+[2017.08.13-22.37.56:428][777]BlueprintLog: New page: Giant 컴파일
+[2017.08.13-22.38.13:995][791]BlueprintLog: New page: BP_Bear 컴파일
+[2017.08.13-22.38.14:704][816]LogSavePackage: Save=53.70ms
+[2017.08.13-22.38.14:704][816]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearE800DFDB46599D5903F78B9B26C17245.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-22.38.14:711][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-22.38.23:662][346]LogSavePackage: Save=52.91ms
+[2017.08.13-22.38.23:662][346]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantDF76DA9B42C03F64846C94B978E9C4F1.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.38.23:667][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.39.42:582][ 25]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.13-22.40.06:043][823]BlueprintLog: New page: Spider 컴파일
+[2017.08.13-22.40.07:111][844]LogSavePackage: Save=43.94ms
+[2017.08.13-22.40.07:111][844]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Spider09ABEABD459BF1C2F683F99043CCC3CA.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset'
+[2017.08.13-22.40.07:118][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset
+[2017.08.13-22.40.54:353][779]BlueprintLog: New page: Spider 컴파일
+[2017.08.13-22.41.26:113][ 22]BlueprintLog: New page: Spider 컴파일
+[2017.08.13-22.41.26:873][ 23]LogSavePackage: Save=41.53ms
+[2017.08.13-22.41.26:873][ 23]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SpiderD659577540004FD452D654BF6B16199E.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset'
+[2017.08.13-22.41.26:878][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset
+[2017.08.13-22.42.11:229][143]BlueprintLog: New page: Spider 컴파일
+[2017.08.13-22.42.12:467][164]LogSavePackage: Save=71.17ms
+[2017.08.13-22.42.12:467][164]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SpiderFEB05203411B441DB172A5976E21E175.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset'
+[2017.08.13-22.42.12:476][164]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset
+[2017.08.13-22.42.20:380][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-22.42.25:794][935]LogSavePackage: Save=71.74ms
+[2017.08.13-22.42.25:794][935]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/BP_BearC59F4DA4489CF72E30B12FAF51F2E42D.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset'
+[2017.08.13-22.42.25:798][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/BP_Bear.uasset
+[2017.08.13-22.42.29:290][139]LogSavePackage: Save=53.05ms
+[2017.08.13-22.42.29:290][139]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Spider1BDFC9144655FA7214DECF90BEAFC436.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset'
+[2017.08.13-22.42.29:293][139]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Spider.uasset
+[2017.08.13-22.42.29:998][176]LogSavePackage: Save=51.83ms
+[2017.08.13-22.42.29:998][176]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantA8AA1E5948DFF5E504DDF9B6F17AA76E.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset'
+[2017.08.13-22.42.30:001][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/Giant.uasset
+[2017.08.13-22.42.34:126][336]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.42.34:206][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.42.34:206][336]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:42:34)
+[2017.08.13-22.42.34:206][336]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.42.34:212][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005863s)
+[2017.08.13-22.42.34:213][336]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.42.34:213][336]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2017.08.13-22.42.34:214][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.007334s)
+[2017.08.13-22.42.34:292][336]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.42.34:369][336]LogInit: FAudioDevice initialized.
+[2017.08.13-22.42.34:406][336]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.42.34:410][336]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.42.34
+[2017.08.13-22.42.34:410][336]LogWorld: Bringing up level for play took: 0.003350
+[2017.08.13-22.42.34:412][336]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.362
+[2017.08.13-22.42.47:845][980]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (GiantAnimBlueprint)
+[2017.08.13-22.42.50:576][ 90]Cmd: DELETE
+[2017.08.13-22.42.50:576][ 90]Cmd: ACTOR DELETE
+[2017.08.13-22.42.50:578][ 90]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.08.13-22.42.50:647][ 90]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2017.08.13-22.43.00:970][457]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.43.01:028][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.43.01:028][457]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:43:01)
+[2017.08.13-22.43.01:028][457]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.43.01:033][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004204s)
+[2017.08.13-22.43.01:033][457]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.43.01:033][457]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2017.08.13-22.43.01:034][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005315s)
+[2017.08.13-22.43.01:085][457]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.43.01:136][457]LogInit: FAudioDevice initialized.
+[2017.08.13-22.43.01:172][457]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.43.01:175][457]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.43.01
+[2017.08.13-22.43.01:176][457]LogWorld: Bringing up level for play took: 0.003816
+[2017.08.13-22.43.01:177][457]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 1.128
+[2017.08.13-22.43.02:914][560]LogBlueprintUserMessages: [Giant_168] Enemy is Dead!
+[2017.08.13-22.43.09:944][953]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.43.09:999][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.43.09:999][953]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:43:09)
+[2017.08.13-22.43.09:999][953]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.43.10:003][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004087s)
+[2017.08.13-22.43.10:004][953]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.43.10:004][953]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2017.08.13-22.43.10:004][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.005456s)
+[2017.08.13-22.43.10:059][953]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.43.10:109][953]LogInit: FAudioDevice initialized.
+[2017.08.13-22.43.10:146][953]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.43.10:148][953]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.43.10
+[2017.08.13-22.43.10:150][953]LogWorld: Bringing up level for play took: 0.003619
+[2017.08.13-22.43.10:151][953]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.101
+[2017.08.13-22.43.13:760][167]LogBlueprintUserMessages: [Giant_168] Enemy is Dead!
+[2017.08.13-22.43.26:352][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-22.43.28:707][906]LogSavePackage: Save=111.22ms
+[2017.08.13-22.43.28:707][906]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real378A687A428FA2E82DB722B0CC5F73EA.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap'
+[2017.08.13-22.43.28:713][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real.umap
+[2017.08.13-22.43.28:777][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Real_BuiltData" FILE="../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset" SILENT=true
+[2017.08.13-22.43.29:085][906]LogSavePackage: Save=292.02ms
+[2017.08.13-22.43.29:085][906]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/Real_BuiltData270B36AC4AEF2C4EE73894B1F9AD7406.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset'
+[2017.08.13-22.43.29:087][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/ThirdPersonBP/Maps/Real_BuiltData.uasset
+[2017.08.13-22.43.32:226][986]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.Actor_5.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.08.13-22.43.33:585][986]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.13-22.43.33:936][986]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-22.43.35:826][ 63]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.Actor_6.DebugSkelMeshComponent_14) Already registered. Aborting.
+[2017.08.13-22.43.36:152][ 63]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_55:PersistentLevel.Actor_6.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2017.08.13-22.43.38:868][ 63]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-22.43.40:376][118]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.Actor_7.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2017.08.13-22.43.45:408][118]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-22.45.07:981][710]BlueprintLog: New page: GiantAnimBlueprint 컴파일
+[2017.08.13-22.45.09:015][736]LogSavePackage: Save=216.18ms
+[2017.08.13-22.45.09:015][736]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantAnimBlueprint0BB109004909AB892C9B509B1BA2B143.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset'
+[2017.08.13-22.45.09:019][736]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset
+[2017.08.13-22.45.17:284][182]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.45.17:335][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.45.17:335][182]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:45:17)
+[2017.08.13-22.45.17:336][182]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.45.17:341][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004685s)
+[2017.08.13-22.45.17:341][182]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.45.17:342][182]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2017.08.13-22.45.17:342][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006060s)
+[2017.08.13-22.45.17:396][182]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.45.17:455][182]LogInit: FAudioDevice initialized.
+[2017.08.13-22.45.17:505][182]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.45.17:509][182]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.45.17
+[2017.08.13-22.45.17:511][182]LogWorld: Bringing up level for play took: 0.005739
+[2017.08.13-22.45.17:515][182]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: -0.535
+[2017.08.13-22.45.20:848][287]LogBlueprintUserMessages: [Giant_168] Enemy is Dead!
+[2017.08.13-22.46.54:334][498]BlueprintLog: New page: SpiderAnimBlueprint 컴파일
+[2017.08.13-22.46.55:865][524]LogSavePackage: Save=360.14ms
+[2017.08.13-22.46.55:866][524]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SpiderAnimBlueprint6F3AF4AE44C76A0D2F3E25AA94C1E115.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/SpiderAnimBlueprint.uasset'
+[2017.08.13-22.46.55:873][524]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/SpiderAnimBlueprint.uasset
+[2017.08.13-22.48.55:985][869]BlueprintLog: New page: SpiderAnimBlueprint 컴파일
+[2017.08.13-22.48.57:085][887]LogSavePackage: Save=288.55ms
+[2017.08.13-22.48.57:085][887]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/SpiderAnimBlueprintE692C9B84B6D19A42E006D869FD223BD.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/SpiderAnimBlueprint.uasset'
+[2017.08.13-22.48.57:091][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/SpiderAnimBlueprint.uasset
+[2017.08.13-22.48.58:999][961]BlueprintLog: New page: GiantAnimBlueprint 컴파일
+[2017.08.13-22.49.00:226][979]LogSavePackage: Save=304.52ms
+[2017.08.13-22.49.00:226][979]LogSavePackage: Moving '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Saved/GiantAnimBlueprintE2B3DA2B49900F9FA03215B561EBA9B0.tmp' to '../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset'
+[2017.08.13-22.49.00:232][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tlstk/Desktop/Unreal Projects/RPG/Content/InfinityBladeAdversaries/Blueprints/GiantAnimBlueprint.uasset
+[2017.08.13-22.49.15:931][365]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.49.16:003][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.49.16:003][365]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:49:16)
+[2017.08.13-22.49.16:003][365]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.49.16:008][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005176s)
+[2017.08.13-22.49.16:009][365]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.49.16:009][365]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2017.08.13-22.49.16:010][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.006732s)
+[2017.08.13-22.49.16:075][365]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.49.16:142][365]LogInit: FAudioDevice initialized.
+[2017.08.13-22.49.16:196][365]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.49.16:200][365]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.49.16
+[2017.08.13-22.49.16:203][365]LogWorld: Bringing up level for play took: 0.006156
+[2017.08.13-22.49.16:207][365]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.158
+[2017.08.13-22.49.19:078][441]LogBlueprintUserMessages: [Giant_168] Enemy is Dead!
+[2017.08.13-22.50.34:717][983]BlueprintLog: New page: GiantAnimBlueprint 컴파일
+[2017.08.13-22.50.36:638][ 63]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.13-22.50.36:704][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-22.50.36:704][ 63]PIE: New page: PIE 세션: Real (2017. 8. 14. 오후 4:50:36)
+[2017.08.13-22.50.36:704][ 63]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Real
+[2017.08.13-22.50.36:712][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007311s)
+[2017.08.13-22.50.36:713][ 63]LogAIModule: Creating AISystem for world Real
+[2017.08.13-22.50.36:713][ 63]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2017.08.13-22.50.36:713][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Real.Real to /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real (0.009160s)
+[2017.08.13-22.50.36:784][ 63]LogInit: XAudio2 using 'Speakers(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-22.50.36:846][ 63]LogInit: FAudioDevice initialized.
+[2017.08.13-22.50.36:894][ 63]LogLoad: Game class is 'BP_WarriorGameMode_C'
+[2017.08.13-22.50.36:900][ 63]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Real.Real up for play (max tick rate 60) at 2017.08.14-07.50.36
+[2017.08.13-22.50.36:902][ 63]LogWorld: Bringing up level for play took: 0.005606
+[2017.08.13-22.50.36:906][ 63]PIE: 정보 /Game/ThirdPersonBP/Maps/UEDPIE_0_Real 에 대한 에디터에서 플레이 시작 시간: 0.857
+[2017.08.13-22.50.39:644][141]LogBlueprintUserMessages: [Giant_168] Enemy is Dead!
+[2017.08.13-22.50.47:975][417]LogUObjectBase:Warning: Object is not registered
+[2017.08.13-22.50.48:292][417]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.317 s
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: 
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: Stack: 
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001438E2B6
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001413B8C2
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000014151E86
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F2807556
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000000FD3D27B
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000113024AA
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000111A72CC
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000111AA6D9
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000112C8035
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000012F0DB57
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000012F14B61
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000131348D3
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000012F6F604
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000012F477FC
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000012F3814C
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000143815B0
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001436B7D1
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000143833DB
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000014367B22
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: USER32.dll!0x000000002A09BC50
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: USER32.dll!0x000000002A09B5CF
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000014383CE6
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor.exe!0x000000003234DB44
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor.exe!0x000000003233F0B0
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor.exe!0x000000003233F12A
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor.exe!0x0000000032350CF9
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: UE4Editor.exe!0x00000000323525F7
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: KERNEL32.DLL!0x000000002ADF2774
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: ntdll.dll!0x000000002C4F0D51
+[2017.08.13-22.50.48:292][417]LogOutputDevice:Error: 
+[2017.08.13-22.50.48:296][417]LogStats:                SubmitErrorReport -  0.000 s
